@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "BiglerNet.NetBox.UnifiSync": {
+      "commandName": "Project",
+      "commandLineArgs": "unifi-probe"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
