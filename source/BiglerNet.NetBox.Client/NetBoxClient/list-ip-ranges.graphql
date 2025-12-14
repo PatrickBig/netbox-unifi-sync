@@ -1,0 +1,28 @@
+query ListIpAddressRanges($offset: Int, $limit: Int, $tagSlug: String) {
+  ip_range_list(
+    filters:{
+      tags:{
+        slug: {
+          exact:$tagSlug
+        }
+      }
+    }
+    pagination: {
+      offset:$offset
+      limit:$limit
+    }
+  ) {
+    display
+    class_type
+    start_address
+    end_address
+    id
+    description
+    status
+    size
+    custom_fields
+    created
+    last_updated
+    
+  }
+}

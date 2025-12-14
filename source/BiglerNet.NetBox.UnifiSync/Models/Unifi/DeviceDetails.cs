@@ -7,25 +7,25 @@ public class DeviceDetails
     public Guid Id { get; set; }
 
     [JsonPropertyName("name")]
-    public string Name { get; set; }
+    public required string Name { get; set; }
 
     [JsonPropertyName("model")]
-    public string Model { get; set; }
+    public required string Model { get; set; }
 
     [JsonPropertyName("supported")]
     public bool Supported { get; set; }
 
     [JsonPropertyName("macAddress")]
-    public string MacAddress { get; set; }
+    public required string MacAddress { get; set; }
 
     [JsonPropertyName("ipAddress")]
-    public string IpAddress { get; set; }
+    public required string IpAddress { get; set; }
 
     [JsonPropertyName("state")]
-    public string State { get; set; }
+    public required string State { get; set; }
 
     [JsonPropertyName("firmwareVersion")]
-    public string FirmwareVersion { get; set; }
+    public required string FirmwareVersion { get; set; }
 
     [JsonPropertyName("firmwareUpdatable")]
     public bool FirmwareUpdatable { get; set; }
@@ -37,22 +37,16 @@ public class DeviceDetails
     public DateTime ProvisionedAt { get; set; }
 
     [JsonPropertyName("configurationId")]
-    public string ConfigurationId { get; set; }
+    public required string ConfigurationId { get; set; }
 
     [JsonPropertyName("uplink")]
-    public UplinkDetails Uplink { get; set; }
+    public UplinkDetails? Uplink { get; set; }
 
     [JsonPropertyName("features")]
-    public FeatureDetails Features { get; set; }
+    public required FeatureDetails Features { get; set; }
 
     [JsonPropertyName("interfaces")]
-    public InterfaceDetails Interfaces { get; set; }
-
-
-
-
-
-
+    public required InterfaceDetails Interfaces { get; set; }
 }
 
 public class UplinkDetails
@@ -65,10 +59,10 @@ public class UplinkDetails
 public class FeatureDetails
 {
     [JsonPropertyName("switching")]
-    public Switching Switching { get; set; }
+    public required Switching Switching { get; set; }
 
     [JsonPropertyName("accessPoint")]
-    public Accesspoint AccessPoint { get; set; }
+    public required Accesspoint AccessPoint { get; set; }
 }
 
 
@@ -87,10 +81,10 @@ public class Accesspoint
 public class InterfaceDetails
 {
     [JsonPropertyName("ports")]
-    public Port[] Ports { get; set; }
+    public Port[]? Ports { get; set; }
 
     [JsonPropertyName("radios")]
-    public Radio[] Radios { get; set; }
+    public Radio[]? Radios { get; set; }
 }
 
 
@@ -100,10 +94,10 @@ public class Port
     public int Idx { get; set; }
 
     [JsonPropertyName("state")]
-    public string State { get; set; }
+    public required string State { get; set; }
 
     [JsonPropertyName("connector")]
-    public string Connector { get; set; }
+    public required string Connector { get; set; }
 
     [JsonPropertyName("maxSpeedMbps")]
     public int MaxSpeedMbps { get; set; }
@@ -112,14 +106,14 @@ public class Port
     public int SpeedMbps { get; set; }
 
     [JsonPropertyName("poe")]
-    public Poe Poe { get; set; }
+    public Poe? Poe { get; set; }
 }
 
 
 public class Poe
 {
     [JsonPropertyName("standard")]
-    public string Standard { get; set; }
+    public required string Standard { get; set; }
 
     [JsonPropertyName("type")]
     public int Type { get; set; }
@@ -128,14 +122,14 @@ public class Poe
     public bool Enabled { get; set; }
 
     [JsonPropertyName("state")]
-    public string State { get; set; }
+    public required string State { get; set; }
 }
 
 
 public class Radio
 {
     [JsonPropertyName("wlanStandard")]
-    public string WlanStandard { get; set; }
+    public required string WlanStandard { get; set; }
 
     [JsonPropertyName("frequencyGHz")]
     public float FrequencyGHz { get; set; }

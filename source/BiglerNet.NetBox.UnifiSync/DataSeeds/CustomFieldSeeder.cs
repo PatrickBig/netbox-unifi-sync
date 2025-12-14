@@ -1,0 +1,219 @@
+﻿using BiglerNet.NetBox.UnifiSync.Interfaces;
+using Microsoft.Extensions.Logging;
+using NetBox.Client;
+
+namespace BiglerNet.NetBox.UnifiSync.DataSeeds;
+public class CustomFieldSeeder : INetBoxDataSeed
+{
+    public const string UnifiUniqueIdCustomFieldName = "unifi_unique_id";
+
+    private readonly IExtrasClient _extrasClient;
+    private readonly ILogger<CustomFieldSeeder> _logger;
+
+    public CustomFieldSeeder(IExtrasClient extrasClient)
+    {
+        _extrasClient = extrasClient;
+    }
+
+    public async Task SeedDataAsync(CancellationToken cancellationToken = default)
+    {
+        var desiredFields = new List<string>
+        {
+            UnifiUniqueIdCustomFieldName,
+        };
+
+        // Create the unifi device ID field
+        var requestBody = new WritableCustomFieldRequest
+        {
+            Name = UnifiUniqueIdCustomFieldName,
+            Label = "Unifi Unique ID",
+            Object_types = [
+                "ipam.iprange",
+                "ipam.ipaddress",
+                "ipam.vlan"
+                ],
+            Group_name = "Unifi",
+            Is_cloneable = false,
+            Description = "The unique identifier for the Unifi resource.\n" +
+            "This field is created as part of an automated Unifi sync process.\n" +
+            "**Do not remove or alter this custom field**",
+            Required = false,
+            Type = Type38.Text,
+            Ui_editable = Ui_editable2.No,
+            Ui_visible = Ui_visible2.IfSet,
+        };
+
+        _ = await _extrasClient.CustomFieldsPostAsync(requestBody, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, cancellationToken);
+    }
+
+
+
+    private async Task AddCustomField(CancellationToken cancellationToken)
+    {
+        var limit = 100;
+        int? offset = null;
+        bool reachedEnd = false;
+
+        while (!reachedEnd)
+        {
+            var customFields = await _extrasClient.CustomFieldsGetAsync(
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                limit,
+                null,
+                [UnifiUniqueIdCustomFieldName],
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                offset,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+                );
+            reachedEnd = customFields.Count < limit;
+
+            offset += limit;
+
+            foreach (var field in customFields.Results)
+            {
+                //field.
+            }
+        }
+    }
+}

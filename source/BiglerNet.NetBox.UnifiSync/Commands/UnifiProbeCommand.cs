@@ -1,59 +1,34 @@
 ﻿using BiglerNet.NetBox.UnifiSync.Services;
 using DotMake.CommandLine;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using NetBox.Client;
 
 namespace BiglerNet.NetBox.UnifiSync.Commands;
 
 [CliCommand(Description = "Probes Unifi", Parent = typeof(RootCommand))]
 public class UnifiProbeCommand
 {
-    private readonly IUnifiClient _unifiClient;
+    private readonly IUnifiIntegrationClient _unifiClient;
     private readonly ILogger<UnifiProbeCommand> _logger;
+    private readonly IUnifiNetworkClient _unifiNetworkClient;
+    //private readonly IIpRangesClient _ipRangesClient;
+    private readonly IIpamClient _ipamClient;
+    private readonly WanSync _wanSync;
 
-    public UnifiProbeCommand(IUnifiClient unifiClient, ILogger<UnifiProbeCommand> logger)
+    public UnifiProbeCommand(WanSync wanSync, IUnifiIntegrationClient unifiClient, IUnifiNetworkClient unifiNetworkClient, IIpamClient ipamClient, ILogger<UnifiProbeCommand> logger)
     {
         _unifiClient = unifiClient;
+        _unifiNetworkClient = unifiNetworkClient;
+        _ipamClient = ipamClient;
         _logger = logger;
+        _wanSync = wanSync;
     }
 
-    public async Task<int> RunAsync()
+    public async Task<int> RunAsync(CliContext cliContext)
     {
-        var sites = await _unifiClient.GetSitesAsync();
+        await _wanSync.RunAsync(cliContext.CancellationToken);
 
-        foreach (var site in sites.Data)
-        {
-            Console.WriteLine("Site: {0}", site.Name);
-
-            var devices = await _unifiClient.GetDevicesAsync(site.Id);
-
-            Console.WriteLine("Devices:");
-
-            foreach (var device in devices.Data)
-            {
-                Console.WriteLine("\tDevice: {0}", device.Name);
-
-                var deviceDetails = await _unifiClient.GetDeviceAsync(site.Id, device.Id);
-
-                Console.WriteLine("\t\tPorts:");
-                
-            }
-
-            Console.WriteLine("Clients:");
-
-            var clients = await _unifiClient.GetClientsAsync(site.Id, 0, 100);
-
-            foreach (var client in clients.Data)
-            {
-                Console.WriteLine("\tClient: {0} ", client.Name);
-            }
-        }
-
-        
         return 0;
+
     }
 }
