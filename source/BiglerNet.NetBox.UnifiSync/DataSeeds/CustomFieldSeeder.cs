@@ -1,6 +1,8 @@
-﻿using BiglerNet.NetBox.UnifiSync.Interfaces;
+﻿using BiglerNet.NetBox.Client;
+using BiglerNet.NetBox.Client.Models;
+using BiglerNet.NetBox.Client.QueryFilters;
+using BiglerNet.NetBox.UnifiSync.Interfaces;
 using Microsoft.Extensions.Logging;
-using NetBox.Client;
 
 namespace BiglerNet.NetBox.UnifiSync.DataSeeds;
 public class CustomFieldSeeder : INetBoxDataSeed
@@ -38,12 +40,12 @@ public class CustomFieldSeeder : INetBoxDataSeed
             "This field is created as part of an automated Unifi sync process.\n" +
             "**Do not remove or alter this custom field**",
             Required = false,
-            Type = Type38.Text,
-            Ui_editable = Ui_editable2.No,
-            Ui_visible = Ui_visible2.IfSet,
+            Type = Type4.Text,
+            Ui_editable = UiEditable.No,
+            Ui_visible = UiVisible.IfSet,
         };
 
-        _ = await _extrasClient.CustomFieldsPostAsync(requestBody, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, cancellationToken);
+        _ = await _extrasClient.CreateCustomFieldAsync(requestBody, cancellationToken);
     }
 
 
@@ -56,156 +58,14 @@ public class CustomFieldSeeder : INetBoxDataSeed
 
         while (!reachedEnd)
         {
-            var customFields = await _extrasClient.CustomFieldsGetAsync(
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                limit,
-                null,
-                [UnifiUniqueIdCustomFieldName],
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                offset,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null
-                );
+            var filter = new ExtrasCustomFieldFilterBuilder()
+                .Name.Eq([UnifiUniqueIdCustomFieldName])
+                .Offset(offset)
+                .Limit(limit)
+                .Build();
+
+            var customFields = await _extrasClient.ListCustomFieldsAsync(filter, cancellationToken);
+            
             reachedEnd = customFields.Count < limit;
 
             offset += limit;

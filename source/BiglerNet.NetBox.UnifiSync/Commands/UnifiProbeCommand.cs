@@ -1,7 +1,7 @@
-﻿using BiglerNet.NetBox.UnifiSync.Services;
+﻿using BiglerNet.NetBox.Client;
+using BiglerNet.NetBox.UnifiSync.Services;
 using DotMake.CommandLine;
 using Microsoft.Extensions.Logging;
-using NetBox.Client;
 
 namespace BiglerNet.NetBox.UnifiSync.Commands;
 

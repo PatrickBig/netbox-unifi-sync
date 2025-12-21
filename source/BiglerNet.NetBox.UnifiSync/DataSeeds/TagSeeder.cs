@@ -1,5 +1,6 @@
-﻿using BiglerNet.NetBox.UnifiSync.Interfaces;
-using NetBox.Client;
+﻿using BiglerNet.NetBox.Client;
+using BiglerNet.NetBox.Client.Models;
+using BiglerNet.NetBox.UnifiSync.Interfaces;
 
 namespace BiglerNet.NetBox.UnifiSync.DataSeeds;
 public class TagSeeder : INetBoxDataSeed

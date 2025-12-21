@@ -1,7 +1,7 @@
 ﻿using BiglerNet.NetBox.Client;
+using BiglerNet.NetBox.Client.Models;
 using BiglerNet.NetBox.UnifiSync.Models.UnifiNetwork;
 using Microsoft.Extensions.Logging;
-using NetBox.Client;
 using StrawberryShake;
 using System.Net;
 
@@ -80,7 +80,7 @@ public class IpRangeSync
         {
             Start_address = ipNetwork.First.ToString(),
             End_address = ipNetwork.Last.ToString(),
-            Status = Status28.Active,
+            Status = Status6.Active,
             Description = $"Unifi Network: {unifiNetwork.Name} (VLAN {unifiNetwork.Vlan}) Subnet {unifiNetwork.IpSubnet}",
             Tags = [
                 new NestedTagRequest()
@@ -99,7 +99,7 @@ public class IpRangeSync
         _logger.LogInformation("Updating existing IP range in NetBox: {IpSubnet}, NetBox range ID: {NetBoxId}", unifiNetwork.IpSubnet, netBoxIpRange.Id);
 
         await _ipamClient.
-            IpRangesPatchAsync(int.Parse(netBoxIpRange.Id), ipRangeRequest, null, null, null, null, null, null, null, null, null, null, null, null, cancellationToken);
+            PatchIpRangeAsync(int.Parse(netBoxIpRange.Id), ipRangeRequest, cancellationToken);
     }
 
     private async Task<IEnumerable<IListIpAddressRanges_Ip_range_list>> GetNetBoxIpRangesAsync(CancellationToken cancellationToken)

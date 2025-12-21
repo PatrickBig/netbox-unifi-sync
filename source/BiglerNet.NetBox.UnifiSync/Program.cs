@@ -1,4 +1,5 @@
-﻿using BiglerNet.NetBox.UnifiSync.Commands;
+﻿using BiglerNet.NetBox.Client.Extensions;
+using BiglerNet.NetBox.UnifiSync.Commands;
 using BiglerNet.NetBox.UnifiSync.DataSeeds;
 using BiglerNet.NetBox.UnifiSync.Models.Configuration;
 using BiglerNet.NetBox.UnifiSync.Services;
@@ -6,7 +7,6 @@ using DotMake.CommandLine;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using NetBox.Client;
 using System.Net;
 
 Cli.Ext.ConfigureServices(services =>
@@ -70,31 +70,39 @@ Cli.Ext.ConfigureServices(services =>
         new System.Net.Http.Headers.AuthenticationHeaderValue("Token", netboxOptions.ApiKey);
     });
 
-    services.AddHttpClient<IDevicesClient, DevicesClient>(c =>
-    {
-        c.BaseAddress = netboxBaseUrl;
-        c.DefaultRequestHeaders.Add("Authorization", "Token " + netboxOptions.ApiKey);
-    });
+    //services.AddHttpClient<IDevicesClient, DevicesClient>(c =>
+    //{
+    //    c.BaseAddress = netboxBaseUrl;
+    //    c.DefaultRequestHeaders.Add("Authorization", "Token " + netboxOptions.ApiKey);
+    //});
     //services.AddHttpClient<IIpRangesClient, IpRangesClient>(c =>
     //{
     //    c.BaseAddress = netboxBaseUrl;
     //    c.DefaultRequestHeaders.Add("Authorization", "Token " + netboxOptions.ApiKey);
     //});
-    services.AddHttpClient<IIpamClient, IpamClient>(c =>
-    {
-        c.BaseAddress = netboxBaseUrl;
-        c.DefaultRequestHeaders.Add("Authorization", "Token " + netboxOptions.ApiKey);
-    });
-    services.AddHttpClient<IExtrasClient, ExtrasClient>(c =>
-    {
-        c.BaseAddress = netboxBaseUrl;
-        c.DefaultRequestHeaders.Add("Authorization", "Token " + netboxOptions.ApiKey);
-    });
-    services.AddHttpClient<ITenancyClient, TenancyClient>(c =>
-    {
-        c.BaseAddress = netboxBaseUrl;
-        c.DefaultRequestHeaders.Add("Authorization", "Token " + netboxOptions.ApiKey);
-    });
+    //services.AddHttpClient<IIpamClient, IpamClient>(c =>
+    //{
+    //    c.BaseAddress = netboxBaseUrl;
+    //    c.DefaultRequestHeaders.Add("Authorization", "Token " + netboxOptions.ApiKey);
+    //});
+    //services.AddHttpClient<IExtrasClient, ExtrasClient>(c =>
+    //{
+    //    c.BaseAddress = netboxBaseUrl;
+    //    c.DefaultRequestHeaders.Add("Authorization", "Token " + netboxOptions.ApiKey);
+    //});
+    //services.AddHttpClient<ITenancyClient, TenancyClient>(c =>
+    //{
+    //    c.BaseAddress = netboxBaseUrl;
+    //    c.DefaultRequestHeaders.Add("Authorization", "Token " + netboxOptions.ApiKey);
+    //});
+    //services.AddHttpClient<ICircuitsClient, CircuitsClient>(c =>
+    //{
+    //    c.BaseAddress = netboxBaseUrl;
+    //    c.DefaultRequestHeaders.Authorization =
+    //        new System.Net.Http.Headers.AuthenticationHeaderValue("Token", netboxOptions.ApiKey);
+    //});
+
+    services.AddNetBoxClients(netboxOptions.BaseUrl, netboxOptions.ApiKey);
 
     services.AddTransient<TagSeeder>();
     services.AddTransient<CustomFieldSeeder>();

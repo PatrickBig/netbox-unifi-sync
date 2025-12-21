@@ -1,4 +1,6 @@
-﻿using NetBox.Client;
+﻿
+using BiglerNet.NetBox.Client;
+using BiglerNet.NetBox.Client.Models;
 
 namespace BiglerNet.NetBox.UnifiSync.Services;
 public class WanSync
@@ -24,16 +26,20 @@ public class WanSync
             var wans = dashboardData?.wan?.wan_details;
             if (wans != null)
             {
-                foreach (var wan in wans.Where(w => w.isp != null))
+                foreach (var wan in wans.Where(w => w.isp != null && w.isp.name != null))
                 {
-                    var request = new TenantRequest
+                    if (wan != null)
                     {
-                        Name = wan.isp.name,
-                        Slug = wan.isp.name.ToLower(),
+                        var request = new TenantRequest
+                        {
+                            Name = wan.isp.name,
+                            Slug = wan.isp.name.ToLower(),
 
-                    };
+                        };
 
-                    await _tenancyClient.TenantsPostAsync(request, null, null, null, null, null, null, null, cancellationToken);
+                        await _tenancyClient.CreateTenantAsync(request, cancellationToken);
+
+                    }
                 }
             }
         }
