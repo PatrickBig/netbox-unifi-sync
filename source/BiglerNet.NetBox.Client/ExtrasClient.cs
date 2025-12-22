@@ -1,8 +1,10 @@
 ﻿using BiglerNet.NetBox.Client.Models;
 using BiglerNet.NetBox.Client.QueryFilters;
+using StrawberryShake;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Net.Mime;
+using System.Security.Cryptography;
 using System.Text.Json;
 using HttpMethod = System.Net.Http.HttpMethod;
 
@@ -37,7 +39,7 @@ public class ExtrasClient : NetBoxApiClientBase, IExtrasClient
         return response;
     }
 
-    public async Task<PaginatedCustomFieldList> ListCustomFieldsAsync(ExtrasCustomFilter filter, CancellationToken cancellationToken = default)
+    public async Task<PaginatedCustomFieldList> ListCustomFieldsAsync(ExtrasCustomFieldFilter filter, CancellationToken cancellationToken = default)
     {
         var queryString = filter.ToQueryString();
         var path = "/api/extras/custom-fields/" + queryString;
@@ -63,26 +65,29 @@ public class ExtrasClient : NetBoxApiClientBase, IExtrasClient
 
     public async Task<Tag> PatchTagAsync(int id, PatchedTagRequest request, CancellationToken cancellationToken = default)
     {
-        var content = new StringContent(JsonSerializer.Serialize(request, PatchJsonSerializerOptions), new MediaTypeHeaderValue(MediaTypeNames.Application.Json));
-        using var httpRequest = new HttpRequestMessage(HttpMethod.Patch, $"/api/extras/tags/{id}/");
-        httpRequest.Content = content;
-        using var response = await HttpClient.SendAsync(httpRequest, cancellationToken).ConfigureAwait(false);
-
-        var responseContent = await response.Content.ReadAsStringAsync(cancellationToken);
-
-        if (response.IsSuccessStatusCode)
+        var result = await PatchAsJsonAsync<PatchedTagRequest, Tag>($"/api/extras/tags/{id}/", request, cancellationToken);
+        
+        if (result == null)
         {
-
-            var result = JsonSerializer.Deserialize<Tag>(responseContent);
-
-            if (result == null)
-            {
-                throw new NetBoxApiClientException(response.StatusCode, "Deserialization resulted in null object.");
-            }
-            
+            throw new NetBoxApiClientException(0, "Deserialization resulted in null object.");
+        }
+        else
+        {
             return result;
         }
+    }
+    
+    public async Task<CustomField> PatchCustomFieldAsync(int id, PatchedWritableCustomFieldRequest request, CancellationToken cancellationToken = default)
+    {
+        var result = await PatchAsJsonAsync<PatchedWritableCustomFieldRequest, CustomField>($"/api/extras/custom-fields/{id}/", request, cancellationToken);
 
-        throw new NetBoxApiClientException(response.StatusCode, responseContent);
+        if (result == null)
+        {
+            throw new NetBoxApiClientException(0, "Deserialization resulted in null object.");
+        }
+        else
+        {
+            return result;
+        }
     }
 }

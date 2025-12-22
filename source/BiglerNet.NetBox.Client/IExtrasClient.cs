@@ -10,8 +10,9 @@ public interface IExtrasClient
 {
     public Task<CustomField> CreateCustomFieldAsync(WritableCustomFieldRequest request, CancellationToken cancellationToken = default);
 
-    public Task<PaginatedCustomFieldList> ListCustomFieldsAsync(ExtrasCustomFilter filter, CancellationToken cancellationToken = default);
+    public Task<PaginatedCustomFieldList> ListCustomFieldsAsync(ExtrasCustomFieldFilter filter, CancellationToken cancellationToken = default);
 
+    public Task<CustomField> PatchCustomFieldAsync(int id, PatchedWritableCustomFieldRequest request, CancellationToken cancellationToken = default);
 
 
     public Task<PaginatedTagList> ListTagsAsync(ExtrasTagFilter filter, CancellationToken cancellationToken = default);

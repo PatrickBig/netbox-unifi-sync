@@ -65,42 +65,9 @@ Cli.Ext.ConfigureServices(services =>
     .ConfigureHttpClient(c =>
     {
         c.BaseAddress = new Uri("https://netbox.biglernet.com/graphql/");
-        //c.DefaultRequestHeaders.Add("Authorization", "Token " + netboxOptions.ApiKey);
         c.DefaultRequestHeaders.Authorization =
         new System.Net.Http.Headers.AuthenticationHeaderValue("Token", netboxOptions.ApiKey);
     });
-
-    //services.AddHttpClient<IDevicesClient, DevicesClient>(c =>
-    //{
-    //    c.BaseAddress = netboxBaseUrl;
-    //    c.DefaultRequestHeaders.Add("Authorization", "Token " + netboxOptions.ApiKey);
-    //});
-    //services.AddHttpClient<IIpRangesClient, IpRangesClient>(c =>
-    //{
-    //    c.BaseAddress = netboxBaseUrl;
-    //    c.DefaultRequestHeaders.Add("Authorization", "Token " + netboxOptions.ApiKey);
-    //});
-    //services.AddHttpClient<IIpamClient, IpamClient>(c =>
-    //{
-    //    c.BaseAddress = netboxBaseUrl;
-    //    c.DefaultRequestHeaders.Add("Authorization", "Token " + netboxOptions.ApiKey);
-    //});
-    //services.AddHttpClient<IExtrasClient, ExtrasClient>(c =>
-    //{
-    //    c.BaseAddress = netboxBaseUrl;
-    //    c.DefaultRequestHeaders.Add("Authorization", "Token " + netboxOptions.ApiKey);
-    //});
-    //services.AddHttpClient<ITenancyClient, TenancyClient>(c =>
-    //{
-    //    c.BaseAddress = netboxBaseUrl;
-    //    c.DefaultRequestHeaders.Add("Authorization", "Token " + netboxOptions.ApiKey);
-    //});
-    //services.AddHttpClient<ICircuitsClient, CircuitsClient>(c =>
-    //{
-    //    c.BaseAddress = netboxBaseUrl;
-    //    c.DefaultRequestHeaders.Authorization =
-    //        new System.Net.Http.Headers.AuthenticationHeaderValue("Token", netboxOptions.ApiKey);
-    //});
 
     services.AddNetBoxClients(netboxOptions.BaseUrl, netboxOptions.ApiKey);
 

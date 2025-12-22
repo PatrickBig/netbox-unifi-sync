@@ -49,6 +49,7 @@ generatorSettings.GenerateClientClasses = false;
 generatorSettings.CSharpGeneratorSettings.Namespace = "BiglerNet.NetBox.Client.Models";
 
 var modelCode = generator.GenerateFile();
+modelCode = EnumPostProcessor.ProcessEnumValues(modelCode);
 
 var modelsFile = Path.Combine(outputPath, "NetBoxModels.cs");
 await File.WriteAllTextAsync(modelsFile, modelCode);

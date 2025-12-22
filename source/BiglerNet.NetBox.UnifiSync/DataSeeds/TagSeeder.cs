@@ -23,7 +23,6 @@ public class TagSeeder : INetBoxDataSeed
         };
 
         var filter = new ExtrasTagFilterBuilder()
-            //.Limit(100)
             .TagSlug.Eq([tag.Slug])
             .Build();
 

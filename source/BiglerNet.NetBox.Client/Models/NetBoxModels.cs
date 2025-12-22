@@ -45431,9 +45431,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"IPv4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IPv4")]
         IPv4 = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IPv6")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IPv6")]
         IPv6 = 1,
 
     }
@@ -45443,18 +45445,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"primary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"primary")]
         Primary = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"secondary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"secondary")]
         Secondary = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"tertiary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"tertiary")]
         Tertiary = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"inactive")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"inactive")]
         Inactive = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 4,
 
     }
@@ -45464,15 +45471,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Primary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Primary")]
         Primary = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Secondary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Secondary")]
         Secondary = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Tertiary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Tertiary")]
         Tertiary = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Inactive")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Inactive")]
         Inactive = 3,
 
     }
@@ -45482,18 +45493,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"primary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"primary")]
         Primary = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"secondary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"secondary")]
         Secondary = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"tertiary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"tertiary")]
         Tertiary = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"inactive")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"inactive")]
         Inactive = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 4,
 
     }
@@ -45503,24 +45519,31 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"vrrp2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"vrrp2")]
         Vrrp2 = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"vrrp3")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"vrrp3")]
         Vrrp3 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"carp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"carp")]
         Carp = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"clusterxl")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"clusterxl")]
         Clusterxl = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hsrp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hsrp")]
         Hsrp = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"glbp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"glbp")]
         Glbp = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"other")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"other")]
         Other = 6,
 
     }
@@ -45530,21 +45553,27 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"pending")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"pending")]
         Pending = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"scheduled")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"scheduled")]
         Scheduled = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"running")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"running")]
         Running = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"completed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"completed")]
         Completed = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"errored")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"errored")]
         Errored = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"failed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"failed")]
         Failed = 5,
 
     }
@@ -45554,21 +45583,27 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Pending")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Pending")]
         Pending = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Scheduled")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Scheduled")]
         Scheduled = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Running")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Running")]
         Running = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Completed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Completed")]
         Completed = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Errored")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Errored")]
         Errored = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Failed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Failed")]
         Failed = 5,
 
     }
@@ -45578,45 +45613,59 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"vpws")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"vpws")]
         Vpws = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"vpls")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"vpls")]
         Vpls = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"vxlan")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"vxlan")]
         Vxlan = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"vxlan-evpn")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"vxlan-evpn")]
         VxlanEvpn = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mpls-evpn")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mpls-evpn")]
         MplsEvpn = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"pbb-evpn")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"pbb-evpn")]
         PbbEvpn = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"evpn-vpws")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"evpn-vpws")]
         EvpnVpws = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"epl")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"epl")]
         Epl = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"evpl")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"evpl")]
         Evpl = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ep-lan")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ep-lan")]
         EpLan = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"evp-lan")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"evp-lan")]
         EvpLan = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ep-tree")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ep-tree")]
         EpTree = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"evp-tree")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"evp-tree")]
         EvpTree = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"spb")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"spb")]
         Spb = 13,
 
     }
@@ -45626,45 +45675,59 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"VPWS")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"VPWS")]
         VPWS = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"VPLS")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"VPLS")]
         VPLS = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"VXLAN")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"VXLAN")]
         VXLAN = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"VXLAN-EVPN")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"VXLAN-EVPN")]
         VXLANEVPN = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"MPLS EVPN")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"MPLS EVPN")]
         MPLS_EVPN = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"PBB EVPN")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"PBB EVPN")]
         PBB_EVPN = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"EVPN VPWS")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"EVPN VPWS")]
         EVPN_VPWS = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"EPL")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"EPL")]
         EPL = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"EVPL")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"EVPL")]
         EVPL = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Ethernet Private LAN")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Ethernet Private LAN")]
         Ethernet_Private_LAN = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Ethernet Virtual Private LAN")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Ethernet Virtual Private LAN")]
         Ethernet_Virtual_Private_LAN = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Ethernet Private Tree")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Ethernet Private Tree")]
         Ethernet_Private_Tree = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Ethernet Virtual Private Tree")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Ethernet Virtual Private Tree")]
         Ethernet_Virtual_Private_Tree = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SPB")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SPB")]
         SPB = 13,
 
     }
@@ -45674,45 +45737,59 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"vpws")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"vpws")]
         Vpws = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"vpls")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"vpls")]
         Vpls = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"vxlan")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"vxlan")]
         Vxlan = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"vxlan-evpn")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"vxlan-evpn")]
         VxlanEvpn = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mpls-evpn")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mpls-evpn")]
         MplsEvpn = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"pbb-evpn")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"pbb-evpn")]
         PbbEvpn = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"evpn-vpws")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"evpn-vpws")]
         EvpnVpws = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"epl")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"epl")]
         Epl = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"evpl")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"evpl")]
         Evpl = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ep-lan")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ep-lan")]
         EpLan = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"evp-lan")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"evp-lan")]
         EvpLan = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ep-tree")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ep-tree")]
         EpTree = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"evp-tree")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"evp-tree")]
         EvpTree = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"spb")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"spb")]
         Spb = 13,
 
     }
@@ -45722,105 +45799,139 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"cat3")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cat3")]
         Cat3 = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cat5")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cat5")]
         Cat5 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cat5e")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cat5e")]
         Cat5e = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cat6")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cat6")]
         Cat6 = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cat6a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cat6a")]
         Cat6a = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cat7")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cat7")]
         Cat7 = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cat7a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cat7a")]
         Cat7a = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cat8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cat8")]
         Cat8 = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mrj21-trunk")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mrj21-trunk")]
         Mrj21Trunk = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"dac-active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"dac-active")]
         DacActive = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"dac-passive")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"dac-passive")]
         DacPassive = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"coaxial")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"coaxial")]
         Coaxial = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rg-6")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rg-6")]
         Rg6 = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rg-8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rg-8")]
         Rg8 = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rg-11")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rg-11")]
         Rg11 = 14,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rg-59")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rg-59")]
         Rg59 = 15,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rg-62")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rg-62")]
         Rg62 = 16,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rg-213")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rg-213")]
         Rg213 = 17,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lmr-100")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lmr-100")]
         Lmr100 = 18,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lmr-200")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lmr-200")]
         Lmr200 = 19,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lmr-400")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lmr-400")]
         Lmr400 = 20,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mmf")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mmf")]
         Mmf = 21,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mmf-om1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mmf-om1")]
         MmfOm1 = 22,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mmf-om2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mmf-om2")]
         MmfOm2 = 23,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mmf-om3")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mmf-om3")]
         MmfOm3 = 24,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mmf-om4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mmf-om4")]
         MmfOm4 = 25,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mmf-om5")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mmf-om5")]
         MmfOm5 = 26,
 
         [System.Runtime.Serialization.EnumMember(Value = @"smf")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"smf")]
         Smf = 27,
 
         [System.Runtime.Serialization.EnumMember(Value = @"smf-os1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"smf-os1")]
         SmfOs1 = 28,
 
         [System.Runtime.Serialization.EnumMember(Value = @"smf-os2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"smf-os2")]
         SmfOs2 = 29,
 
         [System.Runtime.Serialization.EnumMember(Value = @"aoc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aoc")]
         Aoc = 30,
 
         [System.Runtime.Serialization.EnumMember(Value = @"power")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"power")]
         Power = 31,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb")]
         Usb = 32,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 33,
 
     }
@@ -45830,12 +45941,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"connected")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"connected")]
         Connected = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"decommissioning")]
         Decommissioning = 2,
 
     }
@@ -45845,12 +45959,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Connected")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Connected")]
         Connected = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Planned")]
         Planned = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Decommissioning")]
         Decommissioning = 2,
 
     }
@@ -45860,24 +45977,31 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"km")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"km")]
         Km = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"m")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"m")]
         M = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cm")]
         Cm = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mi")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mi")]
         Mi = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ft")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ft")]
         Ft = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"in")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"in")]
         In = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 6,
 
     }
@@ -45887,21 +46011,27 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Kilometers")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Kilometers")]
         Kilometers = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Meters")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Meters")]
         Meters = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Centimeters")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Centimeters")]
         Centimeters = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Miles")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Miles")]
         Miles = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Feet")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Feet")]
         Feet = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Inches")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Inches")]
         Inches = 5,
 
     }
@@ -45911,12 +46041,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"connected")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"connected")]
         Connected = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"decommissioning")]
         Decommissioning = 2,
 
     }
@@ -45926,24 +46059,31 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"km")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"km")]
         Km = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"m")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"m")]
         M = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cm")]
         Cm = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mi")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mi")]
         Mi = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ft")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ft")]
         Ft = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"in")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"in")]
         In = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 6,
 
     }
@@ -45953,9 +46093,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"A")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"A")]
         A = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"B")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"B")]
         B = 1,
 
     }
@@ -45965,21 +46107,27 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"provisioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"provisioning")]
         Provisioning = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"offline")]
         Offline = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"deprovisioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"deprovisioning")]
         Deprovisioning = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"decommissioned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"decommissioned")]
         Decommissioned = 5,
 
     }
@@ -45989,21 +46137,27 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Planned")]
         Planned = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Provisioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Provisioning")]
         Provisioning = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Active")]
         Active = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Offline")]
         Offline = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Deprovisioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Deprovisioning")]
         Deprovisioning = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Decommissioned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Decommissioned")]
         Decommissioned = 5,
 
     }
@@ -46013,18 +46167,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"km")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"km")]
         Km = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"m")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"m")]
         M = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mi")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mi")]
         Mi = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ft")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ft")]
         Ft = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 4,
 
     }
@@ -46034,15 +46193,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Kilometers")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Kilometers")]
         Kilometers = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Meters")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Meters")]
         Meters = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Miles")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Miles")]
         Miles = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Feet")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Feet")]
         Feet = 3,
 
     }
@@ -46052,21 +46215,27 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"provisioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"provisioning")]
         Provisioning = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"offline")]
         Offline = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"deprovisioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"deprovisioning")]
         Deprovisioning = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"decommissioned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"decommissioned")]
         Decommissioned = 5,
 
     }
@@ -46076,18 +46245,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"km")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"km")]
         Km = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"m")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"m")]
         M = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mi")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mi")]
         Mi = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ft")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ft")]
         Ft = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 4,
 
     }
@@ -46097,9 +46271,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"A")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"A")]
         A = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Z")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Z")]
         Z = 1,
 
     }
@@ -46109,18 +46285,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"staging")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"staging")]
         Staging = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"decommissioning")]
         Decommissioning = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"offline")]
         Offline = 4,
 
     }
@@ -46130,18 +46311,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Planned")]
         Planned = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Staging")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Staging")]
         Staging = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Active")]
         Active = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Decommissioning")]
         Decommissioning = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Offline")]
         Offline = 4,
 
     }
@@ -46151,18 +46337,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"staging")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"staging")]
         Staging = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"decommissioning")]
         Decommissioning = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"offline")]
         Offline = 4,
 
     }
@@ -46172,51 +46363,67 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"de-9")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"de-9")]
         De9 = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"db-25")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"db-25")]
         Db25 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rj-11")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rj-11")]
         Rj11 = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rj-12")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rj-12")]
         Rj12 = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rj-45")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rj-45")]
         Rj45 = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mini-din-8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mini-din-8")]
         MiniDin8 = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-a")]
         UsbA = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-b")]
         UsbB = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-c")]
         UsbC = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-mini-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-mini-a")]
         UsbMiniA = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-mini-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-mini-b")]
         UsbMiniB = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-a")]
         UsbMicroA = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-b")]
         UsbMicroB = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-ab")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-ab")]
         UsbMicroAb = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"other")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"other")]
         Other = 14,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 15,
 
     }
@@ -46226,48 +46433,63 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"DE-9")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"DE-9")]
         DE9 = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"DB-25")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"DB-25")]
         DB25 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"RJ-11")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"RJ-11")]
         RJ11 = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"RJ-12")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"RJ-12")]
         RJ12 = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"RJ-45")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"RJ-45")]
         RJ45 = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Mini-DIN 8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Mini-DIN 8")]
         MiniDIN_8 = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Type A")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Type A")]
         USB_Type_A = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Type B")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Type B")]
         USB_Type_B = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Type C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Type C")]
         USB_Type_C = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Mini A")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Mini A")]
         USB_Mini_A = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Mini B")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Mini B")]
         USB_Mini_B = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Micro A")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Micro A")]
         USB_Micro_A = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Micro B")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Micro B")]
         USB_Micro_B = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Micro AB")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Micro AB")]
         USB_Micro_AB = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Other")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Other")]
         Other = 14,
 
     }
@@ -46299,27 +46521,35 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"1200 bps")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1200 bps")]
         _1200_bps = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2400 bps")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2400 bps")]
         _2400_bps = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4800 bps")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4800 bps")]
         _4800_bps = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"9600 bps")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"9600 bps")]
         _9600_bps = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"19.2 kbps")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"19.2 kbps")]
         _19_2_kbps = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"38.4 kbps")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"38.4 kbps")]
         _38_4_kbps = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"57.6 kbps")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"57.6 kbps")]
         _57_6_kbps = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"115.2 kbps")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"115.2 kbps")]
         _115_2_kbps = 7,
 
     }
@@ -46329,51 +46559,67 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"de-9")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"de-9")]
         De9 = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"db-25")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"db-25")]
         Db25 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rj-11")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rj-11")]
         Rj11 = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rj-12")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rj-12")]
         Rj12 = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rj-45")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rj-45")]
         Rj45 = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mini-din-8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mini-din-8")]
         MiniDin8 = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-a")]
         UsbA = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-b")]
         UsbB = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-c")]
         UsbC = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-mini-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-mini-a")]
         UsbMiniA = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-mini-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-mini-b")]
         UsbMiniB = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-a")]
         UsbMicroA = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-b")]
         UsbMicroB = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-ab")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-ab")]
         UsbMicroAb = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"other")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"other")]
         Other = 14,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 15,
 
     }
@@ -46405,42 +46651,55 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"text")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"text")]
         Text = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"longtext")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"longtext")]
         Longtext = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"integer")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"integer")]
         Integer = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"decimal")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"decimal")]
         Decimal = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"boolean")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"boolean")]
         Boolean = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"date")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"date")]
         Date = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"datetime")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"datetime")]
         Datetime = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"url")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"url")]
         Url = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"json")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"json")]
         Json = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"select")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"select")]
         Select = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"multiselect")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"multiselect")]
         Multiselect = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"object")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"object")]
         Object = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"multiobject")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"multiobject")]
         Multiobject = 12,
 
     }
@@ -46450,42 +46709,55 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Text")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Text")]
         Text = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Text (long)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Text (long)")]
         Text__long_ = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Integer")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Integer")]
         Integer = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Decimal")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Decimal")]
         Decimal = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Boolean (true/false)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Boolean (true/false)")]
         Boolean__true_false_ = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Date")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Date")]
         Date = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Date & time")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Date & time")]
         Date___time = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"URL")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"URL")]
         URL = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"JSON")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"JSON")]
         JSON = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Selection")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Selection")]
         Selection = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Multiple selection")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Multiple selection")]
         Multiple_selection = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Object")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Object")]
         Object = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Multiple objects")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Multiple objects")]
         Multiple_objects = 12,
 
     }
@@ -46495,12 +46767,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"disabled")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"disabled")]
         Disabled = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"loose")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"loose")]
         Loose = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"exact")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"exact")]
         Exact = 2,
 
     }
@@ -46510,12 +46785,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Disabled")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Disabled")]
         Disabled = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Loose")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Loose")]
         Loose = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Exact")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Exact")]
         Exact = 2,
 
     }
@@ -46525,12 +46803,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"always")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"always")]
         Always = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"if-set")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"if-set")]
         IfSet = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hidden")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hidden")]
         Hidden = 2,
 
     }
@@ -46540,12 +46821,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Always")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Always")]
         Always = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"If set")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"If set")]
         If_set = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Hidden")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Hidden")]
         Hidden = 2,
 
     }
@@ -46555,12 +46839,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"yes")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"yes")]
         Yes = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"no")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"no")]
         No = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hidden")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hidden")]
         Hidden = 2,
 
     }
@@ -46570,12 +46857,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Yes")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Yes")]
         Yes = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"No")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"No")]
         No = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Hidden")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Hidden")]
         Hidden = 2,
 
     }
@@ -46585,12 +46875,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"IATA")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IATA")]
         IATA = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ISO_3166")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ISO_3166")]
         ISO_3166 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"UN_LOCODE")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"UN_LOCODE")]
         UN_LOCODE = 2,
 
     }
@@ -46600,12 +46893,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"IATA (Airport codes)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IATA (Airport codes)")]
         IATA__Airport_codes_ = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ISO 3166 (Country codes)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ISO 3166 (Country codes)")]
         ISO_3166__Country_codes_ = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"UN/LOCODE (Location codes)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"UN/LOCODE (Location codes)")]
         UN_LOCODE__Location_codes_ = 2,
 
     }
@@ -46615,12 +46911,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"IATA")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IATA")]
         IATA = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ISO_3166")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ISO_3166")]
         ISO_3166 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"UN_LOCODE")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"UN_LOCODE")]
         UN_LOCODE = 2,
 
     }
@@ -46630,42 +46929,55 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"text")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"text")]
         Text = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"longtext")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"longtext")]
         Longtext = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"integer")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"integer")]
         Integer = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"decimal")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"decimal")]
         Decimal = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"boolean")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"boolean")]
         Boolean = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"date")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"date")]
         Date = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"datetime")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"datetime")]
         Datetime = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"url")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"url")]
         Url = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"json")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"json")]
         Json = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"select")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"select")]
         Select = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"multiselect")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"multiselect")]
         Multiselect = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"object")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"object")]
         Object = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"multiobject")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"multiobject")]
         Multiobject = 12,
 
     }
@@ -46675,12 +46987,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"disabled")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"disabled")]
         Disabled = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"loose")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"loose")]
         Loose = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"exact")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"exact")]
         Exact = 2,
 
     }
@@ -46690,12 +47005,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"always")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"always")]
         Always = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"if-set")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"if-set")]
         IfSet = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hidden")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hidden")]
         Hidden = 2,
 
     }
@@ -46705,12 +47023,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"yes")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"yes")]
         Yes = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"no")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"no")]
         No = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hidden")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hidden")]
         Hidden = 2,
 
     }
@@ -46720,48 +47041,63 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"default")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"default")]
         Default = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"blue")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"blue")]
         Blue = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"indigo")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"indigo")]
         Indigo = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"purple")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"purple")]
         Purple = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"pink")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"pink")]
         Pink = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"red")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"red")]
         Red = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"orange")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"orange")]
         Orange = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"yellow")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"yellow")]
         Yellow = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"green")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"green")]
         Green = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"teal")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"teal")]
         Teal = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cyan")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cyan")]
         Cyan = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"gray")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"gray")]
         Gray = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"black")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"black")]
         Black = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"white")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"white")]
         White = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ghost-dark")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ghost-dark")]
         GhostDark = 14,
 
     }
@@ -46771,12 +47107,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"local")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"local")]
         Local = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"git")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"git")]
         Git = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"amazon-s3")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"amazon-s3")]
         AmazonS3 = 2,
 
     }
@@ -46786,15 +47125,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"---------")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"---------")]
         Minus = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Local")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Local")]
         Local = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Git")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Git")]
         Git = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Amazon S3")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Amazon S3")]
         Amazon_S3 = 3,
 
     }
@@ -46804,18 +47147,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"new")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"new")]
         New = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"queued")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"queued")]
         Queued = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"syncing")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"syncing")]
         Syncing = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"completed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"completed")]
         Completed = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"failed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"failed")]
         Failed = 4,
 
     }
@@ -46825,18 +47173,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"New")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"New")]
         New = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Queued")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Queued")]
         Queued = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Syncing")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Syncing")]
         Syncing = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Completed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Completed")]
         Completed = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Failed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Failed")]
         Failed = 4,
 
     }
@@ -46864,12 +47217,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"local")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"local")]
         Local = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"git")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"git")]
         Git = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"amazon-s3")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"amazon-s3")]
         AmazonS3 = 2,
 
     }
@@ -46879,12 +47235,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"front")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"front")]
         Front = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rear")]
         Rear = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 2,
 
     }
@@ -46894,9 +47253,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Front")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Front")]
         Front = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Rear")]
         Rear = 1,
 
     }
@@ -46906,24 +47267,31 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"offline")]
         Offline = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"staged")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"staged")]
         Staged = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"failed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"failed")]
         Failed = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"inventory")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"inventory")]
         Inventory = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"decommissioning")]
         Decommissioning = 6,
 
     }
@@ -46933,24 +47301,31 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Offline")]
         Offline = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Planned")]
         Planned = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Staged")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Staged")]
         Staged = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Failed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Failed")]
         Failed = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Inventory")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Inventory")]
         Inventory = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Decommissioning")]
         Decommissioning = 6,
 
     }
@@ -46960,36 +47335,47 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"front-to-rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"front-to-rear")]
         FrontToRear = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rear-to-front")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rear-to-front")]
         RearToFront = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"left-to-right")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"left-to-right")]
         LeftToRight = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"right-to-left")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"right-to-left")]
         RightToLeft = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"side-to-rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"side-to-rear")]
         SideToRear = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rear-to-side")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rear-to-side")]
         RearToSide = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"bottom-to-top")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"bottom-to-top")]
         BottomToTop = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"top-to-bottom")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"top-to-bottom")]
         TopToBottom = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"passive")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"passive")]
         Passive = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mixed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mixed")]
         Mixed = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 10,
 
     }
@@ -46999,33 +47385,43 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Front to rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Front to rear")]
         Front_to_rear = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Rear to front")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Rear to front")]
         Rear_to_front = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Left to right")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Left to right")]
         Left_to_right = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Right to left")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Right to left")]
         Right_to_left = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Side to rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Side to rear")]
         Side_to_rear = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Rear to side")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Rear to side")]
         Rear_to_side = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Bottom to top")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Bottom to top")]
         Bottom_to_top = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Top to bottom")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Top to bottom")]
         Top_to_bottom = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Passive")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Passive")]
         Passive = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Mixed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Mixed")]
         Mixed = 9,
 
     }
@@ -47035,12 +47431,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"parent")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"parent")]
         Parent = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"child")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"child")]
         Child = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 2,
 
     }
@@ -47050,9 +47449,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Parent")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Parent")]
         Parent = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Child")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Child")]
         Child = 1,
 
     }
@@ -47062,18 +47463,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"kg")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"kg")]
         Kg = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"g")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"g")]
         G = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lb")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lb")]
         Lb = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"oz")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"oz")]
         Oz = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 4,
 
     }
@@ -47083,15 +47489,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Kilograms")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Kilograms")]
         Kilograms = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Grams")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Grams")]
         Grams = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Pounds")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Pounds")]
         Pounds = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Ounces")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Ounces")]
         Ounces = 3,
 
     }
@@ -47101,12 +47511,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"parent")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"parent")]
         Parent = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"child")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"child")]
         Child = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 2,
 
     }
@@ -47116,36 +47529,47 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"front-to-rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"front-to-rear")]
         FrontToRear = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rear-to-front")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rear-to-front")]
         RearToFront = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"left-to-right")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"left-to-right")]
         LeftToRight = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"right-to-left")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"right-to-left")]
         RightToLeft = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"side-to-rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"side-to-rear")]
         SideToRear = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rear-to-side")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rear-to-side")]
         RearToSide = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"bottom-to-top")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"bottom-to-top")]
         BottomToTop = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"top-to-bottom")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"top-to-bottom")]
         TopToBottom = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"passive")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"passive")]
         Passive = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mixed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mixed")]
         Mixed = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 10,
 
     }
@@ -47155,18 +47579,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"kg")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"kg")]
         Kg = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"g")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"g")]
         G = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lb")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lb")]
         Lb = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"oz")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"oz")]
         Oz = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 4,
 
     }
@@ -47176,12 +47605,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"front")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"front")]
         Front = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rear")]
         Rear = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 2,
 
     }
@@ -47191,24 +47623,31 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"offline")]
         Offline = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"staged")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"staged")]
         Staged = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"failed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"failed")]
         Failed = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"inventory")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"inventory")]
         Inventory = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"decommissioning")]
         Decommissioning = 6,
 
     }
@@ -47218,24 +47657,31 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"object_created")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"object_created")]
         Object_created = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"object_updated")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"object_updated")]
         Object_updated = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"object_deleted")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"object_deleted")]
         Object_deleted = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"job_started")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"job_started")]
         Job_started = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"job_completed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"job_completed")]
         Job_completed = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"job_failed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"job_failed")]
         Job_failed = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"job_errored")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"job_errored")]
         Job_errored = 6,
 
     }
@@ -47245,12 +47691,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"webhook")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"webhook")]
         Webhook = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"script")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"script")]
         Script = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"notification")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"notification")]
         Notification = 2,
 
     }
@@ -47260,12 +47709,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Webhook")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Webhook")]
         Webhook = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Script")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Script")]
         Script = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Notification")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Notification")]
         Notification = 2,
 
     }
@@ -47275,12 +47727,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"webhook")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"webhook")]
         Webhook = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"script")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"script")]
         Script = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"notification")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"notification")]
         Notification = 2,
 
     }
@@ -47290,12 +47745,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"plaintext")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"plaintext")]
         Plaintext = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"md5")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"md5")]
         Md5 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 2,
 
     }
@@ -47305,177 +47763,235 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"8p8c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"8p8c")]
         _8p8c = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"8p6c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"8p6c")]
         _8p6c = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"8p4c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"8p4c")]
         _8p4c = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"8p2c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"8p2c")]
         _8p2c = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6p6c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6p6c")]
         _6p6c = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6p4c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6p4c")]
         _6p4c = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6p2c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6p2c")]
         _6p2c = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4p4c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4p4c")]
         _4p4c = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4p2c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4p2c")]
         _4p2c = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"gg45")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"gg45")]
         Gg45 = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"tera-4p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"tera-4p")]
         Tera4p = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"tera-2p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"tera-2p")]
         Tera2p = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"tera-1p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"tera-1p")]
         Tera1p = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"110-punch")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"110-punch")]
         _110Punch = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"bnc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"bnc")]
         Bnc = 14,
 
         [System.Runtime.Serialization.EnumMember(Value = @"f")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"f")]
         F = 15,
 
         [System.Runtime.Serialization.EnumMember(Value = @"n")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"n")]
         N = 16,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mrj21")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mrj21")]
         Mrj21 = 17,
 
         [System.Runtime.Serialization.EnumMember(Value = @"fc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"fc")]
         Fc = 18,
 
         [System.Runtime.Serialization.EnumMember(Value = @"fc-pc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"fc-pc")]
         FcPc = 19,
 
         [System.Runtime.Serialization.EnumMember(Value = @"fc-upc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"fc-upc")]
         FcUpc = 20,
 
         [System.Runtime.Serialization.EnumMember(Value = @"fc-apc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"fc-apc")]
         FcApc = 21,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lc")]
         Lc = 22,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lc-pc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lc-pc")]
         LcPc = 23,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lc-upc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lc-upc")]
         LcUpc = 24,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lc-apc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lc-apc")]
         LcApc = 25,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lsh")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lsh")]
         Lsh = 26,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lsh-pc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lsh-pc")]
         LshPc = 27,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lsh-upc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lsh-upc")]
         LshUpc = 28,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lsh-apc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lsh-apc")]
         LshApc = 29,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lx5")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lx5")]
         Lx5 = 30,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lx5-pc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lx5-pc")]
         Lx5Pc = 31,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lx5-upc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lx5-upc")]
         Lx5Upc = 32,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lx5-apc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lx5-apc")]
         Lx5Apc = 33,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mpo")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mpo")]
         Mpo = 34,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mtrj")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mtrj")]
         Mtrj = 35,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sc")]
         Sc = 36,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sc-pc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sc-pc")]
         ScPc = 37,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sc-upc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sc-upc")]
         ScUpc = 38,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sc-apc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sc-apc")]
         ScApc = 39,
 
         [System.Runtime.Serialization.EnumMember(Value = @"st")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"st")]
         St = 40,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cs")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cs")]
         Cs = 41,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sn")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sn")]
         Sn = 42,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sma-905")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sma-905")]
         Sma905 = 43,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sma-906")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sma-906")]
         Sma906 = 44,
 
         [System.Runtime.Serialization.EnumMember(Value = @"urm-p2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"urm-p2")]
         UrmP2 = 45,
 
         [System.Runtime.Serialization.EnumMember(Value = @"urm-p4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"urm-p4")]
         UrmP4 = 46,
 
         [System.Runtime.Serialization.EnumMember(Value = @"urm-p8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"urm-p8")]
         UrmP8 = 47,
 
         [System.Runtime.Serialization.EnumMember(Value = @"splice")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"splice")]
         Splice = 48,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-a")]
         UsbA = 49,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-b")]
         UsbB = 50,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-c")]
         UsbC = 51,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-mini-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-mini-a")]
         UsbMiniA = 52,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-mini-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-mini-b")]
         UsbMiniB = 53,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-a")]
         UsbMicroA = 54,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-b")]
         UsbMicroB = 55,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-ab")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-ab")]
         UsbMicroAb = 56,
 
         [System.Runtime.Serialization.EnumMember(Value = @"other")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"other")]
         Other = 57,
 
     }
@@ -47485,177 +48001,235 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"8P8C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"8P8C")]
         _8P8C = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"8P6C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"8P6C")]
         _8P6C = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"8P4C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"8P4C")]
         _8P4C = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"8P2C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"8P2C")]
         _8P2C = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6P6C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6P6C")]
         _6P6C = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6P4C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6P4C")]
         _6P4C = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6P2C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6P2C")]
         _6P2C = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4P4C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4P4C")]
         _4P4C = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4P2C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4P2C")]
         _4P2C = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"GG45")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"GG45")]
         GG45 = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"TERA 4P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"TERA 4P")]
         TERA_4P = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"TERA 2P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"TERA 2P")]
         TERA_2P = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"TERA 1P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"TERA 1P")]
         TERA_1P = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"110 Punch")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"110 Punch")]
         _110_Punch = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"BNC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"BNC")]
         BNC = 14,
 
         [System.Runtime.Serialization.EnumMember(Value = @"F Connector")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"F Connector")]
         F_Connector = 15,
 
         [System.Runtime.Serialization.EnumMember(Value = @"N Connector")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"N Connector")]
         N_Connector = 16,
 
         [System.Runtime.Serialization.EnumMember(Value = @"MRJ21")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"MRJ21")]
         MRJ21 = 17,
 
         [System.Runtime.Serialization.EnumMember(Value = @"FC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"FC")]
         FC = 18,
 
         [System.Runtime.Serialization.EnumMember(Value = @"FC/PC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"FC/PC")]
         FC_PC = 19,
 
         [System.Runtime.Serialization.EnumMember(Value = @"FC/UPC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"FC/UPC")]
         FC_UPC = 20,
 
         [System.Runtime.Serialization.EnumMember(Value = @"FC/APC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"FC/APC")]
         FC_APC = 21,
 
         [System.Runtime.Serialization.EnumMember(Value = @"LC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"LC")]
         LC = 22,
 
         [System.Runtime.Serialization.EnumMember(Value = @"LC/PC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"LC/PC")]
         LC_PC = 23,
 
         [System.Runtime.Serialization.EnumMember(Value = @"LC/UPC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"LC/UPC")]
         LC_UPC = 24,
 
         [System.Runtime.Serialization.EnumMember(Value = @"LC/APC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"LC/APC")]
         LC_APC = 25,
 
         [System.Runtime.Serialization.EnumMember(Value = @"LSH")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"LSH")]
         LSH = 26,
 
         [System.Runtime.Serialization.EnumMember(Value = @"LSH/PC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"LSH/PC")]
         LSH_PC = 27,
 
         [System.Runtime.Serialization.EnumMember(Value = @"LSH/UPC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"LSH/UPC")]
         LSH_UPC = 28,
 
         [System.Runtime.Serialization.EnumMember(Value = @"LSH/APC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"LSH/APC")]
         LSH_APC = 29,
 
         [System.Runtime.Serialization.EnumMember(Value = @"LX.5")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"LX.5")]
         LX_5 = 30,
 
         [System.Runtime.Serialization.EnumMember(Value = @"LX.5/PC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"LX.5/PC")]
         LX_5_PC = 31,
 
         [System.Runtime.Serialization.EnumMember(Value = @"LX.5/UPC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"LX.5/UPC")]
         LX_5_UPC = 32,
 
         [System.Runtime.Serialization.EnumMember(Value = @"LX.5/APC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"LX.5/APC")]
         LX_5_APC = 33,
 
         [System.Runtime.Serialization.EnumMember(Value = @"MPO")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"MPO")]
         MPO = 34,
 
         [System.Runtime.Serialization.EnumMember(Value = @"MTRJ")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"MTRJ")]
         MTRJ = 35,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SC")]
         SC = 36,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SC/PC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SC/PC")]
         SC_PC = 37,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SC/UPC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SC/UPC")]
         SC_UPC = 38,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SC/APC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SC/APC")]
         SC_APC = 39,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ST")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ST")]
         ST = 40,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS")]
         CS = 41,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SN")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SN")]
         SN = 42,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SMA 905")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SMA 905")]
         SMA_905 = 43,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SMA 906")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SMA 906")]
         SMA_906 = 44,
 
         [System.Runtime.Serialization.EnumMember(Value = @"URM-P2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"URM-P2")]
         URMP2 = 45,
 
         [System.Runtime.Serialization.EnumMember(Value = @"URM-P4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"URM-P4")]
         URMP4 = 46,
 
         [System.Runtime.Serialization.EnumMember(Value = @"URM-P8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"URM-P8")]
         URMP8 = 47,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Splice")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Splice")]
         Splice = 48,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Type A")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Type A")]
         USB_Type_A = 49,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Type B")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Type B")]
         USB_Type_B = 50,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Type C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Type C")]
         USB_Type_C = 51,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Mini A")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Mini A")]
         USB_Mini_A = 52,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Mini B")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Mini B")]
         USB_Mini_B = 53,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Micro A")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Micro A")]
         USB_Micro_A = 54,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Micro B")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Micro B")]
         USB_Micro_B = 55,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Micro AB")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Micro AB")]
         USB_Micro_AB = 56,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Other")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Other")]
         Other = 57,
 
     }
@@ -47665,177 +48239,235 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"8p8c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"8p8c")]
         _8p8c = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"8p6c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"8p6c")]
         _8p6c = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"8p4c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"8p4c")]
         _8p4c = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"8p2c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"8p2c")]
         _8p2c = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6p6c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6p6c")]
         _6p6c = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6p4c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6p4c")]
         _6p4c = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6p2c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6p2c")]
         _6p2c = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4p4c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4p4c")]
         _4p4c = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4p2c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4p2c")]
         _4p2c = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"gg45")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"gg45")]
         Gg45 = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"tera-4p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"tera-4p")]
         Tera4p = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"tera-2p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"tera-2p")]
         Tera2p = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"tera-1p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"tera-1p")]
         Tera1p = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"110-punch")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"110-punch")]
         _110Punch = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"bnc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"bnc")]
         Bnc = 14,
 
         [System.Runtime.Serialization.EnumMember(Value = @"f")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"f")]
         F = 15,
 
         [System.Runtime.Serialization.EnumMember(Value = @"n")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"n")]
         N = 16,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mrj21")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mrj21")]
         Mrj21 = 17,
 
         [System.Runtime.Serialization.EnumMember(Value = @"fc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"fc")]
         Fc = 18,
 
         [System.Runtime.Serialization.EnumMember(Value = @"fc-pc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"fc-pc")]
         FcPc = 19,
 
         [System.Runtime.Serialization.EnumMember(Value = @"fc-upc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"fc-upc")]
         FcUpc = 20,
 
         [System.Runtime.Serialization.EnumMember(Value = @"fc-apc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"fc-apc")]
         FcApc = 21,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lc")]
         Lc = 22,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lc-pc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lc-pc")]
         LcPc = 23,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lc-upc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lc-upc")]
         LcUpc = 24,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lc-apc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lc-apc")]
         LcApc = 25,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lsh")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lsh")]
         Lsh = 26,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lsh-pc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lsh-pc")]
         LshPc = 27,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lsh-upc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lsh-upc")]
         LshUpc = 28,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lsh-apc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lsh-apc")]
         LshApc = 29,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lx5")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lx5")]
         Lx5 = 30,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lx5-pc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lx5-pc")]
         Lx5Pc = 31,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lx5-upc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lx5-upc")]
         Lx5Upc = 32,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lx5-apc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lx5-apc")]
         Lx5Apc = 33,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mpo")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mpo")]
         Mpo = 34,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mtrj")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mtrj")]
         Mtrj = 35,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sc")]
         Sc = 36,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sc-pc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sc-pc")]
         ScPc = 37,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sc-upc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sc-upc")]
         ScUpc = 38,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sc-apc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sc-apc")]
         ScApc = 39,
 
         [System.Runtime.Serialization.EnumMember(Value = @"st")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"st")]
         St = 40,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cs")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cs")]
         Cs = 41,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sn")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sn")]
         Sn = 42,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sma-905")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sma-905")]
         Sma905 = 43,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sma-906")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sma-906")]
         Sma906 = 44,
 
         [System.Runtime.Serialization.EnumMember(Value = @"urm-p2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"urm-p2")]
         UrmP2 = 45,
 
         [System.Runtime.Serialization.EnumMember(Value = @"urm-p4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"urm-p4")]
         UrmP4 = 46,
 
         [System.Runtime.Serialization.EnumMember(Value = @"urm-p8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"urm-p8")]
         UrmP8 = 47,
 
         [System.Runtime.Serialization.EnumMember(Value = @"splice")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"splice")]
         Splice = 48,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-a")]
         UsbA = 49,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-b")]
         UsbB = 50,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-c")]
         UsbC = 51,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-mini-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-mini-a")]
         UsbMiniA = 52,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-mini-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-mini-b")]
         UsbMiniB = 53,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-a")]
         UsbMicroA = 54,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-b")]
         UsbMicroB = 55,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-ab")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-ab")]
         UsbMicroAb = 56,
 
         [System.Runtime.Serialization.EnumMember(Value = @"other")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"other")]
         Other = 57,
 
     }
@@ -47855,9 +48487,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"IKEv1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IKEv1")]
         IKEv1 = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IKEv2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IKEv2")]
         IKEv2 = 1,
 
     }
@@ -47867,9 +48501,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"aggressive")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aggressive")]
         Aggressive = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"main")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"main")]
         Main = 1,
 
     }
@@ -47879,9 +48515,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Aggressive")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Aggressive")]
         Aggressive = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Main")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Main")]
         Main = 1,
 
     }
@@ -47901,9 +48539,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"aggressive")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aggressive")]
         Aggressive = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"main")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"main")]
         Main = 1,
 
     }
@@ -47913,15 +48553,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"preshared-keys")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"preshared-keys")]
         PresharedKeys = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"certificates")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"certificates")]
         Certificates = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rsa-signatures")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rsa-signatures")]
         RsaSignatures = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"dsa-signatures")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"dsa-signatures")]
         DsaSignatures = 3,
 
     }
@@ -47931,15 +48575,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Pre-shared keys")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Pre-shared keys")]
         PreShared_keys = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Certificates")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Certificates")]
         Certificates = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"RSA signatures")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"RSA signatures")]
         RSA_signatures = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"DSA signatures")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"DSA signatures")]
         DSA_signatures = 3,
 
     }
@@ -47949,27 +48597,35 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes-128-cbc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes-128-cbc")]
         Aes128Cbc = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes-128-gcm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes-128-gcm")]
         Aes128Gcm = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes-192-cbc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes-192-cbc")]
         Aes192Cbc = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes-192-gcm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes-192-gcm")]
         Aes192Gcm = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes-256-cbc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes-256-cbc")]
         Aes256Cbc = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes-256-gcm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes-256-gcm")]
         Aes256Gcm = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"3des-cbc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"3des-cbc")]
         _3desCbc = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"des-cbc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"des-cbc")]
         DesCbc = 7,
 
     }
@@ -47979,27 +48635,35 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"128-bit AES (CBC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"128-bit AES (CBC)")]
         _128Bit_AES__CBC_ = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"128-bit AES (GCM)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"128-bit AES (GCM)")]
         _128Bit_AES__GCM_ = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"192-bit AES (CBC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"192-bit AES (CBC)")]
         _192Bit_AES__CBC_ = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"192-bit AES (GCM)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"192-bit AES (GCM)")]
         _192Bit_AES__GCM_ = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"256-bit AES (CBC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"256-bit AES (CBC)")]
         _256Bit_AES__CBC_ = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"256-bit AES (GCM)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"256-bit AES (GCM)")]
         _256Bit_AES__GCM_ = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"3DES")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"3DES")]
         _3DES = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"DES")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"DES")]
         DES = 7,
 
     }
@@ -48009,18 +48673,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"hmac-sha1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hmac-sha1")]
         HmacSha1 = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hmac-sha256")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hmac-sha256")]
         HmacSha256 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hmac-sha384")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hmac-sha384")]
         HmacSha384 = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hmac-sha512")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hmac-sha512")]
         HmacSha512 = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hmac-md5")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hmac-md5")]
         HmacMd5 = 4,
 
     }
@@ -48030,18 +48699,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"SHA-1 HMAC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SHA-1 HMAC")]
         SHA1_HMAC = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SHA-256 HMAC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SHA-256 HMAC")]
         SHA256_HMAC = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SHA-384 HMAC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SHA-384 HMAC")]
         SHA384_HMAC = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SHA-512 HMAC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SHA-512 HMAC")]
         SHA512_HMAC = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"MD5 HMAC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"MD5 HMAC")]
         MD5_HMAC = 4,
 
     }
@@ -48105,75 +48779,99 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 1")]
         Group_1 = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 2")]
         Group_2 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 5")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 5")]
         Group_5 = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 14")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 14")]
         Group_14 = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 15")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 15")]
         Group_15 = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 16")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 16")]
         Group_16 = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 17")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 17")]
         Group_17 = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 18")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 18")]
         Group_18 = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 19")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 19")]
         Group_19 = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 20")]
         Group_20 = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 21")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 21")]
         Group_21 = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 22")]
         Group_22 = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 23")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 23")]
         Group_23 = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 24")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 24")]
         Group_24 = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 25")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 25")]
         Group_25 = 14,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 26")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 26")]
         Group_26 = 15,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 27")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 27")]
         Group_27 = 16,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 28")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 28")]
         Group_28 = 17,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 29")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 29")]
         Group_29 = 18,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 30")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 30")]
         Group_30 = 19,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 31")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 31")]
         Group_31 = 20,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 32")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 32")]
         Group_32 = 21,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 33")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 33")]
         Group_33 = 22,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Group 34")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Group 34")]
         Group_34 = 23,
 
     }
@@ -48183,15 +48881,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"preshared-keys")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"preshared-keys")]
         PresharedKeys = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"certificates")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"certificates")]
         Certificates = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rsa-signatures")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rsa-signatures")]
         RsaSignatures = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"dsa-signatures")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"dsa-signatures")]
         DsaSignatures = 3,
 
     }
@@ -48201,27 +48903,35 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes-128-cbc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes-128-cbc")]
         Aes128Cbc = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes-128-gcm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes-128-gcm")]
         Aes128Gcm = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes-192-cbc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes-192-cbc")]
         Aes192Cbc = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes-192-gcm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes-192-gcm")]
         Aes192Gcm = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes-256-cbc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes-256-cbc")]
         Aes256Cbc = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes-256-gcm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes-256-gcm")]
         Aes256Gcm = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"3des-cbc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"3des-cbc")]
         _3desCbc = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"des-cbc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"des-cbc")]
         DesCbc = 7,
 
     }
@@ -48231,18 +48941,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"hmac-sha1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hmac-sha1")]
         HmacSha1 = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hmac-sha256")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hmac-sha256")]
         HmacSha256 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hmac-sha384")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hmac-sha384")]
         HmacSha384 = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hmac-sha512")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hmac-sha512")]
         HmacSha512 = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hmac-md5")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hmac-md5")]
         HmacMd5 = 4,
 
     }
@@ -48306,18 +49021,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"reserved")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"reserved")]
         Reserved = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"deprecated")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"deprecated")]
         Deprecated = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"dhcp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"dhcp")]
         Dhcp = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"slaac")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"slaac")]
         Slaac = 4,
 
     }
@@ -48327,18 +49047,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Active")]
         Active = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Reserved")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Reserved")]
         Reserved = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Deprecated")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Deprecated")]
         Deprecated = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"DHCP")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"DHCP")]
         DHCP = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SLAAC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SLAAC")]
         SLAAC = 4,
 
     }
@@ -48348,30 +49073,39 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"loopback")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"loopback")]
         Loopback = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"secondary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"secondary")]
         Secondary = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"anycast")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"anycast")]
         Anycast = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"vip")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"vip")]
         Vip = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"vrrp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"vrrp")]
         Vrrp = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hsrp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hsrp")]
         Hsrp = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"glbp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"glbp")]
         Glbp = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"carp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"carp")]
         Carp = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 8,
 
     }
@@ -48381,27 +49115,35 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Loopback")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Loopback")]
         Loopback = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Secondary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Secondary")]
         Secondary = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Anycast")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Anycast")]
         Anycast = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"VIP")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"VIP")]
         VIP = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"VRRP")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"VRRP")]
         VRRP = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"HSRP")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"HSRP")]
         HSRP = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"GLBP")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"GLBP")]
         GLBP = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CARP")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CARP")]
         CARP = 7,
 
     }
@@ -48411,18 +49153,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"reserved")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"reserved")]
         Reserved = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"deprecated")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"deprecated")]
         Deprecated = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"dhcp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"dhcp")]
         Dhcp = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"slaac")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"slaac")]
         Slaac = 4,
 
     }
@@ -48432,30 +49179,39 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"loopback")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"loopback")]
         Loopback = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"secondary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"secondary")]
         Secondary = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"anycast")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"anycast")]
         Anycast = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"vip")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"vip")]
         Vip = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"vrrp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"vrrp")]
         Vrrp = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hsrp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hsrp")]
         Hsrp = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"glbp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"glbp")]
         Glbp = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"carp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"carp")]
         Carp = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 8,
 
     }
@@ -48465,12 +49221,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"reserved")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"reserved")]
         Reserved = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"deprecated")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"deprecated")]
         Deprecated = 2,
 
     }
@@ -48480,12 +49239,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Active")]
         Active = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Reserved")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Reserved")]
         Reserved = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Deprecated")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Deprecated")]
         Deprecated = 2,
 
     }
@@ -48495,12 +49257,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"reserved")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"reserved")]
         Reserved = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"deprecated")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"deprecated")]
         Deprecated = 2,
 
     }
@@ -48564,9 +49329,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"esp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"esp")]
         Esp = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ah")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ah")]
         Ah = 1,
 
     }
@@ -48576,9 +49343,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"ESP")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ESP")]
         ESP = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"AH")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"AH")]
         AH = 1,
 
     }
@@ -48588,9 +49357,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"esp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"esp")]
         Esp = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ah")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ah")]
         Ah = 1,
 
     }
@@ -48600,621 +49371,827 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"virtual")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"virtual")]
         Virtual = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"bridge")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"bridge")]
         Bridge = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lag")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lag")]
         Lag = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100base-fx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100base-fx")]
         _100baseFx = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100base-lfx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100base-lfx")]
         _100baseLfx = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100base-tx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100base-tx")]
         _100baseTx = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100base-t1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100base-t1")]
         _100baseT1 = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-bx10-d")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-bx10-d")]
         _1000baseBx10D = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-bx10-u")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-bx10-u")]
         _1000baseBx10U = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-cwdm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-cwdm")]
         _1000baseCwdm = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-cx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-cx")]
         _1000baseCx = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-dwdm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-dwdm")]
         _1000baseDwdm = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-ex")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-ex")]
         _1000baseEx = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-lsx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-lsx")]
         _1000baseLsx = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-lx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-lx")]
         _1000baseLx = 14,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-lx10")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-lx10")]
         _1000baseLx10 = 15,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-sx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-sx")]
         _1000baseSx = 16,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-t")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-t")]
         _1000baseT = 17,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-tx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-tx")]
         _1000baseTx = 18,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-zx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-zx")]
         _1000baseZx = 19,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.5gbase-t")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.5gbase-t")]
         _2_5gbaseT = 20,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5gbase-t")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5gbase-t")]
         _5gbaseT = 21,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-br-d")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-br-d")]
         _10gbaseBrD = 22,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-br-u")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-br-u")]
         _10gbaseBrU = 23,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-cx4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-cx4")]
         _10gbaseCx4 = 24,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-er")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-er")]
         _10gbaseEr = 25,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-lr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-lr")]
         _10gbaseLr = 26,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-lrm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-lrm")]
         _10gbaseLrm = 27,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-lx4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-lx4")]
         _10gbaseLx4 = 28,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-sr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-sr")]
         _10gbaseSr = 29,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-t")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-t")]
         _10gbaseT = 30,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-zr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-zr")]
         _10gbaseZr = 31,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25gbase-cr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25gbase-cr")]
         _25gbaseCr = 32,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25gbase-er")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25gbase-er")]
         _25gbaseEr = 33,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25gbase-lr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25gbase-lr")]
         _25gbaseLr = 34,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25gbase-sr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25gbase-sr")]
         _25gbaseSr = 35,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25gbase-t")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25gbase-t")]
         _25gbaseT = 36,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40gbase-cr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40gbase-cr4")]
         _40gbaseCr4 = 37,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40gbase-er4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40gbase-er4")]
         _40gbaseEr4 = 38,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40gbase-fr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40gbase-fr4")]
         _40gbaseFr4 = 39,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40gbase-lr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40gbase-lr4")]
         _40gbaseLr4 = 40,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40gbase-sr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40gbase-sr4")]
         _40gbaseSr4 = 41,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50gbase-cr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50gbase-cr")]
         _50gbaseCr = 42,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50gbase-er")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50gbase-er")]
         _50gbaseEr = 43,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50gbase-fr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50gbase-fr")]
         _50gbaseFr = 44,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50gbase-lr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50gbase-lr")]
         _50gbaseLr = 45,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50gbase-sr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50gbase-sr")]
         _50gbaseSr = 46,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-cr1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-cr1")]
         _100gbaseCr1 = 47,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-cr2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-cr2")]
         _100gbaseCr2 = 48,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-cr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-cr4")]
         _100gbaseCr4 = 49,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-cr10")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-cr10")]
         _100gbaseCr10 = 50,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-cwdm4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-cwdm4")]
         _100gbaseCwdm4 = 51,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-dr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-dr")]
         _100gbaseDr = 52,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-er4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-er4")]
         _100gbaseEr4 = 53,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-fr1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-fr1")]
         _100gbaseFr1 = 54,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-lr1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-lr1")]
         _100gbaseLr1 = 55,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-lr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-lr4")]
         _100gbaseLr4 = 56,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-sr1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-sr1")]
         _100gbaseSr1 = 57,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-sr1.2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-sr1.2")]
         _100gbaseSr1_2 = 58,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-sr2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-sr2")]
         _100gbaseSr2 = 59,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-sr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-sr4")]
         _100gbaseSr4 = 60,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-sr10")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-sr10")]
         _100gbaseSr10 = 61,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-zr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-zr")]
         _100gbaseZr = 62,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-cr2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-cr2")]
         _200gbaseCr2 = 63,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-cr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-cr4")]
         _200gbaseCr4 = 64,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-dr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-dr4")]
         _200gbaseDr4 = 65,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-er4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-er4")]
         _200gbaseEr4 = 66,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-fr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-fr4")]
         _200gbaseFr4 = 67,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-lr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-lr4")]
         _200gbaseLr4 = 68,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-sr2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-sr2")]
         _200gbaseSr2 = 69,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-sr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-sr4")]
         _200gbaseSr4 = 70,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-vr2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-vr2")]
         _200gbaseVr2 = 71,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-cr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-cr4")]
         _400gbaseCr4 = 72,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-dr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-dr4")]
         _400gbaseDr4 = 73,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-er8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-er8")]
         _400gbaseEr8 = 74,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-fr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-fr4")]
         _400gbaseFr4 = 75,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-fr8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-fr8")]
         _400gbaseFr8 = 76,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-lr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-lr4")]
         _400gbaseLr4 = 77,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-lr8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-lr8")]
         _400gbaseLr8 = 78,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-sr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-sr4")]
         _400gbaseSr4 = 79,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-sr4_2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-sr4_2")]
         _400gbaseSr4_2 = 80,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-sr8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-sr8")]
         _400gbaseSr8 = 81,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-sr16")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-sr16")]
         _400gbaseSr16 = 82,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-vr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-vr4")]
         _400gbaseVr4 = 83,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-zr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-zr")]
         _400gbaseZr = 84,
 
         [System.Runtime.Serialization.EnumMember(Value = @"800gbase-cr8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"800gbase-cr8")]
         _800gbaseCr8 = 85,
 
         [System.Runtime.Serialization.EnumMember(Value = @"800gbase-dr8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"800gbase-dr8")]
         _800gbaseDr8 = 86,
 
         [System.Runtime.Serialization.EnumMember(Value = @"800gbase-sr8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"800gbase-sr8")]
         _800gbaseSr8 = 87,
 
         [System.Runtime.Serialization.EnumMember(Value = @"800gbase-vr8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"800gbase-vr8")]
         _800gbaseVr8 = 88,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100base-x-sfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100base-x-sfp")]
         _100baseXSfp = 89,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-x-gbic")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-x-gbic")]
         _1000baseXGbic = 90,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-x-sfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-x-sfp")]
         _1000baseXSfp = 91,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-x-sfpp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-x-sfpp")]
         _10gbaseXSfpp = 92,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-x-xenpak")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-x-xenpak")]
         _10gbaseXXenpak = 93,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-x-xfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-x-xfp")]
         _10gbaseXXfp = 94,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-x-x2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-x-x2")]
         _10gbaseXX2 = 95,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25gbase-x-sfp28")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25gbase-x-sfp28")]
         _25gbaseXSfp28 = 96,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40gbase-x-qsfpp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40gbase-x-qsfpp")]
         _40gbaseXQsfpp = 97,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50gbase-x-sfp28")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50gbase-x-sfp28")]
         _50gbaseXSfp28 = 98,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50gbase-x-sfp56")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50gbase-x-sfp56")]
         _50gbaseXSfp56 = 99,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-x-cfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-x-cfp")]
         _100gbaseXCfp = 100,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-x-cfp2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-x-cfp2")]
         _100gbaseXCfp2 = 101,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-x-cfp4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-x-cfp4")]
         _100gbaseXCfp4 = 102,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-x-cxp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-x-cxp")]
         _100gbaseXCxp = 103,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-x-cpak")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-x-cpak")]
         _100gbaseXCpak = 104,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-x-dsfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-x-dsfp")]
         _100gbaseXDsfp = 105,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-x-qsfp28")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-x-qsfp28")]
         _100gbaseXQsfp28 = 106,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-x-qsfpdd")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-x-qsfpdd")]
         _100gbaseXQsfpdd = 107,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-x-sfpdd")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-x-sfpdd")]
         _100gbaseXSfpdd = 108,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-x-cfp2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-x-cfp2")]
         _200gbaseXCfp2 = 109,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-x-qsfp56")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-x-qsfp56")]
         _200gbaseXQsfp56 = 110,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-x-qsfpdd")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-x-qsfpdd")]
         _200gbaseXQsfpdd = 111,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-x-qsfp112")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-x-qsfp112")]
         _400gbaseXQsfp112 = 112,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-x-qsfpdd")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-x-qsfpdd")]
         _400gbaseXQsfpdd = 113,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-x-cdfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-x-cdfp")]
         _400gbaseXCdfp = 114,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-x-cfp2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-x-cfp2")]
         _400gbaseXCfp2 = 115,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-x-cfp8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-x-cfp8")]
         _400gbaseXCfp8 = 116,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-x-osfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-x-osfp")]
         _400gbaseXOsfp = 117,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-x-osfp-rhs")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-x-osfp-rhs")]
         _400gbaseXOsfpRhs = 118,
 
         [System.Runtime.Serialization.EnumMember(Value = @"800gbase-x-osfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"800gbase-x-osfp")]
         _800gbaseXOsfp = 119,
 
         [System.Runtime.Serialization.EnumMember(Value = @"800gbase-x-qsfpdd")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"800gbase-x-qsfpdd")]
         _800gbaseXQsfpdd = 120,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-kx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-kx")]
         _1000baseKx = 121,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.5gbase-kx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.5gbase-kx")]
         _2_5gbaseKx = 122,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5gbase-kr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5gbase-kr")]
         _5gbaseKr = 123,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-kr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-kr")]
         _10gbaseKr = 124,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-kx4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-kx4")]
         _10gbaseKx4 = 125,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25gbase-kr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25gbase-kr")]
         _25gbaseKr = 126,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40gbase-kr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40gbase-kr4")]
         _40gbaseKr4 = 127,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50gbase-kr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50gbase-kr")]
         _50gbaseKr = 128,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-kp4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-kp4")]
         _100gbaseKp4 = 129,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-kr2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-kr2")]
         _100gbaseKr2 = 130,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-kr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-kr4")]
         _100gbaseKr4 = 131,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.11a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.11a")]
         Ieee802_11a = 132,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.11g")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.11g")]
         Ieee802_11g = 133,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.11n")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.11n")]
         Ieee802_11n = 134,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.11ac")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.11ac")]
         Ieee802_11ac = 135,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.11ad")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.11ad")]
         Ieee802_11ad = 136,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.11ax")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.11ax")]
         Ieee802_11ax = 137,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.11ay")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.11ay")]
         Ieee802_11ay = 138,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.11be")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.11be")]
         Ieee802_11be = 139,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.15.1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.15.1")]
         Ieee802_15_1 = 140,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.15.4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.15.4")]
         Ieee802_15_4 = 141,
 
         [System.Runtime.Serialization.EnumMember(Value = @"other-wireless")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"other-wireless")]
         OtherWireless = 142,
 
         [System.Runtime.Serialization.EnumMember(Value = @"gsm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"gsm")]
         Gsm = 143,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cdma")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cdma")]
         Cdma = 144,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lte")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lte")]
         Lte = 145,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4g")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4g")]
         _4g = 146,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g")]
         _5g = 147,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sonet-oc3")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sonet-oc3")]
         SonetOc3 = 148,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sonet-oc12")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sonet-oc12")]
         SonetOc12 = 149,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sonet-oc48")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sonet-oc48")]
         SonetOc48 = 150,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sonet-oc192")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sonet-oc192")]
         SonetOc192 = 151,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sonet-oc768")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sonet-oc768")]
         SonetOc768 = 152,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sonet-oc1920")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sonet-oc1920")]
         SonetOc1920 = 153,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sonet-oc3840")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sonet-oc3840")]
         SonetOc3840 = 154,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1gfc-sfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1gfc-sfp")]
         _1gfcSfp = 155,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2gfc-sfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2gfc-sfp")]
         _2gfcSfp = 156,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4gfc-sfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4gfc-sfp")]
         _4gfcSfp = 157,
 
         [System.Runtime.Serialization.EnumMember(Value = @"8gfc-sfpp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"8gfc-sfpp")]
         _8gfcSfpp = 158,
 
         [System.Runtime.Serialization.EnumMember(Value = @"16gfc-sfpp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"16gfc-sfpp")]
         _16gfcSfpp = 159,
 
         [System.Runtime.Serialization.EnumMember(Value = @"32gfc-sfp28")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"32gfc-sfp28")]
         _32gfcSfp28 = 160,
 
         [System.Runtime.Serialization.EnumMember(Value = @"32gfc-sfpp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"32gfc-sfpp")]
         _32gfcSfpp = 161,
 
         [System.Runtime.Serialization.EnumMember(Value = @"64gfc-qsfpp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"64gfc-qsfpp")]
         _64gfcQsfpp = 162,
 
         [System.Runtime.Serialization.EnumMember(Value = @"64gfc-sfpdd")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"64gfc-sfpdd")]
         _64gfcSfpdd = 163,
 
         [System.Runtime.Serialization.EnumMember(Value = @"64gfc-sfpp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"64gfc-sfpp")]
         _64gfcSfpp = 164,
 
         [System.Runtime.Serialization.EnumMember(Value = @"128gfc-qsfp28")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"128gfc-qsfp28")]
         _128gfcQsfp28 = 165,
 
         [System.Runtime.Serialization.EnumMember(Value = @"infiniband-sdr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"infiniband-sdr")]
         InfinibandSdr = 166,
 
         [System.Runtime.Serialization.EnumMember(Value = @"infiniband-ddr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"infiniband-ddr")]
         InfinibandDdr = 167,
 
         [System.Runtime.Serialization.EnumMember(Value = @"infiniband-qdr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"infiniband-qdr")]
         InfinibandQdr = 168,
 
         [System.Runtime.Serialization.EnumMember(Value = @"infiniband-fdr10")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"infiniband-fdr10")]
         InfinibandFdr10 = 169,
 
         [System.Runtime.Serialization.EnumMember(Value = @"infiniband-fdr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"infiniband-fdr")]
         InfinibandFdr = 170,
 
         [System.Runtime.Serialization.EnumMember(Value = @"infiniband-edr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"infiniband-edr")]
         InfinibandEdr = 171,
 
         [System.Runtime.Serialization.EnumMember(Value = @"infiniband-hdr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"infiniband-hdr")]
         InfinibandHdr = 172,
 
         [System.Runtime.Serialization.EnumMember(Value = @"infiniband-ndr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"infiniband-ndr")]
         InfinibandNdr = 173,
 
         [System.Runtime.Serialization.EnumMember(Value = @"infiniband-xdr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"infiniband-xdr")]
         InfinibandXdr = 174,
 
         [System.Runtime.Serialization.EnumMember(Value = @"t1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"t1")]
         T1 = 175,
 
         [System.Runtime.Serialization.EnumMember(Value = @"e1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"e1")]
         E1 = 176,
 
         [System.Runtime.Serialization.EnumMember(Value = @"t3")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"t3")]
         T3 = 177,
 
         [System.Runtime.Serialization.EnumMember(Value = @"e3")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"e3")]
         E3 = 178,
 
         [System.Runtime.Serialization.EnumMember(Value = @"xdsl")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"xdsl")]
         Xdsl = 179,
 
         [System.Runtime.Serialization.EnumMember(Value = @"docsis")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"docsis")]
         Docsis = 180,
 
         [System.Runtime.Serialization.EnumMember(Value = @"moca")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"moca")]
         Moca = 181,
 
         [System.Runtime.Serialization.EnumMember(Value = @"bpon")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"bpon")]
         Bpon = 182,
 
         [System.Runtime.Serialization.EnumMember(Value = @"epon")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"epon")]
         Epon = 183,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10g-epon")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10g-epon")]
         _10gEpon = 184,
 
         [System.Runtime.Serialization.EnumMember(Value = @"gpon")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"gpon")]
         Gpon = 185,
 
         [System.Runtime.Serialization.EnumMember(Value = @"xg-pon")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"xg-pon")]
         XgPon = 186,
 
         [System.Runtime.Serialization.EnumMember(Value = @"xgs-pon")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"xgs-pon")]
         XgsPon = 187,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ng-pon2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ng-pon2")]
         NgPon2 = 188,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25g-pon")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25g-pon")]
         _25gPon = 189,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50g-pon")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50g-pon")]
         _50gPon = 190,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cisco-stackwise")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cisco-stackwise")]
         CiscoStackwise = 191,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cisco-stackwise-plus")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cisco-stackwise-plus")]
         CiscoStackwisePlus = 192,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cisco-flexstack")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cisco-flexstack")]
         CiscoFlexstack = 193,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cisco-flexstack-plus")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cisco-flexstack-plus")]
         CiscoFlexstackPlus = 194,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cisco-stackwise-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cisco-stackwise-80")]
         CiscoStackwise80 = 195,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cisco-stackwise-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cisco-stackwise-160")]
         CiscoStackwise160 = 196,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cisco-stackwise-320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cisco-stackwise-320")]
         CiscoStackwise320 = 197,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cisco-stackwise-480")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cisco-stackwise-480")]
         CiscoStackwise480 = 198,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cisco-stackwise-1t")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cisco-stackwise-1t")]
         CiscoStackwise1t = 199,
 
         [System.Runtime.Serialization.EnumMember(Value = @"juniper-vcp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"juniper-vcp")]
         JuniperVcp = 200,
 
         [System.Runtime.Serialization.EnumMember(Value = @"extreme-summitstack")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"extreme-summitstack")]
         ExtremeSummitstack = 201,
 
         [System.Runtime.Serialization.EnumMember(Value = @"extreme-summitstack-128")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"extreme-summitstack-128")]
         ExtremeSummitstack128 = 202,
 
         [System.Runtime.Serialization.EnumMember(Value = @"extreme-summitstack-256")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"extreme-summitstack-256")]
         ExtremeSummitstack256 = 203,
 
         [System.Runtime.Serialization.EnumMember(Value = @"extreme-summitstack-512")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"extreme-summitstack-512")]
         ExtremeSummitstack512 = 204,
 
         [System.Runtime.Serialization.EnumMember(Value = @"other")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"other")]
         Other = 205,
 
     }
@@ -49224,621 +50201,827 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Virtual")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Virtual")]
         Virtual = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Bridge")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Bridge")]
         Bridge = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Link Aggregation Group (LAG)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Link Aggregation Group (LAG)")]
         Link_Aggregation_Group__LAG_ = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100BASE-FX (10/100ME)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100BASE-FX (10/100ME)")]
         _100BASEFX__10_100ME_ = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100BASE-LFX (10/100ME)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100BASE-LFX (10/100ME)")]
         _100BASELFX__10_100ME_ = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100BASE-TX (10/100ME)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100BASE-TX (10/100ME)")]
         _100BASETX__10_100ME_ = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100BASE-T1 (10/100ME)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100BASE-T1 (10/100ME)")]
         _100BASET1__10_100ME_ = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000BASE-BX10-D (1GE BiDi Down)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000BASE-BX10-D (1GE BiDi Down)")]
         _1000BASEBX10D__1GE_BiDi_Down_ = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000BASE-BX10-U (1GE BiDi Up)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000BASE-BX10-U (1GE BiDi Up)")]
         _1000BASEBX10U__1GE_BiDi_Up_ = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000BASE-CWDM (1GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000BASE-CWDM (1GE)")]
         _1000BASECWDM__1GE_ = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000BASE-CX (1GE DAC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000BASE-CX (1GE DAC)")]
         _1000BASECX__1GE_DAC_ = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000BASE-DWDM (1GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000BASE-DWDM (1GE)")]
         _1000BASEDWDM__1GE_ = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000BASE-EX (1GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000BASE-EX (1GE)")]
         _1000BASEEX__1GE_ = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000BASE-LSX (1GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000BASE-LSX (1GE)")]
         _1000BASELSX__1GE_ = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000BASE-LX (1GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000BASE-LX (1GE)")]
         _1000BASELX__1GE_ = 14,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000BASE-LX10/LH (1GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000BASE-LX10/LH (1GE)")]
         _1000BASELX10_LH__1GE_ = 15,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000BASE-SX (1GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000BASE-SX (1GE)")]
         _1000BASESX__1GE_ = 16,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000BASE-T (1GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000BASE-T (1GE)")]
         _1000BASET__1GE_ = 17,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000BASE-TX (1GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000BASE-TX (1GE)")]
         _1000BASETX__1GE_ = 18,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000BASE-ZX (1GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000BASE-ZX (1GE)")]
         _1000BASEZX__1GE_ = 19,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.5GBASE-T (2.5GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.5GBASE-T (2.5GE)")]
         _2_5GBASET__2_5GE_ = 20,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5GBASE-T (5GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5GBASE-T (5GE)")]
         _5GBASET__5GE_ = 21,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10GBASE-BR-D (10GE BiDi Down)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10GBASE-BR-D (10GE BiDi Down)")]
         _10GBASEBRD__10GE_BiDi_Down_ = 22,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10GBASE-BR-U (10GE BiDi Up)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10GBASE-BR-U (10GE BiDi Up)")]
         _10GBASEBRU__10GE_BiDi_Up_ = 23,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10GBASE-CX4 (10GE DAC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10GBASE-CX4 (10GE DAC)")]
         _10GBASECX4__10GE_DAC_ = 24,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10GBASE-ER (10GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10GBASE-ER (10GE)")]
         _10GBASEER__10GE_ = 25,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10GBASE-LR (10GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10GBASE-LR (10GE)")]
         _10GBASELR__10GE_ = 26,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10GBASE-LRM (10GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10GBASE-LRM (10GE)")]
         _10GBASELRM__10GE_ = 27,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10GBASE-LX4 (10GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10GBASE-LX4 (10GE)")]
         _10GBASELX4__10GE_ = 28,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10GBASE-SR (10GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10GBASE-SR (10GE)")]
         _10GBASESR__10GE_ = 29,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10GBASE-T (10GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10GBASE-T (10GE)")]
         _10GBASET__10GE_ = 30,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10GBASE-ZR (10GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10GBASE-ZR (10GE)")]
         _10GBASEZR__10GE_ = 31,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25GBASE-CR (25GE DAC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25GBASE-CR (25GE DAC)")]
         _25GBASECR__25GE_DAC_ = 32,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25GBASE-ER (25GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25GBASE-ER (25GE)")]
         _25GBASEER__25GE_ = 33,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25GBASE-LR (25GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25GBASE-LR (25GE)")]
         _25GBASELR__25GE_ = 34,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25GBASE-SR (25GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25GBASE-SR (25GE)")]
         _25GBASESR__25GE_ = 35,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25GBASE-T (25GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25GBASE-T (25GE)")]
         _25GBASET__25GE_ = 36,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40GBASE-CR4 (40GE DAC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40GBASE-CR4 (40GE DAC)")]
         _40GBASECR4__40GE_DAC_ = 37,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40GBASE-ER4 (40GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40GBASE-ER4 (40GE)")]
         _40GBASEER4__40GE_ = 38,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40GBASE-FR4 (40GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40GBASE-FR4 (40GE)")]
         _40GBASEFR4__40GE_ = 39,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40GBASE-LR4 (40GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40GBASE-LR4 (40GE)")]
         _40GBASELR4__40GE_ = 40,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40GBASE-SR4 (40GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40GBASE-SR4 (40GE)")]
         _40GBASESR4__40GE_ = 41,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50GBASE-CR (50GE DAC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50GBASE-CR (50GE DAC)")]
         _50GBASECR__50GE_DAC_ = 42,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50GBASE-ER (50GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50GBASE-ER (50GE)")]
         _50GBASEER__50GE_ = 43,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50GBASE-FR (50GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50GBASE-FR (50GE)")]
         _50GBASEFR__50GE_ = 44,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50GBASE-LR (50GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50GBASE-LR (50GE)")]
         _50GBASELR__50GE_ = 45,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50GBASE-SR (50GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50GBASE-SR (50GE)")]
         _50GBASESR__50GE_ = 46,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100GBASE-CR1 (100GE DAC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100GBASE-CR1 (100GE DAC)")]
         _100GBASECR1__100GE_DAC_ = 47,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100GBASE-CR2 (100GE DAC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100GBASE-CR2 (100GE DAC)")]
         _100GBASECR2__100GE_DAC_ = 48,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100GBASE-CR4 (100GE DAC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100GBASE-CR4 (100GE DAC)")]
         _100GBASECR4__100GE_DAC_ = 49,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100GBASE-CR10 (100GE DAC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100GBASE-CR10 (100GE DAC)")]
         _100GBASECR10__100GE_DAC_ = 50,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100GBASE-CWDM4 (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100GBASE-CWDM4 (100GE)")]
         _100GBASECWDM4__100GE_ = 51,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100GBASE-DR (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100GBASE-DR (100GE)")]
         _100GBASEDR__100GE_ = 52,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100GBASE-ER4 (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100GBASE-ER4 (100GE)")]
         _100GBASEER4__100GE_ = 53,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100GBASE-FR1 (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100GBASE-FR1 (100GE)")]
         _100GBASEFR1__100GE_ = 54,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100GBASE-LR1 (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100GBASE-LR1 (100GE)")]
         _100GBASELR1__100GE_ = 55,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100GBASE-LR4 (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100GBASE-LR4 (100GE)")]
         _100GBASELR4__100GE_ = 56,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100GBASE-SR1 (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100GBASE-SR1 (100GE)")]
         _100GBASESR1__100GE_ = 57,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100GBASE-SR1.2 (100GE BiDi)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100GBASE-SR1.2 (100GE BiDi)")]
         _100GBASESR1_2__100GE_BiDi_ = 58,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100GBASE-SR2 (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100GBASE-SR2 (100GE)")]
         _100GBASESR2__100GE_ = 59,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100GBASE-SR4 (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100GBASE-SR4 (100GE)")]
         _100GBASESR4__100GE_ = 60,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100GBASE-SR10 (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100GBASE-SR10 (100GE)")]
         _100GBASESR10__100GE_ = 61,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100GBASE-ZR (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100GBASE-ZR (100GE)")]
         _100GBASEZR__100GE_ = 62,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200GBASE-CR2 (200GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200GBASE-CR2 (200GE)")]
         _200GBASECR2__200GE_ = 63,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200GBASE-CR4 (200GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200GBASE-CR4 (200GE)")]
         _200GBASECR4__200GE_ = 64,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200GBASE-DR4 (200GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200GBASE-DR4 (200GE)")]
         _200GBASEDR4__200GE_ = 65,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200GBASE-ER4 (200GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200GBASE-ER4 (200GE)")]
         _200GBASEER4__200GE_ = 66,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200GBASE-FR4 (200GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200GBASE-FR4 (200GE)")]
         _200GBASEFR4__200GE_ = 67,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200GBASE-LR4 (200GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200GBASE-LR4 (200GE)")]
         _200GBASELR4__200GE_ = 68,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200GBASE-SR2 (200GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200GBASE-SR2 (200GE)")]
         _200GBASESR2__200GE_ = 69,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200GBASE-SR4 (200GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200GBASE-SR4 (200GE)")]
         _200GBASESR4__200GE_ = 70,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200GBASE-VR2 (200GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200GBASE-VR2 (200GE)")]
         _200GBASEVR2__200GE_ = 71,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400GBASE-CR4 (400GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400GBASE-CR4 (400GE)")]
         _400GBASECR4__400GE_ = 72,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400GBASE-DR4 (400GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400GBASE-DR4 (400GE)")]
         _400GBASEDR4__400GE_ = 73,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400GBASE-ER8 (400GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400GBASE-ER8 (400GE)")]
         _400GBASEER8__400GE_ = 74,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400GBASE-FR4 (400GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400GBASE-FR4 (400GE)")]
         _400GBASEFR4__400GE_ = 75,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400GBASE-FR8 (400GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400GBASE-FR8 (400GE)")]
         _400GBASEFR8__400GE_ = 76,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400GBASE-LR4 (400GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400GBASE-LR4 (400GE)")]
         _400GBASELR4__400GE_ = 77,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400GBASE-LR8 (400GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400GBASE-LR8 (400GE)")]
         _400GBASELR8__400GE_ = 78,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400GBASE-SR4 (400GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400GBASE-SR4 (400GE)")]
         _400GBASESR4__400GE_ = 79,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400GBASE-SR4.2 (400GE BiDi)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400GBASE-SR4.2 (400GE BiDi)")]
         _400GBASESR4_2__400GE_BiDi_ = 80,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400GBASE-SR8 (400GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400GBASE-SR8 (400GE)")]
         _400GBASESR8__400GE_ = 81,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400GBASE-SR16 (400GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400GBASE-SR16 (400GE)")]
         _400GBASESR16__400GE_ = 82,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400GBASE-VR4 (400GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400GBASE-VR4 (400GE)")]
         _400GBASEVR4__400GE_ = 83,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400GBASE-ZR (400GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400GBASE-ZR (400GE)")]
         _400GBASEZR__400GE_ = 84,
 
         [System.Runtime.Serialization.EnumMember(Value = @"800GBASE-CR8 (800GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"800GBASE-CR8 (800GE)")]
         _800GBASECR8__800GE_ = 85,
 
         [System.Runtime.Serialization.EnumMember(Value = @"800GBASE-DR8 (800GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"800GBASE-DR8 (800GE)")]
         _800GBASEDR8__800GE_ = 86,
 
         [System.Runtime.Serialization.EnumMember(Value = @"800GBASE-SR8 (800GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"800GBASE-SR8 (800GE)")]
         _800GBASESR8__800GE_ = 87,
 
         [System.Runtime.Serialization.EnumMember(Value = @"800GBASE-VR8 (800GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"800GBASE-VR8 (800GE)")]
         _800GBASEVR8__800GE_ = 88,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SFP (100ME)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SFP (100ME)")]
         SFP__100ME_ = 89,
 
         [System.Runtime.Serialization.EnumMember(Value = @"GBIC (1GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"GBIC (1GE)")]
         GBIC__1GE_ = 90,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SFP (1GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SFP (1GE)")]
         SFP__1GE_ = 91,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SFP+ (10GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SFP+ (10GE)")]
         SFP___10GE_ = 92,
 
         [System.Runtime.Serialization.EnumMember(Value = @"XENPAK (10GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"XENPAK (10GE)")]
         XENPAK__10GE_ = 93,
 
         [System.Runtime.Serialization.EnumMember(Value = @"XFP (10GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"XFP (10GE)")]
         XFP__10GE_ = 94,
 
         [System.Runtime.Serialization.EnumMember(Value = @"X2 (10GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"X2 (10GE)")]
         X2__10GE_ = 95,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SFP28 (25GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SFP28 (25GE)")]
         SFP28__25GE_ = 96,
 
         [System.Runtime.Serialization.EnumMember(Value = @"QSFP+ (40GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"QSFP+ (40GE)")]
         QSFP___40GE_ = 97,
 
         [System.Runtime.Serialization.EnumMember(Value = @"QSFP28 (50GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"QSFP28 (50GE)")]
         QSFP28__50GE_ = 98,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SFP56 (50GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SFP56 (50GE)")]
         SFP56__50GE_ = 99,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CFP (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CFP (100GE)")]
         CFP__100GE_ = 100,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CFP2 (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CFP2 (100GE)")]
         CFP2__100GE_ = 101,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CFP4 (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CFP4 (100GE)")]
         CFP4__100GE_ = 102,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CXP (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CXP (100GE)")]
         CXP__100GE_ = 103,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Cisco CPAK (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Cisco CPAK (100GE)")]
         Cisco_CPAK__100GE_ = 104,
 
         [System.Runtime.Serialization.EnumMember(Value = @"DSFP (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"DSFP (100GE)")]
         DSFP__100GE_ = 105,
 
         [System.Runtime.Serialization.EnumMember(Value = @"QSFP28 (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"QSFP28 (100GE)")]
         QSFP28__100GE_ = 106,
 
         [System.Runtime.Serialization.EnumMember(Value = @"QSFP-DD (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"QSFP-DD (100GE)")]
         QSFPDD__100GE_ = 107,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SFP-DD (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SFP-DD (100GE)")]
         SFPDD__100GE_ = 108,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CFP2 (200GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CFP2 (200GE)")]
         CFP2__200GE_ = 109,
 
         [System.Runtime.Serialization.EnumMember(Value = @"QSFP56 (200GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"QSFP56 (200GE)")]
         QSFP56__200GE_ = 110,
 
         [System.Runtime.Serialization.EnumMember(Value = @"QSFP-DD (200GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"QSFP-DD (200GE)")]
         QSFPDD__200GE_ = 111,
 
         [System.Runtime.Serialization.EnumMember(Value = @"QSFP112 (400GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"QSFP112 (400GE)")]
         QSFP112__400GE_ = 112,
 
         [System.Runtime.Serialization.EnumMember(Value = @"QSFP-DD (400GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"QSFP-DD (400GE)")]
         QSFPDD__400GE_ = 113,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CDFP (400GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CDFP (400GE)")]
         CDFP__400GE_ = 114,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CFP2 (400GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CFP2 (400GE)")]
         CFP2__400GE_ = 115,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CPF8 (400GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CPF8 (400GE)")]
         CPF8__400GE_ = 116,
 
         [System.Runtime.Serialization.EnumMember(Value = @"OSFP (400GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"OSFP (400GE)")]
         OSFP__400GE_ = 117,
 
         [System.Runtime.Serialization.EnumMember(Value = @"OSFP-RHS (400GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"OSFP-RHS (400GE)")]
         OSFPRHS__400GE_ = 118,
 
         [System.Runtime.Serialization.EnumMember(Value = @"OSFP (800GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"OSFP (800GE)")]
         OSFP__800GE_ = 119,
 
         [System.Runtime.Serialization.EnumMember(Value = @"QSFP-DD (800GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"QSFP-DD (800GE)")]
         QSFPDD__800GE_ = 120,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000BASE-KX (1GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000BASE-KX (1GE)")]
         _1000BASEKX__1GE_ = 121,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.5GBASE-KX (2.5GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.5GBASE-KX (2.5GE)")]
         _2_5GBASEKX__2_5GE_ = 122,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5GBASE-KR (5GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5GBASE-KR (5GE)")]
         _5GBASEKR__5GE_ = 123,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10GBASE-KR (10GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10GBASE-KR (10GE)")]
         _10GBASEKR__10GE_ = 124,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10GBASE-KX4 (10GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10GBASE-KX4 (10GE)")]
         _10GBASEKX4__10GE_ = 125,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25GBASE-KR (25GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25GBASE-KR (25GE)")]
         _25GBASEKR__25GE_ = 126,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40GBASE-KR4 (40GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40GBASE-KR4 (40GE)")]
         _40GBASEKR4__40GE_ = 127,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50GBASE-KR (50GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50GBASE-KR (50GE)")]
         _50GBASEKR__50GE_ = 128,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100GBASE-KP4 (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100GBASE-KP4 (100GE)")]
         _100GBASEKP4__100GE_ = 129,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100GBASE-KR2 (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100GBASE-KR2 (100GE)")]
         _100GBASEKR2__100GE_ = 130,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100GBASE-KR4 (100GE)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100GBASE-KR4 (100GE)")]
         _100GBASEKR4__100GE_ = 131,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IEEE 802.11a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IEEE 802.11a")]
         IEEE_802_11a = 132,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IEEE 802.11b/g")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IEEE 802.11b/g")]
         IEEE_802_11b_g = 133,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IEEE 802.11n (Wi-Fi 4)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IEEE 802.11n (Wi-Fi 4)")]
         IEEE_802_11n__WiFi_4_ = 134,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IEEE 802.11ac (Wi-Fi 5)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IEEE 802.11ac (Wi-Fi 5)")]
         IEEE_802_11ac__WiFi_5_ = 135,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IEEE 802.11ad (WiGig)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IEEE 802.11ad (WiGig)")]
         IEEE_802_11ad__WiGig_ = 136,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IEEE 802.11ax (Wi-Fi 6)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IEEE 802.11ax (Wi-Fi 6)")]
         IEEE_802_11ax__WiFi_6_ = 137,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IEEE 802.11ay (WiGig)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IEEE 802.11ay (WiGig)")]
         IEEE_802_11ay__WiGig_ = 138,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IEEE 802.11be (Wi-Fi 7)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IEEE 802.11be (Wi-Fi 7)")]
         IEEE_802_11be__WiFi_7_ = 139,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IEEE 802.15.1 (Bluetooth)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IEEE 802.15.1 (Bluetooth)")]
         IEEE_802_15_1__Bluetooth_ = 140,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IEEE 802.15.4 (LR-WPAN)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IEEE 802.15.4 (LR-WPAN)")]
         IEEE_802_15_4__LRWPAN_ = 141,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Other (Wireless)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Other (Wireless)")]
         Other__Wireless_ = 142,
 
         [System.Runtime.Serialization.EnumMember(Value = @"GSM")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"GSM")]
         GSM = 143,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CDMA")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CDMA")]
         CDMA = 144,
 
         [System.Runtime.Serialization.EnumMember(Value = @"LTE")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"LTE")]
         LTE = 145,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4G")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4G")]
         _4G = 146,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5G")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5G")]
         _5G = 147,
 
         [System.Runtime.Serialization.EnumMember(Value = @"OC-3/STM-1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"OC-3/STM-1")]
         OC3_STM1 = 148,
 
         [System.Runtime.Serialization.EnumMember(Value = @"OC-12/STM-4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"OC-12/STM-4")]
         OC12_STM4 = 149,
 
         [System.Runtime.Serialization.EnumMember(Value = @"OC-48/STM-16")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"OC-48/STM-16")]
         OC48_STM16 = 150,
 
         [System.Runtime.Serialization.EnumMember(Value = @"OC-192/STM-64")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"OC-192/STM-64")]
         OC192_STM64 = 151,
 
         [System.Runtime.Serialization.EnumMember(Value = @"OC-768/STM-256")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"OC-768/STM-256")]
         OC768_STM256 = 152,
 
         [System.Runtime.Serialization.EnumMember(Value = @"OC-1920/STM-640")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"OC-1920/STM-640")]
         OC1920_STM640 = 153,
 
         [System.Runtime.Serialization.EnumMember(Value = @"OC-3840/STM-1234")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"OC-3840/STM-1234")]
         OC3840_STM1234 = 154,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SFP (1GFC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SFP (1GFC)")]
         SFP__1GFC_ = 155,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SFP (2GFC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SFP (2GFC)")]
         SFP__2GFC_ = 156,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SFP (4GFC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SFP (4GFC)")]
         SFP__4GFC_ = 157,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SFP+ (8GFC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SFP+ (8GFC)")]
         SFP___8GFC_ = 158,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SFP+ (16GFC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SFP+ (16GFC)")]
         SFP___16GFC_ = 159,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SFP28 (32GFC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SFP28 (32GFC)")]
         SFP28__32GFC_ = 160,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SFP+ (32GFC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SFP+ (32GFC)")]
         SFP___32GFC_ = 161,
 
         [System.Runtime.Serialization.EnumMember(Value = @"QSFP+ (64GFC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"QSFP+ (64GFC)")]
         QSFP___64GFC_ = 162,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SFP-DD (64GFC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SFP-DD (64GFC)")]
         SFPDD__64GFC_ = 163,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SFP+ (64GFC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SFP+ (64GFC)")]
         SFP___64GFC_ = 164,
 
         [System.Runtime.Serialization.EnumMember(Value = @"QSFP28 (128GFC)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"QSFP28 (128GFC)")]
         QSFP28__128GFC_ = 165,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SDR (2 Gbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SDR (2 Gbps)")]
         SDR__2_Gbps_ = 166,
 
         [System.Runtime.Serialization.EnumMember(Value = @"DDR (4 Gbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"DDR (4 Gbps)")]
         DDR__4_Gbps_ = 167,
 
         [System.Runtime.Serialization.EnumMember(Value = @"QDR (8 Gbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"QDR (8 Gbps)")]
         QDR__8_Gbps_ = 168,
 
         [System.Runtime.Serialization.EnumMember(Value = @"FDR10 (10 Gbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"FDR10 (10 Gbps)")]
         FDR10__10_Gbps_ = 169,
 
         [System.Runtime.Serialization.EnumMember(Value = @"FDR (13.5 Gbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"FDR (13.5 Gbps)")]
         FDR__13_5_Gbps_ = 170,
 
         [System.Runtime.Serialization.EnumMember(Value = @"EDR (25 Gbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"EDR (25 Gbps)")]
         EDR__25_Gbps_ = 171,
 
         [System.Runtime.Serialization.EnumMember(Value = @"HDR (50 Gbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"HDR (50 Gbps)")]
         HDR__50_Gbps_ = 172,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NDR (100 Gbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NDR (100 Gbps)")]
         NDR__100_Gbps_ = 173,
 
         [System.Runtime.Serialization.EnumMember(Value = @"XDR (250 Gbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"XDR (250 Gbps)")]
         XDR__250_Gbps_ = 174,
 
         [System.Runtime.Serialization.EnumMember(Value = @"T1 (1.544 Mbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"T1 (1.544 Mbps)")]
         T1__1_544_Mbps_ = 175,
 
         [System.Runtime.Serialization.EnumMember(Value = @"E1 (2.048 Mbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"E1 (2.048 Mbps)")]
         E1__2_048_Mbps_ = 176,
 
         [System.Runtime.Serialization.EnumMember(Value = @"T3 (45 Mbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"T3 (45 Mbps)")]
         T3__45_Mbps_ = 177,
 
         [System.Runtime.Serialization.EnumMember(Value = @"E3 (34 Mbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"E3 (34 Mbps)")]
         E3__34_Mbps_ = 178,
 
         [System.Runtime.Serialization.EnumMember(Value = @"xDSL")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"xDSL")]
         XDSL = 179,
 
         [System.Runtime.Serialization.EnumMember(Value = @"DOCSIS")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"DOCSIS")]
         DOCSIS = 180,
 
         [System.Runtime.Serialization.EnumMember(Value = @"MoCA")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"MoCA")]
         MoCA = 181,
 
         [System.Runtime.Serialization.EnumMember(Value = @"BPON (622 Mbps / 155 Mbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"BPON (622 Mbps / 155 Mbps)")]
         BPON__622_Mbps___155_Mbps_ = 182,
 
         [System.Runtime.Serialization.EnumMember(Value = @"EPON (1 Gbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"EPON (1 Gbps)")]
         EPON__1_Gbps_ = 183,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10G-EPON (10 Gbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10G-EPON (10 Gbps)")]
         _10GEPON__10_Gbps_ = 184,
 
         [System.Runtime.Serialization.EnumMember(Value = @"GPON (2.5 Gbps / 1.25 Gbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"GPON (2.5 Gbps / 1.25 Gbps)")]
         GPON__2_5_Gbps___1_25_Gbps_ = 185,
 
         [System.Runtime.Serialization.EnumMember(Value = @"XG-PON (10 Gbps / 2.5 Gbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"XG-PON (10 Gbps / 2.5 Gbps)")]
         XGPON__10_Gbps___2_5_Gbps_ = 186,
 
         [System.Runtime.Serialization.EnumMember(Value = @"XGS-PON (10 Gbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"XGS-PON (10 Gbps)")]
         XGSPON__10_Gbps_ = 187,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NG-PON2 (TWDM-PON) (4x10 Gbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NG-PON2 (TWDM-PON) (4x10 Gbps)")]
         NGPON2__TWDMPON___4x10_Gbps_ = 188,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25G-PON (25 Gbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25G-PON (25 Gbps)")]
         _25GPON__25_Gbps_ = 189,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50G-PON (50 Gbps)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50G-PON (50 Gbps)")]
         _50GPON__50_Gbps_ = 190,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Cisco StackWise")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Cisco StackWise")]
         Cisco_StackWise = 191,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Cisco StackWise Plus")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Cisco StackWise Plus")]
         Cisco_StackWise_Plus = 192,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Cisco FlexStack")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Cisco FlexStack")]
         Cisco_FlexStack = 193,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Cisco FlexStack Plus")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Cisco FlexStack Plus")]
         Cisco_FlexStack_Plus = 194,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Cisco StackWise-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Cisco StackWise-80")]
         Cisco_StackWise80 = 195,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Cisco StackWise-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Cisco StackWise-160")]
         Cisco_StackWise160 = 196,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Cisco StackWise-320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Cisco StackWise-320")]
         Cisco_StackWise320 = 197,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Cisco StackWise-480")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Cisco StackWise-480")]
         Cisco_StackWise480 = 198,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Cisco StackWise-1T")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Cisco StackWise-1T")]
         Cisco_StackWise1T = 199,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Juniper VCP")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Juniper VCP")]
         Juniper_VCP = 200,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Extreme SummitStack")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Extreme SummitStack")]
         Extreme_SummitStack = 201,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Extreme SummitStack-128")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Extreme SummitStack-128")]
         Extreme_SummitStack128 = 202,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Extreme SummitStack-256")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Extreme SummitStack-256")]
         Extreme_SummitStack256 = 203,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Extreme SummitStack-512")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Extreme SummitStack-512")]
         Extreme_SummitStack512 = 204,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Other")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Other")]
         Other = 205,
 
     }
@@ -49848,15 +51031,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"half")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"half")]
         Half = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"full")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"full")]
         Full = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"auto")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"auto")]
         Auto = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 3,
 
     }
@@ -49866,12 +51053,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Half")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Half")]
         Half = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Full")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Full")]
         Full = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Auto")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Auto")]
         Auto = 2,
 
     }
@@ -49881,18 +51071,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"access")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"access")]
         Access = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"tagged")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"tagged")]
         Tagged = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"tagged-all")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"tagged-all")]
         TaggedAll = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"q-in-q")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"q-in-q")]
         QInQ = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 4,
 
     }
@@ -49902,15 +51097,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Access")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Access")]
         Access = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Tagged")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Tagged")]
         Tagged = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Tagged (All)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Tagged (All)")]
         Tagged__All_ = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Q-in-Q (802.1ad)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Q-in-Q (802.1ad)")]
         QInQ__802_1ad_ = 3,
 
     }
@@ -49920,12 +51119,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"ap")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ap")]
         Ap = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"station")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"station")]
         Station = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 2,
 
     }
@@ -49935,9 +51137,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Access point")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Access point")]
         Access_point = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Station")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Station")]
         Station = 1,
 
     }
@@ -49947,597 +51151,795 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-1-2412-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-1-2412-22")]
         _2_4g1241222 = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-2-2417-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-2-2417-22")]
         _2_4g2241722 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-3-2422-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-3-2422-22")]
         _2_4g3242222 = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-4-2427-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-4-2427-22")]
         _2_4g4242722 = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-5-2432-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-5-2432-22")]
         _2_4g5243222 = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-6-2437-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-6-2437-22")]
         _2_4g6243722 = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-7-2442-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-7-2442-22")]
         _2_4g7244222 = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-8-2447-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-8-2447-22")]
         _2_4g8244722 = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-9-2452-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-9-2452-22")]
         _2_4g9245222 = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-10-2457-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-10-2457-22")]
         _2_4g10245722 = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-11-2462-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-11-2462-22")]
         _2_4g11246222 = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-12-2467-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-12-2467-22")]
         _2_4g12246722 = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-13-2472-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-13-2472-22")]
         _2_4g13247222 = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-32-5160-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-32-5160-20")]
         _5g32516020 = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-34-5170-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-34-5170-40")]
         _5g34517040 = 14,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-36-5180-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-36-5180-20")]
         _5g36518020 = 15,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-38-5190-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-38-5190-40")]
         _5g38519040 = 16,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-40-5200-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-40-5200-20")]
         _5g40520020 = 17,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-42-5210-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-42-5210-80")]
         _5g42521080 = 18,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-44-5220-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-44-5220-20")]
         _5g44522020 = 19,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-46-5230-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-46-5230-40")]
         _5g46523040 = 20,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-48-5240-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-48-5240-20")]
         _5g48524020 = 21,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-50-5250-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-50-5250-160")]
         _5g505250160 = 22,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-52-5260-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-52-5260-20")]
         _5g52526020 = 23,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-54-5270-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-54-5270-40")]
         _5g54527040 = 24,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-56-5280-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-56-5280-20")]
         _5g56528020 = 25,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-58-5290-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-58-5290-80")]
         _5g58529080 = 26,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-60-5300-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-60-5300-20")]
         _5g60530020 = 27,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-62-5310-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-62-5310-40")]
         _5g62531040 = 28,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-64-5320-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-64-5320-20")]
         _5g64532020 = 29,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-100-5500-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-100-5500-20")]
         _5g100550020 = 30,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-102-5510-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-102-5510-40")]
         _5g102551040 = 31,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-104-5520-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-104-5520-20")]
         _5g104552020 = 32,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-106-5530-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-106-5530-80")]
         _5g106553080 = 33,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-108-5540-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-108-5540-20")]
         _5g108554020 = 34,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-110-5550-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-110-5550-40")]
         _5g110555040 = 35,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-112-5560-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-112-5560-20")]
         _5g112556020 = 36,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-114-5570-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-114-5570-160")]
         _5g1145570160 = 37,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-116-5580-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-116-5580-20")]
         _5g116558020 = 38,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-118-5590-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-118-5590-40")]
         _5g118559040 = 39,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-120-5600-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-120-5600-20")]
         _5g120560020 = 40,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-122-5610-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-122-5610-80")]
         _5g122561080 = 41,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-124-5620-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-124-5620-20")]
         _5g124562020 = 42,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-126-5630-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-126-5630-40")]
         _5g126563040 = 43,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-128-5640-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-128-5640-20")]
         _5g128564020 = 44,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-132-5660-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-132-5660-20")]
         _5g132566020 = 45,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-134-5670-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-134-5670-40")]
         _5g134567040 = 46,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-136-5680-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-136-5680-20")]
         _5g136568020 = 47,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-138-5690-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-138-5690-80")]
         _5g138569080 = 48,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-140-5700-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-140-5700-20")]
         _5g140570020 = 49,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-142-5710-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-142-5710-40")]
         _5g142571040 = 50,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-144-5720-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-144-5720-20")]
         _5g144572020 = 51,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-149-5745-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-149-5745-20")]
         _5g149574520 = 52,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-151-5755-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-151-5755-40")]
         _5g151575540 = 53,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-153-5765-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-153-5765-20")]
         _5g153576520 = 54,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-155-5775-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-155-5775-80")]
         _5g155577580 = 55,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-157-5785-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-157-5785-20")]
         _5g157578520 = 56,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-159-5795-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-159-5795-40")]
         _5g159579540 = 57,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-161-5805-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-161-5805-20")]
         _5g161580520 = 58,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-163-5815-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-163-5815-160")]
         _5g1635815160 = 59,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-165-5825-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-165-5825-20")]
         _5g165582520 = 60,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-167-5835-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-167-5835-40")]
         _5g167583540 = 61,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-169-5845-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-169-5845-20")]
         _5g169584520 = 62,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-171-5855-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-171-5855-80")]
         _5g171585580 = 63,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-173-5865-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-173-5865-20")]
         _5g173586520 = 64,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-175-5875-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-175-5875-40")]
         _5g175587540 = 65,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-177-5885-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-177-5885-20")]
         _5g177588520 = 66,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-1-5955-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-1-5955-20")]
         _6g1595520 = 67,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-3-5965-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-3-5965-40")]
         _6g3596540 = 68,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-5-5975-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-5-5975-20")]
         _6g5597520 = 69,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-7-5985-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-7-5985-80")]
         _6g7598580 = 70,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-9-5995-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-9-5995-20")]
         _6g9599520 = 71,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-11-6005-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-11-6005-40")]
         _6g11600540 = 72,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-13-6015-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-13-6015-20")]
         _6g13601520 = 73,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-15-6025-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-15-6025-160")]
         _6g156025160 = 74,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-17-6035-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-17-6035-20")]
         _6g17603520 = 75,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-19-6045-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-19-6045-40")]
         _6g19604540 = 76,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-21-6055-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-21-6055-20")]
         _6g21605520 = 77,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-23-6065-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-23-6065-80")]
         _6g23606580 = 78,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-25-6075-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-25-6075-20")]
         _6g25607520 = 79,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-27-6085-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-27-6085-40")]
         _6g27608540 = 80,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-29-6095-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-29-6095-20")]
         _6g29609520 = 81,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-31-6105-320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-31-6105-320")]
         _6g316105320 = 82,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-33-6115-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-33-6115-20")]
         _6g33611520 = 83,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-35-6125-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-35-6125-40")]
         _6g35612540 = 84,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-37-6135-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-37-6135-20")]
         _6g37613520 = 85,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-39-6145-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-39-6145-80")]
         _6g39614580 = 86,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-41-6155-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-41-6155-20")]
         _6g41615520 = 87,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-43-6165-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-43-6165-40")]
         _6g43616540 = 88,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-45-6175-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-45-6175-20")]
         _6g45617520 = 89,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-47-6185-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-47-6185-160")]
         _6g476185160 = 90,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-49-6195-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-49-6195-20")]
         _6g49619520 = 91,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-51-6205-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-51-6205-40")]
         _6g51620540 = 92,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-53-6215-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-53-6215-20")]
         _6g53621520 = 93,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-55-6225-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-55-6225-80")]
         _6g55622580 = 94,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-57-6235-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-57-6235-20")]
         _6g57623520 = 95,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-59-6245-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-59-6245-40")]
         _6g59624540 = 96,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-61-6255-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-61-6255-20")]
         _6g61625520 = 97,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-65-6275-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-65-6275-20")]
         _6g65627520 = 98,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-67-6285-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-67-6285-40")]
         _6g67628540 = 99,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-69-6295-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-69-6295-20")]
         _6g69629520 = 100,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-71-6305-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-71-6305-80")]
         _6g71630580 = 101,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-73-6315-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-73-6315-20")]
         _6g73631520 = 102,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-75-6325-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-75-6325-40")]
         _6g75632540 = 103,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-77-6335-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-77-6335-20")]
         _6g77633520 = 104,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-79-6345-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-79-6345-160")]
         _6g796345160 = 105,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-81-6355-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-81-6355-20")]
         _6g81635520 = 106,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-83-6365-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-83-6365-40")]
         _6g83636540 = 107,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-85-6375-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-85-6375-20")]
         _6g85637520 = 108,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-87-6385-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-87-6385-80")]
         _6g87638580 = 109,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-89-6395-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-89-6395-20")]
         _6g89639520 = 110,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-91-6405-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-91-6405-40")]
         _6g91640540 = 111,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-93-6415-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-93-6415-20")]
         _6g93641520 = 112,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-95-6425-320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-95-6425-320")]
         _6g956425320 = 113,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-97-6435-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-97-6435-20")]
         _6g97643520 = 114,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-99-6445-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-99-6445-40")]
         _6g99644540 = 115,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-101-6455-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-101-6455-20")]
         _6g101645520 = 116,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-103-6465-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-103-6465-80")]
         _6g103646580 = 117,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-105-6475-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-105-6475-20")]
         _6g105647520 = 118,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-107-6485-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-107-6485-40")]
         _6g107648540 = 119,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-109-6495-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-109-6495-20")]
         _6g109649520 = 120,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-111-6505-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-111-6505-160")]
         _6g1116505160 = 121,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-113-6515-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-113-6515-20")]
         _6g113651520 = 122,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-115-6525-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-115-6525-40")]
         _6g115652540 = 123,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-117-6535-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-117-6535-20")]
         _6g117653520 = 124,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-119-6545-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-119-6545-80")]
         _6g119654580 = 125,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-121-6555-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-121-6555-20")]
         _6g121655520 = 126,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-123-6565-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-123-6565-40")]
         _6g123656540 = 127,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-125-6575-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-125-6575-20")]
         _6g125657520 = 128,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-129-6595-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-129-6595-20")]
         _6g129659520 = 129,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-131-6605-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-131-6605-40")]
         _6g131660540 = 130,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-133-6615-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-133-6615-20")]
         _6g133661520 = 131,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-135-6625-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-135-6625-80")]
         _6g135662580 = 132,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-137-6635-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-137-6635-20")]
         _6g137663520 = 133,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-139-6645-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-139-6645-40")]
         _6g139664540 = 134,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-141-6655-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-141-6655-20")]
         _6g141665520 = 135,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-143-6665-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-143-6665-160")]
         _6g1436665160 = 136,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-145-6675-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-145-6675-20")]
         _6g145667520 = 137,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-147-6685-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-147-6685-40")]
         _6g147668540 = 138,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-149-6695-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-149-6695-20")]
         _6g149669520 = 139,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-151-6705-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-151-6705-80")]
         _6g151670580 = 140,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-153-6715-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-153-6715-20")]
         _6g153671520 = 141,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-155-6725-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-155-6725-40")]
         _6g155672540 = 142,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-157-6735-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-157-6735-20")]
         _6g157673520 = 143,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-159-6745-320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-159-6745-320")]
         _6g1596745320 = 144,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-161-6755-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-161-6755-20")]
         _6g161675520 = 145,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-163-6765-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-163-6765-40")]
         _6g163676540 = 146,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-165-6775-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-165-6775-20")]
         _6g165677520 = 147,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-167-6785-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-167-6785-80")]
         _6g167678580 = 148,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-169-6795-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-169-6795-20")]
         _6g169679520 = 149,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-171-6805-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-171-6805-40")]
         _6g171680540 = 150,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-173-6815-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-173-6815-20")]
         _6g173681520 = 151,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-175-6825-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-175-6825-160")]
         _6g1756825160 = 152,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-177-6835-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-177-6835-20")]
         _6g177683520 = 153,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-179-6845-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-179-6845-40")]
         _6g179684540 = 154,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-181-6855-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-181-6855-20")]
         _6g181685520 = 155,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-183-6865-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-183-6865-80")]
         _6g183686580 = 156,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-185-6875-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-185-6875-20")]
         _6g185687520 = 157,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-187-6885-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-187-6885-40")]
         _6g187688540 = 158,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-189-6895-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-189-6895-20")]
         _6g189689520 = 159,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-193-6915-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-193-6915-20")]
         _6g193691520 = 160,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-195-6925-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-195-6925-40")]
         _6g195692540 = 161,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-197-6935-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-197-6935-20")]
         _6g197693520 = 162,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-199-6945-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-199-6945-80")]
         _6g199694580 = 163,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-201-6955-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-201-6955-20")]
         _6g201695520 = 164,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-203-6965-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-203-6965-40")]
         _6g203696540 = 165,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-205-6975-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-205-6975-20")]
         _6g205697520 = 166,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-207-6985-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-207-6985-160")]
         _6g2076985160 = 167,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-209-6995-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-209-6995-20")]
         _6g209699520 = 168,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-211-7005-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-211-7005-40")]
         _6g211700540 = 169,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-213-7015-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-213-7015-20")]
         _6g213701520 = 170,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-215-7025-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-215-7025-80")]
         _6g215702580 = 171,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-217-7035-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-217-7035-20")]
         _6g217703520 = 172,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-219-7045-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-219-7045-40")]
         _6g219704540 = 173,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-221-7055-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-221-7055-20")]
         _6g221705520 = 174,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-225-7075-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-225-7075-20")]
         _6g225707520 = 175,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-227-7085-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-227-7085-40")]
         _6g227708540 = 176,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-229-7095-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-229-7095-20")]
         _6g229709520 = 177,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-233-7115-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-233-7115-20")]
         _6g233711520 = 178,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-1-58320-2160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-1-58320-2160")]
         _60g1583202160 = 179,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-2-60480-2160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-2-60480-2160")]
         _60g2604802160 = 180,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-3-62640-2160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-3-62640-2160")]
         _60g3626402160 = 181,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-4-64800-2160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-4-64800-2160")]
         _60g4648002160 = 182,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-5-66960-2160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-5-66960-2160")]
         _60g5669602160 = 183,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-6-69120-2160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-6-69120-2160")]
         _60g6691202160 = 184,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-9-59400-4320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-9-59400-4320")]
         _60g9594004320 = 185,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-10-61560-4320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-10-61560-4320")]
         _60g10615604320 = 186,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-11-63720-4320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-11-63720-4320")]
         _60g11637204320 = 187,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-12-65880-4320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-12-65880-4320")]
         _60g12658804320 = 188,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-13-68040-4320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-13-68040-4320")]
         _60g13680404320 = 189,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-17-60480-6480")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-17-60480-6480")]
         _60g17604806480 = 190,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-18-62640-6480")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-18-62640-6480")]
         _60g18626406480 = 191,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-19-64800-6480")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-19-64800-6480")]
         _60g19648006480 = 192,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-20-66960-6480")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-20-66960-6480")]
         _60g20669606480 = 193,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-25-61560-6480")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-25-61560-6480")]
         _60g25615606480 = 194,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-26-63720-6480")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-26-63720-6480")]
         _60g26637206480 = 195,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-27-65880-6480")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-27-65880-6480")]
         _60g27658806480 = 196,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 197,
 
     }
@@ -50547,594 +51949,791 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"1 (2412 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1 (2412 MHz)")]
         _1__2412_MHz_ = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2 (2417 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2 (2417 MHz)")]
         _2__2417_MHz_ = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"3 (2422 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"3 (2422 MHz)")]
         _3__2422_MHz_ = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4 (2427 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4 (2427 MHz)")]
         _4__2427_MHz_ = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5 (2432 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5 (2432 MHz)")]
         _5__2432_MHz_ = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6 (2437 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6 (2437 MHz)")]
         _6__2437_MHz_ = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"7 (2442 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"7 (2442 MHz)")]
         _7__2442_MHz_ = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"8 (2447 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"8 (2447 MHz)")]
         _8__2447_MHz_ = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"9 (2452 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"9 (2452 MHz)")]
         _9__2452_MHz_ = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10 (2457 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10 (2457 MHz)")]
         _10__2457_MHz_ = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"11 (2462 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"11 (2462 MHz)")]
         _11__2462_MHz_ = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"12 (2467 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"12 (2467 MHz)")]
         _12__2467_MHz_ = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"13 (2472 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"13 (2472 MHz)")]
         _13__2472_MHz_ = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"32 (5160/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"32 (5160/20 MHz)")]
         _32__5160_20_MHz_ = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"34 (5170/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"34 (5170/40 MHz)")]
         _34__5170_40_MHz_ = 14,
 
         [System.Runtime.Serialization.EnumMember(Value = @"36 (5180/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"36 (5180/20 MHz)")]
         _36__5180_20_MHz_ = 15,
 
         [System.Runtime.Serialization.EnumMember(Value = @"38 (5190/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"38 (5190/40 MHz)")]
         _38__5190_40_MHz_ = 16,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40 (5200/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40 (5200/20 MHz)")]
         _40__5200_20_MHz_ = 17,
 
         [System.Runtime.Serialization.EnumMember(Value = @"42 (5210/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"42 (5210/80 MHz)")]
         _42__5210_80_MHz_ = 18,
 
         [System.Runtime.Serialization.EnumMember(Value = @"44 (5220/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"44 (5220/20 MHz)")]
         _44__5220_20_MHz_ = 19,
 
         [System.Runtime.Serialization.EnumMember(Value = @"46 (5230/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"46 (5230/40 MHz)")]
         _46__5230_40_MHz_ = 20,
 
         [System.Runtime.Serialization.EnumMember(Value = @"48 (5240/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"48 (5240/20 MHz)")]
         _48__5240_20_MHz_ = 21,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50 (5250/160 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50 (5250/160 MHz)")]
         _50__5250_160_MHz_ = 22,
 
         [System.Runtime.Serialization.EnumMember(Value = @"52 (5260/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"52 (5260/20 MHz)")]
         _52__5260_20_MHz_ = 23,
 
         [System.Runtime.Serialization.EnumMember(Value = @"54 (5270/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"54 (5270/40 MHz)")]
         _54__5270_40_MHz_ = 24,
 
         [System.Runtime.Serialization.EnumMember(Value = @"56 (5280/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"56 (5280/20 MHz)")]
         _56__5280_20_MHz_ = 25,
 
         [System.Runtime.Serialization.EnumMember(Value = @"58 (5290/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"58 (5290/80 MHz)")]
         _58__5290_80_MHz_ = 26,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60 (5300/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60 (5300/20 MHz)")]
         _60__5300_20_MHz_ = 27,
 
         [System.Runtime.Serialization.EnumMember(Value = @"62 (5310/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"62 (5310/40 MHz)")]
         _62__5310_40_MHz_ = 28,
 
         [System.Runtime.Serialization.EnumMember(Value = @"64 (5320/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"64 (5320/20 MHz)")]
         _64__5320_20_MHz_ = 29,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100 (5500/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100 (5500/20 MHz)")]
         _100__5500_20_MHz_ = 30,
 
         [System.Runtime.Serialization.EnumMember(Value = @"102 (5510/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"102 (5510/40 MHz)")]
         _102__5510_40_MHz_ = 31,
 
         [System.Runtime.Serialization.EnumMember(Value = @"104 (5520/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"104 (5520/20 MHz)")]
         _104__5520_20_MHz_ = 32,
 
         [System.Runtime.Serialization.EnumMember(Value = @"106 (5530/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"106 (5530/80 MHz)")]
         _106__5530_80_MHz_ = 33,
 
         [System.Runtime.Serialization.EnumMember(Value = @"108 (5540/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"108 (5540/20 MHz)")]
         _108__5540_20_MHz_ = 34,
 
         [System.Runtime.Serialization.EnumMember(Value = @"110 (5550/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"110 (5550/40 MHz)")]
         _110__5550_40_MHz_ = 35,
 
         [System.Runtime.Serialization.EnumMember(Value = @"112 (5560/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"112 (5560/20 MHz)")]
         _112__5560_20_MHz_ = 36,
 
         [System.Runtime.Serialization.EnumMember(Value = @"114 (5570/160 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"114 (5570/160 MHz)")]
         _114__5570_160_MHz_ = 37,
 
         [System.Runtime.Serialization.EnumMember(Value = @"116 (5580/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"116 (5580/20 MHz)")]
         _116__5580_20_MHz_ = 38,
 
         [System.Runtime.Serialization.EnumMember(Value = @"118 (5590/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"118 (5590/40 MHz)")]
         _118__5590_40_MHz_ = 39,
 
         [System.Runtime.Serialization.EnumMember(Value = @"120 (5600/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"120 (5600/20 MHz)")]
         _120__5600_20_MHz_ = 40,
 
         [System.Runtime.Serialization.EnumMember(Value = @"122 (5610/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"122 (5610/80 MHz)")]
         _122__5610_80_MHz_ = 41,
 
         [System.Runtime.Serialization.EnumMember(Value = @"124 (5620/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"124 (5620/20 MHz)")]
         _124__5620_20_MHz_ = 42,
 
         [System.Runtime.Serialization.EnumMember(Value = @"126 (5630/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"126 (5630/40 MHz)")]
         _126__5630_40_MHz_ = 43,
 
         [System.Runtime.Serialization.EnumMember(Value = @"128 (5640/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"128 (5640/20 MHz)")]
         _128__5640_20_MHz_ = 44,
 
         [System.Runtime.Serialization.EnumMember(Value = @"132 (5660/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"132 (5660/20 MHz)")]
         _132__5660_20_MHz_ = 45,
 
         [System.Runtime.Serialization.EnumMember(Value = @"134 (5670/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"134 (5670/40 MHz)")]
         _134__5670_40_MHz_ = 46,
 
         [System.Runtime.Serialization.EnumMember(Value = @"136 (5680/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"136 (5680/20 MHz)")]
         _136__5680_20_MHz_ = 47,
 
         [System.Runtime.Serialization.EnumMember(Value = @"138 (5690/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"138 (5690/80 MHz)")]
         _138__5690_80_MHz_ = 48,
 
         [System.Runtime.Serialization.EnumMember(Value = @"140 (5700/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"140 (5700/20 MHz)")]
         _140__5700_20_MHz_ = 49,
 
         [System.Runtime.Serialization.EnumMember(Value = @"142 (5710/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"142 (5710/40 MHz)")]
         _142__5710_40_MHz_ = 50,
 
         [System.Runtime.Serialization.EnumMember(Value = @"144 (5720/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"144 (5720/20 MHz)")]
         _144__5720_20_MHz_ = 51,
 
         [System.Runtime.Serialization.EnumMember(Value = @"149 (5745/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"149 (5745/20 MHz)")]
         _149__5745_20_MHz_ = 52,
 
         [System.Runtime.Serialization.EnumMember(Value = @"151 (5755/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"151 (5755/40 MHz)")]
         _151__5755_40_MHz_ = 53,
 
         [System.Runtime.Serialization.EnumMember(Value = @"153 (5765/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"153 (5765/20 MHz)")]
         _153__5765_20_MHz_ = 54,
 
         [System.Runtime.Serialization.EnumMember(Value = @"155 (5775/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"155 (5775/80 MHz)")]
         _155__5775_80_MHz_ = 55,
 
         [System.Runtime.Serialization.EnumMember(Value = @"157 (5785/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"157 (5785/20 MHz)")]
         _157__5785_20_MHz_ = 56,
 
         [System.Runtime.Serialization.EnumMember(Value = @"159 (5795/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"159 (5795/40 MHz)")]
         _159__5795_40_MHz_ = 57,
 
         [System.Runtime.Serialization.EnumMember(Value = @"161 (5805/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"161 (5805/20 MHz)")]
         _161__5805_20_MHz_ = 58,
 
         [System.Runtime.Serialization.EnumMember(Value = @"163 (5815/160 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"163 (5815/160 MHz)")]
         _163__5815_160_MHz_ = 59,
 
         [System.Runtime.Serialization.EnumMember(Value = @"165 (5825/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"165 (5825/20 MHz)")]
         _165__5825_20_MHz_ = 60,
 
         [System.Runtime.Serialization.EnumMember(Value = @"167 (5835/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"167 (5835/40 MHz)")]
         _167__5835_40_MHz_ = 61,
 
         [System.Runtime.Serialization.EnumMember(Value = @"169 (5845/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"169 (5845/20 MHz)")]
         _169__5845_20_MHz_ = 62,
 
         [System.Runtime.Serialization.EnumMember(Value = @"171 (5855/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"171 (5855/80 MHz)")]
         _171__5855_80_MHz_ = 63,
 
         [System.Runtime.Serialization.EnumMember(Value = @"173 (5865/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"173 (5865/20 MHz)")]
         _173__5865_20_MHz_ = 64,
 
         [System.Runtime.Serialization.EnumMember(Value = @"175 (5875/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"175 (5875/40 MHz)")]
         _175__5875_40_MHz_ = 65,
 
         [System.Runtime.Serialization.EnumMember(Value = @"177 (5885/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"177 (5885/20 MHz)")]
         _177__5885_20_MHz_ = 66,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1 (5955/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1 (5955/20 MHz)")]
         _1__5955_20_MHz_ = 67,
 
         [System.Runtime.Serialization.EnumMember(Value = @"3 (5965/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"3 (5965/40 MHz)")]
         _3__5965_40_MHz_ = 68,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5 (5975/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5 (5975/20 MHz)")]
         _5__5975_20_MHz_ = 69,
 
         [System.Runtime.Serialization.EnumMember(Value = @"7 (5985/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"7 (5985/80 MHz)")]
         _7__5985_80_MHz_ = 70,
 
         [System.Runtime.Serialization.EnumMember(Value = @"9 (5995/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"9 (5995/20 MHz)")]
         _9__5995_20_MHz_ = 71,
 
         [System.Runtime.Serialization.EnumMember(Value = @"11 (6005/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"11 (6005/40 MHz)")]
         _11__6005_40_MHz_ = 72,
 
         [System.Runtime.Serialization.EnumMember(Value = @"13 (6015/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"13 (6015/20 MHz)")]
         _13__6015_20_MHz_ = 73,
 
         [System.Runtime.Serialization.EnumMember(Value = @"15 (6025/160 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"15 (6025/160 MHz)")]
         _15__6025_160_MHz_ = 74,
 
         [System.Runtime.Serialization.EnumMember(Value = @"17 (6035/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"17 (6035/20 MHz)")]
         _17__6035_20_MHz_ = 75,
 
         [System.Runtime.Serialization.EnumMember(Value = @"19 (6045/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"19 (6045/40 MHz)")]
         _19__6045_40_MHz_ = 76,
 
         [System.Runtime.Serialization.EnumMember(Value = @"21 (6055/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"21 (6055/20 MHz)")]
         _21__6055_20_MHz_ = 77,
 
         [System.Runtime.Serialization.EnumMember(Value = @"23 (6065/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"23 (6065/80 MHz)")]
         _23__6065_80_MHz_ = 78,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25 (6075/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25 (6075/20 MHz)")]
         _25__6075_20_MHz_ = 79,
 
         [System.Runtime.Serialization.EnumMember(Value = @"27 (6085/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"27 (6085/40 MHz)")]
         _27__6085_40_MHz_ = 80,
 
         [System.Runtime.Serialization.EnumMember(Value = @"29 (6095/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"29 (6095/20 MHz)")]
         _29__6095_20_MHz_ = 81,
 
         [System.Runtime.Serialization.EnumMember(Value = @"31 (6105/320 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"31 (6105/320 MHz)")]
         _31__6105_320_MHz_ = 82,
 
         [System.Runtime.Serialization.EnumMember(Value = @"33 (6115/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"33 (6115/20 MHz)")]
         _33__6115_20_MHz_ = 83,
 
         [System.Runtime.Serialization.EnumMember(Value = @"35 (6125/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"35 (6125/40 MHz)")]
         _35__6125_40_MHz_ = 84,
 
         [System.Runtime.Serialization.EnumMember(Value = @"37 (6135/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"37 (6135/20 MHz)")]
         _37__6135_20_MHz_ = 85,
 
         [System.Runtime.Serialization.EnumMember(Value = @"39 (6145/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"39 (6145/80 MHz)")]
         _39__6145_80_MHz_ = 86,
 
         [System.Runtime.Serialization.EnumMember(Value = @"41 (6155/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"41 (6155/20 MHz)")]
         _41__6155_20_MHz_ = 87,
 
         [System.Runtime.Serialization.EnumMember(Value = @"43 (6165/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"43 (6165/40 MHz)")]
         _43__6165_40_MHz_ = 88,
 
         [System.Runtime.Serialization.EnumMember(Value = @"45 (6175/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"45 (6175/20 MHz)")]
         _45__6175_20_MHz_ = 89,
 
         [System.Runtime.Serialization.EnumMember(Value = @"47 (6185/160 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"47 (6185/160 MHz)")]
         _47__6185_160_MHz_ = 90,
 
         [System.Runtime.Serialization.EnumMember(Value = @"49 (6195/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"49 (6195/20 MHz)")]
         _49__6195_20_MHz_ = 91,
 
         [System.Runtime.Serialization.EnumMember(Value = @"51 (6205/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"51 (6205/40 MHz)")]
         _51__6205_40_MHz_ = 92,
 
         [System.Runtime.Serialization.EnumMember(Value = @"53 (6215/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"53 (6215/20 MHz)")]
         _53__6215_20_MHz_ = 93,
 
         [System.Runtime.Serialization.EnumMember(Value = @"55 (6225/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"55 (6225/80 MHz)")]
         _55__6225_80_MHz_ = 94,
 
         [System.Runtime.Serialization.EnumMember(Value = @"57 (6235/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"57 (6235/20 MHz)")]
         _57__6235_20_MHz_ = 95,
 
         [System.Runtime.Serialization.EnumMember(Value = @"59 (6245/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"59 (6245/40 MHz)")]
         _59__6245_40_MHz_ = 96,
 
         [System.Runtime.Serialization.EnumMember(Value = @"61 (6255/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"61 (6255/20 MHz)")]
         _61__6255_20_MHz_ = 97,
 
         [System.Runtime.Serialization.EnumMember(Value = @"65 (6275/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"65 (6275/20 MHz)")]
         _65__6275_20_MHz_ = 98,
 
         [System.Runtime.Serialization.EnumMember(Value = @"67 (6285/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"67 (6285/40 MHz)")]
         _67__6285_40_MHz_ = 99,
 
         [System.Runtime.Serialization.EnumMember(Value = @"69 (6295/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"69 (6295/20 MHz)")]
         _69__6295_20_MHz_ = 100,
 
         [System.Runtime.Serialization.EnumMember(Value = @"71 (6305/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"71 (6305/80 MHz)")]
         _71__6305_80_MHz_ = 101,
 
         [System.Runtime.Serialization.EnumMember(Value = @"73 (6315/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"73 (6315/20 MHz)")]
         _73__6315_20_MHz_ = 102,
 
         [System.Runtime.Serialization.EnumMember(Value = @"75 (6325/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"75 (6325/40 MHz)")]
         _75__6325_40_MHz_ = 103,
 
         [System.Runtime.Serialization.EnumMember(Value = @"77 (6335/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"77 (6335/20 MHz)")]
         _77__6335_20_MHz_ = 104,
 
         [System.Runtime.Serialization.EnumMember(Value = @"79 (6345/160 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"79 (6345/160 MHz)")]
         _79__6345_160_MHz_ = 105,
 
         [System.Runtime.Serialization.EnumMember(Value = @"81 (6355/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"81 (6355/20 MHz)")]
         _81__6355_20_MHz_ = 106,
 
         [System.Runtime.Serialization.EnumMember(Value = @"83 (6365/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"83 (6365/40 MHz)")]
         _83__6365_40_MHz_ = 107,
 
         [System.Runtime.Serialization.EnumMember(Value = @"85 (6375/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"85 (6375/20 MHz)")]
         _85__6375_20_MHz_ = 108,
 
         [System.Runtime.Serialization.EnumMember(Value = @"87 (6385/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"87 (6385/80 MHz)")]
         _87__6385_80_MHz_ = 109,
 
         [System.Runtime.Serialization.EnumMember(Value = @"89 (6395/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"89 (6395/20 MHz)")]
         _89__6395_20_MHz_ = 110,
 
         [System.Runtime.Serialization.EnumMember(Value = @"91 (6405/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"91 (6405/40 MHz)")]
         _91__6405_40_MHz_ = 111,
 
         [System.Runtime.Serialization.EnumMember(Value = @"93 (6415/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"93 (6415/20 MHz)")]
         _93__6415_20_MHz_ = 112,
 
         [System.Runtime.Serialization.EnumMember(Value = @"95 (6425/320 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"95 (6425/320 MHz)")]
         _95__6425_320_MHz_ = 113,
 
         [System.Runtime.Serialization.EnumMember(Value = @"97 (6435/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"97 (6435/20 MHz)")]
         _97__6435_20_MHz_ = 114,
 
         [System.Runtime.Serialization.EnumMember(Value = @"99 (6445/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"99 (6445/40 MHz)")]
         _99__6445_40_MHz_ = 115,
 
         [System.Runtime.Serialization.EnumMember(Value = @"101 (6455/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"101 (6455/20 MHz)")]
         _101__6455_20_MHz_ = 116,
 
         [System.Runtime.Serialization.EnumMember(Value = @"103 (6465/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"103 (6465/80 MHz)")]
         _103__6465_80_MHz_ = 117,
 
         [System.Runtime.Serialization.EnumMember(Value = @"105 (6475/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"105 (6475/20 MHz)")]
         _105__6475_20_MHz_ = 118,
 
         [System.Runtime.Serialization.EnumMember(Value = @"107 (6485/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"107 (6485/40 MHz)")]
         _107__6485_40_MHz_ = 119,
 
         [System.Runtime.Serialization.EnumMember(Value = @"109 (6495/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"109 (6495/20 MHz)")]
         _109__6495_20_MHz_ = 120,
 
         [System.Runtime.Serialization.EnumMember(Value = @"111 (6505/160 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"111 (6505/160 MHz)")]
         _111__6505_160_MHz_ = 121,
 
         [System.Runtime.Serialization.EnumMember(Value = @"113 (6515/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"113 (6515/20 MHz)")]
         _113__6515_20_MHz_ = 122,
 
         [System.Runtime.Serialization.EnumMember(Value = @"115 (6525/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"115 (6525/40 MHz)")]
         _115__6525_40_MHz_ = 123,
 
         [System.Runtime.Serialization.EnumMember(Value = @"117 (6535/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"117 (6535/20 MHz)")]
         _117__6535_20_MHz_ = 124,
 
         [System.Runtime.Serialization.EnumMember(Value = @"119 (6545/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"119 (6545/80 MHz)")]
         _119__6545_80_MHz_ = 125,
 
         [System.Runtime.Serialization.EnumMember(Value = @"121 (6555/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"121 (6555/20 MHz)")]
         _121__6555_20_MHz_ = 126,
 
         [System.Runtime.Serialization.EnumMember(Value = @"123 (6565/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"123 (6565/40 MHz)")]
         _123__6565_40_MHz_ = 127,
 
         [System.Runtime.Serialization.EnumMember(Value = @"125 (6575/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"125 (6575/20 MHz)")]
         _125__6575_20_MHz_ = 128,
 
         [System.Runtime.Serialization.EnumMember(Value = @"129 (6595/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"129 (6595/20 MHz)")]
         _129__6595_20_MHz_ = 129,
 
         [System.Runtime.Serialization.EnumMember(Value = @"131 (6605/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"131 (6605/40 MHz)")]
         _131__6605_40_MHz_ = 130,
 
         [System.Runtime.Serialization.EnumMember(Value = @"133 (6615/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"133 (6615/20 MHz)")]
         _133__6615_20_MHz_ = 131,
 
         [System.Runtime.Serialization.EnumMember(Value = @"135 (6625/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"135 (6625/80 MHz)")]
         _135__6625_80_MHz_ = 132,
 
         [System.Runtime.Serialization.EnumMember(Value = @"137 (6635/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"137 (6635/20 MHz)")]
         _137__6635_20_MHz_ = 133,
 
         [System.Runtime.Serialization.EnumMember(Value = @"139 (6645/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"139 (6645/40 MHz)")]
         _139__6645_40_MHz_ = 134,
 
         [System.Runtime.Serialization.EnumMember(Value = @"141 (6655/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"141 (6655/20 MHz)")]
         _141__6655_20_MHz_ = 135,
 
         [System.Runtime.Serialization.EnumMember(Value = @"143 (6665/160 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"143 (6665/160 MHz)")]
         _143__6665_160_MHz_ = 136,
 
         [System.Runtime.Serialization.EnumMember(Value = @"145 (6675/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"145 (6675/20 MHz)")]
         _145__6675_20_MHz_ = 137,
 
         [System.Runtime.Serialization.EnumMember(Value = @"147 (6685/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"147 (6685/40 MHz)")]
         _147__6685_40_MHz_ = 138,
 
         [System.Runtime.Serialization.EnumMember(Value = @"149 (6695/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"149 (6695/20 MHz)")]
         _149__6695_20_MHz_ = 139,
 
         [System.Runtime.Serialization.EnumMember(Value = @"151 (6705/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"151 (6705/80 MHz)")]
         _151__6705_80_MHz_ = 140,
 
         [System.Runtime.Serialization.EnumMember(Value = @"153 (6715/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"153 (6715/20 MHz)")]
         _153__6715_20_MHz_ = 141,
 
         [System.Runtime.Serialization.EnumMember(Value = @"155 (6725/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"155 (6725/40 MHz)")]
         _155__6725_40_MHz_ = 142,
 
         [System.Runtime.Serialization.EnumMember(Value = @"157 (6735/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"157 (6735/20 MHz)")]
         _157__6735_20_MHz_ = 143,
 
         [System.Runtime.Serialization.EnumMember(Value = @"159 (6745/320 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"159 (6745/320 MHz)")]
         _159__6745_320_MHz_ = 144,
 
         [System.Runtime.Serialization.EnumMember(Value = @"161 (6755/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"161 (6755/20 MHz)")]
         _161__6755_20_MHz_ = 145,
 
         [System.Runtime.Serialization.EnumMember(Value = @"163 (6765/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"163 (6765/40 MHz)")]
         _163__6765_40_MHz_ = 146,
 
         [System.Runtime.Serialization.EnumMember(Value = @"165 (6775/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"165 (6775/20 MHz)")]
         _165__6775_20_MHz_ = 147,
 
         [System.Runtime.Serialization.EnumMember(Value = @"167 (6785/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"167 (6785/80 MHz)")]
         _167__6785_80_MHz_ = 148,
 
         [System.Runtime.Serialization.EnumMember(Value = @"169 (6795/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"169 (6795/20 MHz)")]
         _169__6795_20_MHz_ = 149,
 
         [System.Runtime.Serialization.EnumMember(Value = @"171 (6805/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"171 (6805/40 MHz)")]
         _171__6805_40_MHz_ = 150,
 
         [System.Runtime.Serialization.EnumMember(Value = @"173 (6815/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"173 (6815/20 MHz)")]
         _173__6815_20_MHz_ = 151,
 
         [System.Runtime.Serialization.EnumMember(Value = @"175 (6825/160 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"175 (6825/160 MHz)")]
         _175__6825_160_MHz_ = 152,
 
         [System.Runtime.Serialization.EnumMember(Value = @"177 (6835/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"177 (6835/20 MHz)")]
         _177__6835_20_MHz_ = 153,
 
         [System.Runtime.Serialization.EnumMember(Value = @"179 (6845/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"179 (6845/40 MHz)")]
         _179__6845_40_MHz_ = 154,
 
         [System.Runtime.Serialization.EnumMember(Value = @"181 (6855/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"181 (6855/20 MHz)")]
         _181__6855_20_MHz_ = 155,
 
         [System.Runtime.Serialization.EnumMember(Value = @"183 (6865/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"183 (6865/80 MHz)")]
         _183__6865_80_MHz_ = 156,
 
         [System.Runtime.Serialization.EnumMember(Value = @"185 (6875/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"185 (6875/20 MHz)")]
         _185__6875_20_MHz_ = 157,
 
         [System.Runtime.Serialization.EnumMember(Value = @"187 (6885/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"187 (6885/40 MHz)")]
         _187__6885_40_MHz_ = 158,
 
         [System.Runtime.Serialization.EnumMember(Value = @"189 (6895/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"189 (6895/20 MHz)")]
         _189__6895_20_MHz_ = 159,
 
         [System.Runtime.Serialization.EnumMember(Value = @"193 (6915/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"193 (6915/20 MHz)")]
         _193__6915_20_MHz_ = 160,
 
         [System.Runtime.Serialization.EnumMember(Value = @"195 (6925/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"195 (6925/40 MHz)")]
         _195__6925_40_MHz_ = 161,
 
         [System.Runtime.Serialization.EnumMember(Value = @"197 (6935/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"197 (6935/20 MHz)")]
         _197__6935_20_MHz_ = 162,
 
         [System.Runtime.Serialization.EnumMember(Value = @"199 (6945/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"199 (6945/80 MHz)")]
         _199__6945_80_MHz_ = 163,
 
         [System.Runtime.Serialization.EnumMember(Value = @"201 (6955/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"201 (6955/20 MHz)")]
         _201__6955_20_MHz_ = 164,
 
         [System.Runtime.Serialization.EnumMember(Value = @"203 (6965/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"203 (6965/40 MHz)")]
         _203__6965_40_MHz_ = 165,
 
         [System.Runtime.Serialization.EnumMember(Value = @"205 (6975/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"205 (6975/20 MHz)")]
         _205__6975_20_MHz_ = 166,
 
         [System.Runtime.Serialization.EnumMember(Value = @"207 (6985/160 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"207 (6985/160 MHz)")]
         _207__6985_160_MHz_ = 167,
 
         [System.Runtime.Serialization.EnumMember(Value = @"209 (6995/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"209 (6995/20 MHz)")]
         _209__6995_20_MHz_ = 168,
 
         [System.Runtime.Serialization.EnumMember(Value = @"211 (7005/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"211 (7005/40 MHz)")]
         _211__7005_40_MHz_ = 169,
 
         [System.Runtime.Serialization.EnumMember(Value = @"213 (7015/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"213 (7015/20 MHz)")]
         _213__7015_20_MHz_ = 170,
 
         [System.Runtime.Serialization.EnumMember(Value = @"215 (7025/80 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"215 (7025/80 MHz)")]
         _215__7025_80_MHz_ = 171,
 
         [System.Runtime.Serialization.EnumMember(Value = @"217 (7035/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"217 (7035/20 MHz)")]
         _217__7035_20_MHz_ = 172,
 
         [System.Runtime.Serialization.EnumMember(Value = @"219 (7045/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"219 (7045/40 MHz)")]
         _219__7045_40_MHz_ = 173,
 
         [System.Runtime.Serialization.EnumMember(Value = @"221 (7055/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"221 (7055/20 MHz)")]
         _221__7055_20_MHz_ = 174,
 
         [System.Runtime.Serialization.EnumMember(Value = @"225 (7075/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"225 (7075/20 MHz)")]
         _225__7075_20_MHz_ = 175,
 
         [System.Runtime.Serialization.EnumMember(Value = @"227 (7085/40 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"227 (7085/40 MHz)")]
         _227__7085_40_MHz_ = 176,
 
         [System.Runtime.Serialization.EnumMember(Value = @"229 (7095/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"229 (7095/20 MHz)")]
         _229__7095_20_MHz_ = 177,
 
         [System.Runtime.Serialization.EnumMember(Value = @"233 (7115/20 MHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"233 (7115/20 MHz)")]
         _233__7115_20_MHz_ = 178,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1 (58.32/2.16 GHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1 (58.32/2.16 GHz)")]
         _1__58_32_2_16_GHz_ = 179,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2 (60.48/2.16 GHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2 (60.48/2.16 GHz)")]
         _2__60_48_2_16_GHz_ = 180,
 
         [System.Runtime.Serialization.EnumMember(Value = @"3 (62.64/2.16 GHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"3 (62.64/2.16 GHz)")]
         _3__62_64_2_16_GHz_ = 181,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4 (64.80/2.16 GHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4 (64.80/2.16 GHz)")]
         _4__64_80_2_16_GHz_ = 182,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5 (66.96/2.16 GHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5 (66.96/2.16 GHz)")]
         _5__66_96_2_16_GHz_ = 183,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6 (69.12/2.16 GHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6 (69.12/2.16 GHz)")]
         _6__69_12_2_16_GHz_ = 184,
 
         [System.Runtime.Serialization.EnumMember(Value = @"9 (59.40/4.32 GHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"9 (59.40/4.32 GHz)")]
         _9__59_40_4_32_GHz_ = 185,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10 (61.56/4.32 GHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10 (61.56/4.32 GHz)")]
         _10__61_56_4_32_GHz_ = 186,
 
         [System.Runtime.Serialization.EnumMember(Value = @"11 (63.72/4.32 GHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"11 (63.72/4.32 GHz)")]
         _11__63_72_4_32_GHz_ = 187,
 
         [System.Runtime.Serialization.EnumMember(Value = @"12 (65.88/4.32 GHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"12 (65.88/4.32 GHz)")]
         _12__65_88_4_32_GHz_ = 188,
 
         [System.Runtime.Serialization.EnumMember(Value = @"13 (68.04/4.32 GHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"13 (68.04/4.32 GHz)")]
         _13__68_04_4_32_GHz_ = 189,
 
         [System.Runtime.Serialization.EnumMember(Value = @"17 (60.48/6.48 GHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"17 (60.48/6.48 GHz)")]
         _17__60_48_6_48_GHz_ = 190,
 
         [System.Runtime.Serialization.EnumMember(Value = @"18 (62.64/6.48 GHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"18 (62.64/6.48 GHz)")]
         _18__62_64_6_48_GHz_ = 191,
 
         [System.Runtime.Serialization.EnumMember(Value = @"19 (64.80/6.48 GHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"19 (64.80/6.48 GHz)")]
         _19__64_80_6_48_GHz_ = 192,
 
         [System.Runtime.Serialization.EnumMember(Value = @"20 (66.96/6.48 GHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"20 (66.96/6.48 GHz)")]
         _20__66_96_6_48_GHz_ = 193,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25 (61.56/8.64 GHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25 (61.56/8.64 GHz)")]
         _25__61_56_8_64_GHz_ = 194,
 
         [System.Runtime.Serialization.EnumMember(Value = @"26 (63.72/8.64 GHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"26 (63.72/8.64 GHz)")]
         _26__63_72_8_64_GHz_ = 195,
 
         [System.Runtime.Serialization.EnumMember(Value = @"27 (65.88/8.64 GHz)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"27 (65.88/8.64 GHz)")]
         _27__65_88_8_64_GHz_ = 196,
 
     }
@@ -51144,12 +52743,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"pd")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"pd")]
         Pd = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"pse")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"pse")]
         Pse = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 2,
 
     }
@@ -51159,9 +52761,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"PD")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"PD")]
         PD = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"PSE")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"PSE")]
         PSE = 1,
 
     }
@@ -51171,30 +52775,39 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"type1-ieee802.3af")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"type1-ieee802.3af")]
         Type1Ieee802_3af = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"type2-ieee802.3at")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"type2-ieee802.3at")]
         Type2Ieee802_3at = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"type3-ieee802.3bt")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"type3-ieee802.3bt")]
         Type3Ieee802_3bt = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"type4-ieee802.3bt")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"type4-ieee802.3bt")]
         Type4Ieee802_3bt = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"passive-24v-2pair")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"passive-24v-2pair")]
         Passive24v2pair = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"passive-24v-4pair")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"passive-24v-4pair")]
         Passive24v4pair = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"passive-48v-2pair")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"passive-48v-2pair")]
         Passive48v2pair = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"passive-48v-4pair")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"passive-48v-4pair")]
         Passive48v4pair = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 8,
 
     }
@@ -51204,27 +52817,35 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"802.3af (Type 1)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"802.3af (Type 1)")]
         _802_3af__Type_1_ = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"802.3at (Type 2)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"802.3at (Type 2)")]
         _802_3at__Type_2_ = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"802.3bt (Type 3)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"802.3bt (Type 3)")]
         _802_3bt__Type_3_ = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"802.3bt (Type 4)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"802.3bt (Type 4)")]
         _802_3bt__Type_4_ = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Passive 24V (2-pair)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Passive 24V (2-pair)")]
         Passive_24V__2Pair_ = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Passive 24V (4-pair)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Passive 24V (4-pair)")]
         Passive_24V__4Pair_ = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Passive 48V (2-pair)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Passive 48V (2-pair)")]
         Passive_48V__2Pair_ = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Passive 48V (4-pair)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Passive 48V (4-pair)")]
         Passive_48V__4Pair_ = 7,
 
     }
@@ -51234,621 +52855,827 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"virtual")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"virtual")]
         Virtual = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"bridge")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"bridge")]
         Bridge = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lag")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lag")]
         Lag = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100base-fx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100base-fx")]
         _100baseFx = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100base-lfx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100base-lfx")]
         _100baseLfx = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100base-tx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100base-tx")]
         _100baseTx = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100base-t1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100base-t1")]
         _100baseT1 = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-bx10-d")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-bx10-d")]
         _1000baseBx10D = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-bx10-u")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-bx10-u")]
         _1000baseBx10U = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-cwdm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-cwdm")]
         _1000baseCwdm = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-cx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-cx")]
         _1000baseCx = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-dwdm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-dwdm")]
         _1000baseDwdm = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-ex")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-ex")]
         _1000baseEx = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-lsx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-lsx")]
         _1000baseLsx = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-lx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-lx")]
         _1000baseLx = 14,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-lx10")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-lx10")]
         _1000baseLx10 = 15,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-sx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-sx")]
         _1000baseSx = 16,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-t")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-t")]
         _1000baseT = 17,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-tx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-tx")]
         _1000baseTx = 18,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-zx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-zx")]
         _1000baseZx = 19,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.5gbase-t")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.5gbase-t")]
         _2_5gbaseT = 20,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5gbase-t")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5gbase-t")]
         _5gbaseT = 21,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-br-d")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-br-d")]
         _10gbaseBrD = 22,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-br-u")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-br-u")]
         _10gbaseBrU = 23,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-cx4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-cx4")]
         _10gbaseCx4 = 24,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-er")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-er")]
         _10gbaseEr = 25,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-lr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-lr")]
         _10gbaseLr = 26,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-lrm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-lrm")]
         _10gbaseLrm = 27,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-lx4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-lx4")]
         _10gbaseLx4 = 28,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-sr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-sr")]
         _10gbaseSr = 29,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-t")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-t")]
         _10gbaseT = 30,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-zr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-zr")]
         _10gbaseZr = 31,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25gbase-cr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25gbase-cr")]
         _25gbaseCr = 32,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25gbase-er")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25gbase-er")]
         _25gbaseEr = 33,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25gbase-lr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25gbase-lr")]
         _25gbaseLr = 34,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25gbase-sr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25gbase-sr")]
         _25gbaseSr = 35,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25gbase-t")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25gbase-t")]
         _25gbaseT = 36,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40gbase-cr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40gbase-cr4")]
         _40gbaseCr4 = 37,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40gbase-er4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40gbase-er4")]
         _40gbaseEr4 = 38,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40gbase-fr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40gbase-fr4")]
         _40gbaseFr4 = 39,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40gbase-lr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40gbase-lr4")]
         _40gbaseLr4 = 40,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40gbase-sr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40gbase-sr4")]
         _40gbaseSr4 = 41,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50gbase-cr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50gbase-cr")]
         _50gbaseCr = 42,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50gbase-er")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50gbase-er")]
         _50gbaseEr = 43,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50gbase-fr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50gbase-fr")]
         _50gbaseFr = 44,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50gbase-lr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50gbase-lr")]
         _50gbaseLr = 45,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50gbase-sr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50gbase-sr")]
         _50gbaseSr = 46,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-cr1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-cr1")]
         _100gbaseCr1 = 47,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-cr2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-cr2")]
         _100gbaseCr2 = 48,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-cr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-cr4")]
         _100gbaseCr4 = 49,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-cr10")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-cr10")]
         _100gbaseCr10 = 50,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-cwdm4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-cwdm4")]
         _100gbaseCwdm4 = 51,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-dr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-dr")]
         _100gbaseDr = 52,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-er4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-er4")]
         _100gbaseEr4 = 53,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-fr1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-fr1")]
         _100gbaseFr1 = 54,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-lr1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-lr1")]
         _100gbaseLr1 = 55,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-lr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-lr4")]
         _100gbaseLr4 = 56,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-sr1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-sr1")]
         _100gbaseSr1 = 57,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-sr1.2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-sr1.2")]
         _100gbaseSr1_2 = 58,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-sr2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-sr2")]
         _100gbaseSr2 = 59,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-sr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-sr4")]
         _100gbaseSr4 = 60,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-sr10")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-sr10")]
         _100gbaseSr10 = 61,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-zr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-zr")]
         _100gbaseZr = 62,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-cr2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-cr2")]
         _200gbaseCr2 = 63,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-cr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-cr4")]
         _200gbaseCr4 = 64,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-dr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-dr4")]
         _200gbaseDr4 = 65,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-er4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-er4")]
         _200gbaseEr4 = 66,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-fr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-fr4")]
         _200gbaseFr4 = 67,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-lr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-lr4")]
         _200gbaseLr4 = 68,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-sr2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-sr2")]
         _200gbaseSr2 = 69,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-sr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-sr4")]
         _200gbaseSr4 = 70,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-vr2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-vr2")]
         _200gbaseVr2 = 71,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-cr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-cr4")]
         _400gbaseCr4 = 72,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-dr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-dr4")]
         _400gbaseDr4 = 73,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-er8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-er8")]
         _400gbaseEr8 = 74,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-fr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-fr4")]
         _400gbaseFr4 = 75,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-fr8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-fr8")]
         _400gbaseFr8 = 76,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-lr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-lr4")]
         _400gbaseLr4 = 77,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-lr8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-lr8")]
         _400gbaseLr8 = 78,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-sr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-sr4")]
         _400gbaseSr4 = 79,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-sr4_2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-sr4_2")]
         _400gbaseSr4_2 = 80,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-sr8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-sr8")]
         _400gbaseSr8 = 81,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-sr16")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-sr16")]
         _400gbaseSr16 = 82,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-vr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-vr4")]
         _400gbaseVr4 = 83,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-zr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-zr")]
         _400gbaseZr = 84,
 
         [System.Runtime.Serialization.EnumMember(Value = @"800gbase-cr8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"800gbase-cr8")]
         _800gbaseCr8 = 85,
 
         [System.Runtime.Serialization.EnumMember(Value = @"800gbase-dr8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"800gbase-dr8")]
         _800gbaseDr8 = 86,
 
         [System.Runtime.Serialization.EnumMember(Value = @"800gbase-sr8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"800gbase-sr8")]
         _800gbaseSr8 = 87,
 
         [System.Runtime.Serialization.EnumMember(Value = @"800gbase-vr8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"800gbase-vr8")]
         _800gbaseVr8 = 88,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100base-x-sfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100base-x-sfp")]
         _100baseXSfp = 89,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-x-gbic")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-x-gbic")]
         _1000baseXGbic = 90,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-x-sfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-x-sfp")]
         _1000baseXSfp = 91,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-x-sfpp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-x-sfpp")]
         _10gbaseXSfpp = 92,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-x-xenpak")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-x-xenpak")]
         _10gbaseXXenpak = 93,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-x-xfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-x-xfp")]
         _10gbaseXXfp = 94,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-x-x2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-x-x2")]
         _10gbaseXX2 = 95,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25gbase-x-sfp28")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25gbase-x-sfp28")]
         _25gbaseXSfp28 = 96,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40gbase-x-qsfpp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40gbase-x-qsfpp")]
         _40gbaseXQsfpp = 97,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50gbase-x-sfp28")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50gbase-x-sfp28")]
         _50gbaseXSfp28 = 98,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50gbase-x-sfp56")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50gbase-x-sfp56")]
         _50gbaseXSfp56 = 99,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-x-cfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-x-cfp")]
         _100gbaseXCfp = 100,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-x-cfp2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-x-cfp2")]
         _100gbaseXCfp2 = 101,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-x-cfp4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-x-cfp4")]
         _100gbaseXCfp4 = 102,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-x-cxp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-x-cxp")]
         _100gbaseXCxp = 103,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-x-cpak")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-x-cpak")]
         _100gbaseXCpak = 104,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-x-dsfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-x-dsfp")]
         _100gbaseXDsfp = 105,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-x-qsfp28")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-x-qsfp28")]
         _100gbaseXQsfp28 = 106,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-x-qsfpdd")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-x-qsfpdd")]
         _100gbaseXQsfpdd = 107,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-x-sfpdd")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-x-sfpdd")]
         _100gbaseXSfpdd = 108,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-x-cfp2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-x-cfp2")]
         _200gbaseXCfp2 = 109,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-x-qsfp56")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-x-qsfp56")]
         _200gbaseXQsfp56 = 110,
 
         [System.Runtime.Serialization.EnumMember(Value = @"200gbase-x-qsfpdd")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"200gbase-x-qsfpdd")]
         _200gbaseXQsfpdd = 111,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-x-qsfp112")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-x-qsfp112")]
         _400gbaseXQsfp112 = 112,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-x-qsfpdd")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-x-qsfpdd")]
         _400gbaseXQsfpdd = 113,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-x-cdfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-x-cdfp")]
         _400gbaseXCdfp = 114,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-x-cfp2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-x-cfp2")]
         _400gbaseXCfp2 = 115,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-x-cfp8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-x-cfp8")]
         _400gbaseXCfp8 = 116,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-x-osfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-x-osfp")]
         _400gbaseXOsfp = 117,
 
         [System.Runtime.Serialization.EnumMember(Value = @"400gbase-x-osfp-rhs")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"400gbase-x-osfp-rhs")]
         _400gbaseXOsfpRhs = 118,
 
         [System.Runtime.Serialization.EnumMember(Value = @"800gbase-x-osfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"800gbase-x-osfp")]
         _800gbaseXOsfp = 119,
 
         [System.Runtime.Serialization.EnumMember(Value = @"800gbase-x-qsfpdd")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"800gbase-x-qsfpdd")]
         _800gbaseXQsfpdd = 120,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1000base-kx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1000base-kx")]
         _1000baseKx = 121,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.5gbase-kx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.5gbase-kx")]
         _2_5gbaseKx = 122,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5gbase-kr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5gbase-kr")]
         _5gbaseKr = 123,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-kr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-kr")]
         _10gbaseKr = 124,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10gbase-kx4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10gbase-kx4")]
         _10gbaseKx4 = 125,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25gbase-kr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25gbase-kr")]
         _25gbaseKr = 126,
 
         [System.Runtime.Serialization.EnumMember(Value = @"40gbase-kr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"40gbase-kr4")]
         _40gbaseKr4 = 127,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50gbase-kr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50gbase-kr")]
         _50gbaseKr = 128,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-kp4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-kp4")]
         _100gbaseKp4 = 129,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-kr2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-kr2")]
         _100gbaseKr2 = 130,
 
         [System.Runtime.Serialization.EnumMember(Value = @"100gbase-kr4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"100gbase-kr4")]
         _100gbaseKr4 = 131,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.11a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.11a")]
         Ieee802_11a = 132,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.11g")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.11g")]
         Ieee802_11g = 133,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.11n")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.11n")]
         Ieee802_11n = 134,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.11ac")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.11ac")]
         Ieee802_11ac = 135,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.11ad")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.11ad")]
         Ieee802_11ad = 136,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.11ax")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.11ax")]
         Ieee802_11ax = 137,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.11ay")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.11ay")]
         Ieee802_11ay = 138,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.11be")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.11be")]
         Ieee802_11be = 139,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.15.1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.15.1")]
         Ieee802_15_1 = 140,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ieee802.15.4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ieee802.15.4")]
         Ieee802_15_4 = 141,
 
         [System.Runtime.Serialization.EnumMember(Value = @"other-wireless")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"other-wireless")]
         OtherWireless = 142,
 
         [System.Runtime.Serialization.EnumMember(Value = @"gsm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"gsm")]
         Gsm = 143,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cdma")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cdma")]
         Cdma = 144,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lte")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lte")]
         Lte = 145,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4g")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4g")]
         _4g = 146,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g")]
         _5g = 147,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sonet-oc3")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sonet-oc3")]
         SonetOc3 = 148,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sonet-oc12")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sonet-oc12")]
         SonetOc12 = 149,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sonet-oc48")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sonet-oc48")]
         SonetOc48 = 150,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sonet-oc192")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sonet-oc192")]
         SonetOc192 = 151,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sonet-oc768")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sonet-oc768")]
         SonetOc768 = 152,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sonet-oc1920")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sonet-oc1920")]
         SonetOc1920 = 153,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sonet-oc3840")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sonet-oc3840")]
         SonetOc3840 = 154,
 
         [System.Runtime.Serialization.EnumMember(Value = @"1gfc-sfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"1gfc-sfp")]
         _1gfcSfp = 155,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2gfc-sfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2gfc-sfp")]
         _2gfcSfp = 156,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4gfc-sfp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4gfc-sfp")]
         _4gfcSfp = 157,
 
         [System.Runtime.Serialization.EnumMember(Value = @"8gfc-sfpp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"8gfc-sfpp")]
         _8gfcSfpp = 158,
 
         [System.Runtime.Serialization.EnumMember(Value = @"16gfc-sfpp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"16gfc-sfpp")]
         _16gfcSfpp = 159,
 
         [System.Runtime.Serialization.EnumMember(Value = @"32gfc-sfp28")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"32gfc-sfp28")]
         _32gfcSfp28 = 160,
 
         [System.Runtime.Serialization.EnumMember(Value = @"32gfc-sfpp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"32gfc-sfpp")]
         _32gfcSfpp = 161,
 
         [System.Runtime.Serialization.EnumMember(Value = @"64gfc-qsfpp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"64gfc-qsfpp")]
         _64gfcQsfpp = 162,
 
         [System.Runtime.Serialization.EnumMember(Value = @"64gfc-sfpdd")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"64gfc-sfpdd")]
         _64gfcSfpdd = 163,
 
         [System.Runtime.Serialization.EnumMember(Value = @"64gfc-sfpp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"64gfc-sfpp")]
         _64gfcSfpp = 164,
 
         [System.Runtime.Serialization.EnumMember(Value = @"128gfc-qsfp28")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"128gfc-qsfp28")]
         _128gfcQsfp28 = 165,
 
         [System.Runtime.Serialization.EnumMember(Value = @"infiniband-sdr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"infiniband-sdr")]
         InfinibandSdr = 166,
 
         [System.Runtime.Serialization.EnumMember(Value = @"infiniband-ddr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"infiniband-ddr")]
         InfinibandDdr = 167,
 
         [System.Runtime.Serialization.EnumMember(Value = @"infiniband-qdr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"infiniband-qdr")]
         InfinibandQdr = 168,
 
         [System.Runtime.Serialization.EnumMember(Value = @"infiniband-fdr10")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"infiniband-fdr10")]
         InfinibandFdr10 = 169,
 
         [System.Runtime.Serialization.EnumMember(Value = @"infiniband-fdr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"infiniband-fdr")]
         InfinibandFdr = 170,
 
         [System.Runtime.Serialization.EnumMember(Value = @"infiniband-edr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"infiniband-edr")]
         InfinibandEdr = 171,
 
         [System.Runtime.Serialization.EnumMember(Value = @"infiniband-hdr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"infiniband-hdr")]
         InfinibandHdr = 172,
 
         [System.Runtime.Serialization.EnumMember(Value = @"infiniband-ndr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"infiniband-ndr")]
         InfinibandNdr = 173,
 
         [System.Runtime.Serialization.EnumMember(Value = @"infiniband-xdr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"infiniband-xdr")]
         InfinibandXdr = 174,
 
         [System.Runtime.Serialization.EnumMember(Value = @"t1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"t1")]
         T1 = 175,
 
         [System.Runtime.Serialization.EnumMember(Value = @"e1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"e1")]
         E1 = 176,
 
         [System.Runtime.Serialization.EnumMember(Value = @"t3")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"t3")]
         T3 = 177,
 
         [System.Runtime.Serialization.EnumMember(Value = @"e3")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"e3")]
         E3 = 178,
 
         [System.Runtime.Serialization.EnumMember(Value = @"xdsl")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"xdsl")]
         Xdsl = 179,
 
         [System.Runtime.Serialization.EnumMember(Value = @"docsis")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"docsis")]
         Docsis = 180,
 
         [System.Runtime.Serialization.EnumMember(Value = @"moca")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"moca")]
         Moca = 181,
 
         [System.Runtime.Serialization.EnumMember(Value = @"bpon")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"bpon")]
         Bpon = 182,
 
         [System.Runtime.Serialization.EnumMember(Value = @"epon")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"epon")]
         Epon = 183,
 
         [System.Runtime.Serialization.EnumMember(Value = @"10g-epon")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10g-epon")]
         _10gEpon = 184,
 
         [System.Runtime.Serialization.EnumMember(Value = @"gpon")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"gpon")]
         Gpon = 185,
 
         [System.Runtime.Serialization.EnumMember(Value = @"xg-pon")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"xg-pon")]
         XgPon = 186,
 
         [System.Runtime.Serialization.EnumMember(Value = @"xgs-pon")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"xgs-pon")]
         XgsPon = 187,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ng-pon2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ng-pon2")]
         NgPon2 = 188,
 
         [System.Runtime.Serialization.EnumMember(Value = @"25g-pon")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"25g-pon")]
         _25gPon = 189,
 
         [System.Runtime.Serialization.EnumMember(Value = @"50g-pon")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"50g-pon")]
         _50gPon = 190,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cisco-stackwise")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cisco-stackwise")]
         CiscoStackwise = 191,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cisco-stackwise-plus")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cisco-stackwise-plus")]
         CiscoStackwisePlus = 192,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cisco-flexstack")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cisco-flexstack")]
         CiscoFlexstack = 193,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cisco-flexstack-plus")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cisco-flexstack-plus")]
         CiscoFlexstackPlus = 194,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cisco-stackwise-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cisco-stackwise-80")]
         CiscoStackwise80 = 195,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cisco-stackwise-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cisco-stackwise-160")]
         CiscoStackwise160 = 196,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cisco-stackwise-320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cisco-stackwise-320")]
         CiscoStackwise320 = 197,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cisco-stackwise-480")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cisco-stackwise-480")]
         CiscoStackwise480 = 198,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cisco-stackwise-1t")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cisco-stackwise-1t")]
         CiscoStackwise1t = 199,
 
         [System.Runtime.Serialization.EnumMember(Value = @"juniper-vcp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"juniper-vcp")]
         JuniperVcp = 200,
 
         [System.Runtime.Serialization.EnumMember(Value = @"extreme-summitstack")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"extreme-summitstack")]
         ExtremeSummitstack = 201,
 
         [System.Runtime.Serialization.EnumMember(Value = @"extreme-summitstack-128")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"extreme-summitstack-128")]
         ExtremeSummitstack128 = 202,
 
         [System.Runtime.Serialization.EnumMember(Value = @"extreme-summitstack-256")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"extreme-summitstack-256")]
         ExtremeSummitstack256 = 203,
 
         [System.Runtime.Serialization.EnumMember(Value = @"extreme-summitstack-512")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"extreme-summitstack-512")]
         ExtremeSummitstack512 = 204,
 
         [System.Runtime.Serialization.EnumMember(Value = @"other")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"other")]
         Other = 205,
 
     }
@@ -51858,15 +53685,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"half")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"half")]
         Half = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"full")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"full")]
         Full = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"auto")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"auto")]
         Auto = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 3,
 
     }
@@ -51876,18 +53707,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"access")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"access")]
         Access = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"tagged")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"tagged")]
         Tagged = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"tagged-all")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"tagged-all")]
         TaggedAll = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"q-in-q")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"q-in-q")]
         QInQ = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 4,
 
     }
@@ -51897,12 +53733,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"ap")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ap")]
         Ap = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"station")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"station")]
         Station = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 2,
 
     }
@@ -51912,597 +53751,795 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-1-2412-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-1-2412-22")]
         _2_4g1241222 = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-2-2417-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-2-2417-22")]
         _2_4g2241722 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-3-2422-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-3-2422-22")]
         _2_4g3242222 = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-4-2427-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-4-2427-22")]
         _2_4g4242722 = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-5-2432-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-5-2432-22")]
         _2_4g5243222 = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-6-2437-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-6-2437-22")]
         _2_4g6243722 = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-7-2442-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-7-2442-22")]
         _2_4g7244222 = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-8-2447-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-8-2447-22")]
         _2_4g8244722 = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-9-2452-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-9-2452-22")]
         _2_4g9245222 = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-10-2457-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-10-2457-22")]
         _2_4g10245722 = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-11-2462-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-11-2462-22")]
         _2_4g11246222 = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-12-2467-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-12-2467-22")]
         _2_4g12246722 = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2.4g-13-2472-22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2.4g-13-2472-22")]
         _2_4g13247222 = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-32-5160-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-32-5160-20")]
         _5g32516020 = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-34-5170-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-34-5170-40")]
         _5g34517040 = 14,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-36-5180-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-36-5180-20")]
         _5g36518020 = 15,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-38-5190-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-38-5190-40")]
         _5g38519040 = 16,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-40-5200-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-40-5200-20")]
         _5g40520020 = 17,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-42-5210-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-42-5210-80")]
         _5g42521080 = 18,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-44-5220-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-44-5220-20")]
         _5g44522020 = 19,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-46-5230-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-46-5230-40")]
         _5g46523040 = 20,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-48-5240-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-48-5240-20")]
         _5g48524020 = 21,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-50-5250-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-50-5250-160")]
         _5g505250160 = 22,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-52-5260-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-52-5260-20")]
         _5g52526020 = 23,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-54-5270-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-54-5270-40")]
         _5g54527040 = 24,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-56-5280-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-56-5280-20")]
         _5g56528020 = 25,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-58-5290-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-58-5290-80")]
         _5g58529080 = 26,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-60-5300-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-60-5300-20")]
         _5g60530020 = 27,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-62-5310-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-62-5310-40")]
         _5g62531040 = 28,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-64-5320-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-64-5320-20")]
         _5g64532020 = 29,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-100-5500-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-100-5500-20")]
         _5g100550020 = 30,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-102-5510-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-102-5510-40")]
         _5g102551040 = 31,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-104-5520-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-104-5520-20")]
         _5g104552020 = 32,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-106-5530-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-106-5530-80")]
         _5g106553080 = 33,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-108-5540-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-108-5540-20")]
         _5g108554020 = 34,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-110-5550-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-110-5550-40")]
         _5g110555040 = 35,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-112-5560-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-112-5560-20")]
         _5g112556020 = 36,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-114-5570-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-114-5570-160")]
         _5g1145570160 = 37,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-116-5580-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-116-5580-20")]
         _5g116558020 = 38,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-118-5590-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-118-5590-40")]
         _5g118559040 = 39,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-120-5600-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-120-5600-20")]
         _5g120560020 = 40,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-122-5610-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-122-5610-80")]
         _5g122561080 = 41,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-124-5620-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-124-5620-20")]
         _5g124562020 = 42,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-126-5630-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-126-5630-40")]
         _5g126563040 = 43,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-128-5640-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-128-5640-20")]
         _5g128564020 = 44,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-132-5660-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-132-5660-20")]
         _5g132566020 = 45,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-134-5670-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-134-5670-40")]
         _5g134567040 = 46,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-136-5680-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-136-5680-20")]
         _5g136568020 = 47,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-138-5690-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-138-5690-80")]
         _5g138569080 = 48,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-140-5700-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-140-5700-20")]
         _5g140570020 = 49,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-142-5710-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-142-5710-40")]
         _5g142571040 = 50,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-144-5720-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-144-5720-20")]
         _5g144572020 = 51,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-149-5745-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-149-5745-20")]
         _5g149574520 = 52,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-151-5755-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-151-5755-40")]
         _5g151575540 = 53,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-153-5765-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-153-5765-20")]
         _5g153576520 = 54,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-155-5775-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-155-5775-80")]
         _5g155577580 = 55,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-157-5785-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-157-5785-20")]
         _5g157578520 = 56,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-159-5795-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-159-5795-40")]
         _5g159579540 = 57,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-161-5805-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-161-5805-20")]
         _5g161580520 = 58,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-163-5815-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-163-5815-160")]
         _5g1635815160 = 59,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-165-5825-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-165-5825-20")]
         _5g165582520 = 60,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-167-5835-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-167-5835-40")]
         _5g167583540 = 61,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-169-5845-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-169-5845-20")]
         _5g169584520 = 62,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-171-5855-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-171-5855-80")]
         _5g171585580 = 63,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-173-5865-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-173-5865-20")]
         _5g173586520 = 64,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-175-5875-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-175-5875-40")]
         _5g175587540 = 65,
 
         [System.Runtime.Serialization.EnumMember(Value = @"5g-177-5885-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"5g-177-5885-20")]
         _5g177588520 = 66,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-1-5955-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-1-5955-20")]
         _6g1595520 = 67,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-3-5965-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-3-5965-40")]
         _6g3596540 = 68,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-5-5975-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-5-5975-20")]
         _6g5597520 = 69,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-7-5985-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-7-5985-80")]
         _6g7598580 = 70,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-9-5995-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-9-5995-20")]
         _6g9599520 = 71,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-11-6005-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-11-6005-40")]
         _6g11600540 = 72,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-13-6015-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-13-6015-20")]
         _6g13601520 = 73,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-15-6025-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-15-6025-160")]
         _6g156025160 = 74,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-17-6035-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-17-6035-20")]
         _6g17603520 = 75,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-19-6045-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-19-6045-40")]
         _6g19604540 = 76,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-21-6055-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-21-6055-20")]
         _6g21605520 = 77,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-23-6065-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-23-6065-80")]
         _6g23606580 = 78,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-25-6075-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-25-6075-20")]
         _6g25607520 = 79,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-27-6085-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-27-6085-40")]
         _6g27608540 = 80,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-29-6095-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-29-6095-20")]
         _6g29609520 = 81,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-31-6105-320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-31-6105-320")]
         _6g316105320 = 82,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-33-6115-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-33-6115-20")]
         _6g33611520 = 83,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-35-6125-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-35-6125-40")]
         _6g35612540 = 84,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-37-6135-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-37-6135-20")]
         _6g37613520 = 85,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-39-6145-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-39-6145-80")]
         _6g39614580 = 86,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-41-6155-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-41-6155-20")]
         _6g41615520 = 87,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-43-6165-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-43-6165-40")]
         _6g43616540 = 88,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-45-6175-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-45-6175-20")]
         _6g45617520 = 89,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-47-6185-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-47-6185-160")]
         _6g476185160 = 90,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-49-6195-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-49-6195-20")]
         _6g49619520 = 91,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-51-6205-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-51-6205-40")]
         _6g51620540 = 92,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-53-6215-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-53-6215-20")]
         _6g53621520 = 93,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-55-6225-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-55-6225-80")]
         _6g55622580 = 94,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-57-6235-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-57-6235-20")]
         _6g57623520 = 95,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-59-6245-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-59-6245-40")]
         _6g59624540 = 96,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-61-6255-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-61-6255-20")]
         _6g61625520 = 97,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-65-6275-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-65-6275-20")]
         _6g65627520 = 98,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-67-6285-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-67-6285-40")]
         _6g67628540 = 99,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-69-6295-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-69-6295-20")]
         _6g69629520 = 100,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-71-6305-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-71-6305-80")]
         _6g71630580 = 101,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-73-6315-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-73-6315-20")]
         _6g73631520 = 102,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-75-6325-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-75-6325-40")]
         _6g75632540 = 103,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-77-6335-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-77-6335-20")]
         _6g77633520 = 104,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-79-6345-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-79-6345-160")]
         _6g796345160 = 105,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-81-6355-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-81-6355-20")]
         _6g81635520 = 106,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-83-6365-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-83-6365-40")]
         _6g83636540 = 107,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-85-6375-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-85-6375-20")]
         _6g85637520 = 108,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-87-6385-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-87-6385-80")]
         _6g87638580 = 109,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-89-6395-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-89-6395-20")]
         _6g89639520 = 110,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-91-6405-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-91-6405-40")]
         _6g91640540 = 111,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-93-6415-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-93-6415-20")]
         _6g93641520 = 112,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-95-6425-320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-95-6425-320")]
         _6g956425320 = 113,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-97-6435-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-97-6435-20")]
         _6g97643520 = 114,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-99-6445-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-99-6445-40")]
         _6g99644540 = 115,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-101-6455-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-101-6455-20")]
         _6g101645520 = 116,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-103-6465-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-103-6465-80")]
         _6g103646580 = 117,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-105-6475-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-105-6475-20")]
         _6g105647520 = 118,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-107-6485-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-107-6485-40")]
         _6g107648540 = 119,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-109-6495-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-109-6495-20")]
         _6g109649520 = 120,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-111-6505-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-111-6505-160")]
         _6g1116505160 = 121,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-113-6515-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-113-6515-20")]
         _6g113651520 = 122,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-115-6525-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-115-6525-40")]
         _6g115652540 = 123,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-117-6535-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-117-6535-20")]
         _6g117653520 = 124,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-119-6545-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-119-6545-80")]
         _6g119654580 = 125,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-121-6555-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-121-6555-20")]
         _6g121655520 = 126,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-123-6565-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-123-6565-40")]
         _6g123656540 = 127,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-125-6575-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-125-6575-20")]
         _6g125657520 = 128,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-129-6595-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-129-6595-20")]
         _6g129659520 = 129,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-131-6605-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-131-6605-40")]
         _6g131660540 = 130,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-133-6615-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-133-6615-20")]
         _6g133661520 = 131,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-135-6625-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-135-6625-80")]
         _6g135662580 = 132,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-137-6635-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-137-6635-20")]
         _6g137663520 = 133,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-139-6645-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-139-6645-40")]
         _6g139664540 = 134,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-141-6655-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-141-6655-20")]
         _6g141665520 = 135,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-143-6665-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-143-6665-160")]
         _6g1436665160 = 136,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-145-6675-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-145-6675-20")]
         _6g145667520 = 137,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-147-6685-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-147-6685-40")]
         _6g147668540 = 138,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-149-6695-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-149-6695-20")]
         _6g149669520 = 139,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-151-6705-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-151-6705-80")]
         _6g151670580 = 140,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-153-6715-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-153-6715-20")]
         _6g153671520 = 141,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-155-6725-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-155-6725-40")]
         _6g155672540 = 142,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-157-6735-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-157-6735-20")]
         _6g157673520 = 143,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-159-6745-320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-159-6745-320")]
         _6g1596745320 = 144,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-161-6755-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-161-6755-20")]
         _6g161675520 = 145,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-163-6765-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-163-6765-40")]
         _6g163676540 = 146,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-165-6775-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-165-6775-20")]
         _6g165677520 = 147,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-167-6785-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-167-6785-80")]
         _6g167678580 = 148,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-169-6795-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-169-6795-20")]
         _6g169679520 = 149,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-171-6805-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-171-6805-40")]
         _6g171680540 = 150,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-173-6815-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-173-6815-20")]
         _6g173681520 = 151,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-175-6825-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-175-6825-160")]
         _6g1756825160 = 152,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-177-6835-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-177-6835-20")]
         _6g177683520 = 153,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-179-6845-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-179-6845-40")]
         _6g179684540 = 154,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-181-6855-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-181-6855-20")]
         _6g181685520 = 155,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-183-6865-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-183-6865-80")]
         _6g183686580 = 156,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-185-6875-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-185-6875-20")]
         _6g185687520 = 157,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-187-6885-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-187-6885-40")]
         _6g187688540 = 158,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-189-6895-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-189-6895-20")]
         _6g189689520 = 159,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-193-6915-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-193-6915-20")]
         _6g193691520 = 160,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-195-6925-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-195-6925-40")]
         _6g195692540 = 161,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-197-6935-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-197-6935-20")]
         _6g197693520 = 162,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-199-6945-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-199-6945-80")]
         _6g199694580 = 163,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-201-6955-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-201-6955-20")]
         _6g201695520 = 164,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-203-6965-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-203-6965-40")]
         _6g203696540 = 165,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-205-6975-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-205-6975-20")]
         _6g205697520 = 166,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-207-6985-160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-207-6985-160")]
         _6g2076985160 = 167,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-209-6995-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-209-6995-20")]
         _6g209699520 = 168,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-211-7005-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-211-7005-40")]
         _6g211700540 = 169,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-213-7015-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-213-7015-20")]
         _6g213701520 = 170,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-215-7025-80")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-215-7025-80")]
         _6g215702580 = 171,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-217-7035-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-217-7035-20")]
         _6g217703520 = 172,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-219-7045-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-219-7045-40")]
         _6g219704540 = 173,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-221-7055-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-221-7055-20")]
         _6g221705520 = 174,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-225-7075-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-225-7075-20")]
         _6g225707520 = 175,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-227-7085-40")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-227-7085-40")]
         _6g227708540 = 176,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-229-7095-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-229-7095-20")]
         _6g229709520 = 177,
 
         [System.Runtime.Serialization.EnumMember(Value = @"6g-233-7115-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"6g-233-7115-20")]
         _6g233711520 = 178,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-1-58320-2160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-1-58320-2160")]
         _60g1583202160 = 179,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-2-60480-2160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-2-60480-2160")]
         _60g2604802160 = 180,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-3-62640-2160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-3-62640-2160")]
         _60g3626402160 = 181,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-4-64800-2160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-4-64800-2160")]
         _60g4648002160 = 182,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-5-66960-2160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-5-66960-2160")]
         _60g5669602160 = 183,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-6-69120-2160")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-6-69120-2160")]
         _60g6691202160 = 184,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-9-59400-4320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-9-59400-4320")]
         _60g9594004320 = 185,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-10-61560-4320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-10-61560-4320")]
         _60g10615604320 = 186,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-11-63720-4320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-11-63720-4320")]
         _60g11637204320 = 187,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-12-65880-4320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-12-65880-4320")]
         _60g12658804320 = 188,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-13-68040-4320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-13-68040-4320")]
         _60g13680404320 = 189,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-17-60480-6480")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-17-60480-6480")]
         _60g17604806480 = 190,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-18-62640-6480")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-18-62640-6480")]
         _60g18626406480 = 191,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-19-64800-6480")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-19-64800-6480")]
         _60g19648006480 = 192,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-20-66960-6480")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-20-66960-6480")]
         _60g20669606480 = 193,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-25-61560-6480")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-25-61560-6480")]
         _60g25615606480 = 194,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-26-63720-6480")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-26-63720-6480")]
         _60g26637206480 = 195,
 
         [System.Runtime.Serialization.EnumMember(Value = @"60g-27-65880-6480")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"60g-27-65880-6480")]
         _60g27658806480 = 196,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 197,
 
     }
@@ -52512,12 +54549,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"pd")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"pd")]
         Pd = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"pse")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"pse")]
         Pse = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 2,
 
     }
@@ -52527,30 +54567,39 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"type1-ieee802.3af")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"type1-ieee802.3af")]
         Type1Ieee802_3af = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"type2-ieee802.3at")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"type2-ieee802.3at")]
         Type2Ieee802_3at = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"type3-ieee802.3bt")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"type3-ieee802.3bt")]
         Type3Ieee802_3bt = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"type4-ieee802.3bt")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"type4-ieee802.3bt")]
         Type4Ieee802_3bt = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"passive-24v-2pair")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"passive-24v-2pair")]
         Passive24v2pair = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"passive-24v-4pair")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"passive-24v-4pair")]
         Passive24v4pair = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"passive-48v-2pair")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"passive-48v-2pair")]
         Passive48v2pair = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"passive-48v-4pair")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"passive-48v-4pair")]
         Passive48v4pair = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 8,
 
     }
@@ -52560,21 +54609,27 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"offline")]
         Offline = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"staged")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"staged")]
         Staged = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"failed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"failed")]
         Failed = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"decommissioning")]
         Decommissioning = 5,
 
     }
@@ -52584,21 +54639,27 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Offline")]
         Offline = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Planned")]
         Planned = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Staged")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Staged")]
         Staged = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Failed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Failed")]
         Failed = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Decommissioning")]
         Decommissioning = 5,
 
     }
@@ -52608,21 +54669,27 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"offline")]
         Offline = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"staged")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"staged")]
         Staged = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"failed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"failed")]
         Failed = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"decommissioning")]
         Decommissioning = 5,
 
     }
@@ -52632,15 +54699,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"info")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"info")]
         Info = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"success")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"success")]
         Success = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"warning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"warning")]
         Warning = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"danger")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"danger")]
         Danger = 3,
 
     }
@@ -52650,15 +54721,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Info")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Info")]
         Info = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Success")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Success")]
         Success = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Warning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Warning")]
         Warning = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Danger")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Danger")]
         Danger = 3,
 
     }
@@ -52668,15 +54743,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"info")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"info")]
         Info = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"success")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"success")]
         Success = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"warning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"warning")]
         Warning = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"danger")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"danger")]
         Danger = 3,
 
     }
@@ -52686,12 +54765,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"decommissioning")]
         Decommissioning = 2,
 
     }
@@ -52701,12 +54783,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Active")]
         Active = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Planned")]
         Planned = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Decommissioning")]
         Decommissioning = 2,
 
     }
@@ -52716,12 +54801,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"decommissioning")]
         Decommissioning = 2,
 
     }
@@ -52731,18 +54819,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"staging")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"staging")]
         Staging = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"decommissioning")]
         Decommissioning = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"retired")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"retired")]
         Retired = 4,
 
     }
@@ -52752,18 +54845,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Planned")]
         Planned = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Staging")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Staging")]
         Staging = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Active")]
         Active = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Decommissioning")]
         Decommissioning = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Retired")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Retired")]
         Retired = 4,
 
     }
@@ -52773,18 +54871,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"staging")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"staging")]
         Staging = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"decommissioning")]
         Decommissioning = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"retired")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"retired")]
         Retired = 4,
 
     }
@@ -52794,24 +54897,31 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"front-to-rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"front-to-rear")]
         FrontToRear = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rear-to-front")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rear-to-front")]
         RearToFront = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"left-to-right")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"left-to-right")]
         LeftToRight = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"right-to-left")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"right-to-left")]
         RightToLeft = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"side-to-rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"side-to-rear")]
         SideToRear = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"passive")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"passive")]
         Passive = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 6,
 
     }
@@ -52821,21 +54931,27 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Front to rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Front to rear")]
         Front_to_rear = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Rear to front")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Rear to front")]
         Rear_to_front = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Left to right")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Left to right")]
         Left_to_right = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Right to left")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Right to left")]
         Right_to_left = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Side to rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Side to rear")]
         Side_to_rear = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Passive")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Passive")]
         Passive = 5,
 
     }
@@ -52845,24 +54961,31 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"front-to-rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"front-to-rear")]
         FrontToRear = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rear-to-front")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rear-to-front")]
         RearToFront = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"left-to-right")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"left-to-right")]
         LeftToRight = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"right-to-left")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"right-to-left")]
         RightToLeft = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"side-to-rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"side-to-rear")]
         SideToRear = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"passive")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"passive")]
         Passive = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 6,
 
     }
@@ -52872,24 +54995,31 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"object_created")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"object_created")]
         Object_created = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"object_updated")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"object_updated")]
         Object_updated = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"object_deleted")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"object_deleted")]
         Object_deleted = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"job_started")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"job_started")]
         Job_started = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"job_completed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"job_completed")]
         Job_completed = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"job_failed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"job_failed")]
         Job_failed = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"job_errored")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"job_errored")]
         Job_errored = 6,
 
     }
@@ -52899,12 +55029,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"create")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"create")]
         Create = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"update")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"update")]
         Update = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"delete")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"delete")]
         Delete = 2,
 
     }
@@ -52914,12 +55047,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Created")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Created")]
         Created = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Updated")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Updated")]
         Updated = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Deleted")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Deleted")]
         Deleted = 2,
 
     }
@@ -52929,18 +55065,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"GET")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"GET")]
         GET = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"POST")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"POST")]
         POST = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"PUT")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"PUT")]
         PUT = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"PATCH")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"PATCH")]
         PATCH = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"DELETE")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"DELETE")]
         DELETE = 4,
 
     }
@@ -52950,15 +55091,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"IATA")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IATA")]
         IATA = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ISO_3166")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ISO_3166")]
         ISO_3166 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"UN_LOCODE")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"UN_LOCODE")]
         UN_LOCODE = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 3,
 
     }
@@ -52968,12 +55113,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"aggressive")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aggressive")]
         Aggressive = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"main")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"main")]
         Main = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 2,
 
     }
@@ -52983,21 +55131,27 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"hmac-sha1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hmac-sha1")]
         HmacSha1 = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hmac-sha256")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hmac-sha256")]
         HmacSha256 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hmac-sha384")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hmac-sha384")]
         HmacSha384 = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hmac-sha512")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hmac-sha512")]
         HmacSha512 = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hmac-md5")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hmac-md5")]
         HmacMd5 = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 5,
 
     }
@@ -53007,30 +55161,39 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes-128-cbc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes-128-cbc")]
         Aes128Cbc = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes-128-gcm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes-128-gcm")]
         Aes128Gcm = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes-192-cbc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes-192-cbc")]
         Aes192Cbc = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes-192-gcm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes-192-gcm")]
         Aes192Gcm = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes-256-cbc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes-256-cbc")]
         Aes256Cbc = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes-256-gcm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes-256-gcm")]
         Aes256Gcm = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"3des-cbc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"3des-cbc")]
         _3desCbc = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"des-cbc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"des-cbc")]
         DesCbc = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 8,
 
     }
@@ -53040,15 +55203,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"offline")]
         Offline = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"failed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"failed")]
         Failed = 3,
 
     }
@@ -53058,9 +55225,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"primary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"primary")]
         Primary = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"redundant")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"redundant")]
         Redundant = 1,
 
     }
@@ -53070,9 +55239,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"ac")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ac")]
         Ac = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"dc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"dc")]
         Dc = 1,
 
     }
@@ -53082,9 +55253,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"single-phase")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"single-phase")]
         SinglePhase = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"three-phase")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"three-phase")]
         ThreePhase = 1,
 
     }
@@ -53094,306 +55267,407 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c5")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c5")]
         Iec60320C5 = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c7")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c7")]
         Iec60320C7 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c13")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c13")]
         Iec60320C13 = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c15")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c15")]
         Iec60320C15 = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c17")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c17")]
         Iec60320C17 = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c19")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c19")]
         Iec60320C19 = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c21")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c21")]
         Iec60320C21 = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-p-n-e-4h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-p-n-e-4h")]
         Iec60309PNE4h = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-p-n-e-6h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-p-n-e-6h")]
         Iec60309PNE6h = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-p-n-e-9h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-p-n-e-9h")]
         Iec60309PNE9h = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-2p-e-4h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-2p-e-4h")]
         Iec603092pE4h = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-2p-e-6h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-2p-e-6h")]
         Iec603092pE6h = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-2p-e-9h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-2p-e-9h")]
         Iec603092pE9h = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-e-4h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-e-4h")]
         Iec603093pE4h = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-e-6h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-e-6h")]
         Iec603093pE6h = 14,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-e-9h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-e-9h")]
         Iec603093pE9h = 15,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-n-e-4h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-n-e-4h")]
         Iec603093pNE4h = 16,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-n-e-6h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-n-e-6h")]
         Iec603093pNE6h = 17,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-n-e-9h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-n-e-9h")]
         Iec603093pNE9h = 18,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60906-1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60906-1")]
         Iec609061 = 19,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nbr-14136-10a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nbr-14136-10a")]
         Nbr1413610a = 20,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nbr-14136-20a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nbr-14136-20a")]
         Nbr1413620a = 21,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-1-15r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-1-15r")]
         Nema115r = 22,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-5-15r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-5-15r")]
         Nema515r = 23,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-5-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-5-20r")]
         Nema520r = 24,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-5-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-5-30r")]
         Nema530r = 25,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-5-50r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-5-50r")]
         Nema550r = 26,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-6-15r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-6-15r")]
         Nema615r = 27,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-6-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-6-20r")]
         Nema620r = 28,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-6-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-6-30r")]
         Nema630r = 29,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-6-50r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-6-50r")]
         Nema650r = 30,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-10-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-10-30r")]
         Nema1030r = 31,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-10-50r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-10-50r")]
         Nema1050r = 32,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-14-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-14-20r")]
         Nema1420r = 33,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-14-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-14-30r")]
         Nema1430r = 34,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-14-50r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-14-50r")]
         Nema1450r = 35,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-14-60r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-14-60r")]
         Nema1460r = 36,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-15r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-15r")]
         Nema1515r = 37,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-20r")]
         Nema1520r = 38,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-30r")]
         Nema1530r = 39,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-50r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-50r")]
         Nema1550r = 40,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-60r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-60r")]
         Nema1560r = 41,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l1-15r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l1-15r")]
         NemaL115r = 42,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l5-15r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l5-15r")]
         NemaL515r = 43,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l5-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l5-20r")]
         NemaL520r = 44,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l5-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l5-30r")]
         NemaL530r = 45,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l5-50r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l5-50r")]
         NemaL550r = 46,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l6-15r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l6-15r")]
         NemaL615r = 47,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l6-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l6-20r")]
         NemaL620r = 48,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l6-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l6-30r")]
         NemaL630r = 49,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l6-50r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l6-50r")]
         NemaL650r = 50,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l10-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l10-30r")]
         NemaL1030r = 51,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l14-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l14-20r")]
         NemaL1420r = 52,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l14-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l14-30r")]
         NemaL1430r = 53,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l14-50r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l14-50r")]
         NemaL1450r = 54,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l14-60r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l14-60r")]
         NemaL1460r = 55,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l15-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l15-20r")]
         NemaL1520r = 56,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l15-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l15-30r")]
         NemaL1530r = 57,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l15-50r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l15-50r")]
         NemaL1550r = 58,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l15-60r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l15-60r")]
         NemaL1560r = 59,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l21-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l21-20r")]
         NemaL2120r = 60,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l21-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l21-30r")]
         NemaL2130r = 61,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l22-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l22-20r")]
         NemaL2220r = 62,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l22-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l22-30r")]
         NemaL2230r = 63,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS6360C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS6360C")]
         CS6360C = 64,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS6364C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS6364C")]
         CS6364C = 65,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS8164C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS8164C")]
         CS8164C = 66,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS8264C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS8264C")]
         CS8264C = 67,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS8364C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS8364C")]
         CS8364C = 68,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS8464C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS8464C")]
         CS8464C = 69,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-e")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-e")]
         ItaE = 70,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-f")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-f")]
         ItaF = 71,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-g")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-g")]
         ItaG = 72,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-h")]
         ItaH = 73,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-i")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-i")]
         ItaI = 74,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-j")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-j")]
         ItaJ = 75,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-k")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-k")]
         ItaK = 76,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-l")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-l")]
         ItaL = 77,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-m")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-m")]
         ItaM = 78,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-n")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-n")]
         ItaN = 79,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-o")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-o")]
         ItaO = 80,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-multistandard")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-multistandard")]
         ItaMultistandard = 81,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-a")]
         UsbA = 82,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-b")]
         UsbMicroB = 83,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-c")]
         UsbC = 84,
 
         [System.Runtime.Serialization.EnumMember(Value = @"molex-micro-fit-1x2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"molex-micro-fit-1x2")]
         MolexMicroFit1x2 = 85,
 
         [System.Runtime.Serialization.EnumMember(Value = @"molex-micro-fit-2x2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"molex-micro-fit-2x2")]
         MolexMicroFit2x2 = 86,
 
         [System.Runtime.Serialization.EnumMember(Value = @"molex-micro-fit-2x3")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"molex-micro-fit-2x3")]
         MolexMicroFit2x3 = 87,
 
         [System.Runtime.Serialization.EnumMember(Value = @"molex-micro-fit-2x4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"molex-micro-fit-2x4")]
         MolexMicroFit2x4 = 88,
 
         [System.Runtime.Serialization.EnumMember(Value = @"dc-terminal")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"dc-terminal")]
         DcTerminal = 89,
 
         [System.Runtime.Serialization.EnumMember(Value = @"eaton-c39")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"eaton-c39")]
         EatonC39 = 90,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hdot-cx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hdot-cx")]
         HdotCx = 91,
 
         [System.Runtime.Serialization.EnumMember(Value = @"saf-d-grid")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"saf-d-grid")]
         SafDGrid = 92,
 
         [System.Runtime.Serialization.EnumMember(Value = @"neutrik-powercon-20a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"neutrik-powercon-20a")]
         NeutrikPowercon20a = 93,
 
         [System.Runtime.Serialization.EnumMember(Value = @"neutrik-powercon-32a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"neutrik-powercon-32a")]
         NeutrikPowercon32a = 94,
 
         [System.Runtime.Serialization.EnumMember(Value = @"neutrik-powercon-true1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"neutrik-powercon-true1")]
         NeutrikPowerconTrue1 = 95,
 
         [System.Runtime.Serialization.EnumMember(Value = @"neutrik-powercon-true1-top")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"neutrik-powercon-true1-top")]
         NeutrikPowerconTrue1Top = 96,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ubiquiti-smartpower")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ubiquiti-smartpower")]
         UbiquitiSmartpower = 97,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hardwired")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hardwired")]
         Hardwired = 98,
 
         [System.Runtime.Serialization.EnumMember(Value = @"other")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"other")]
         Other = 99,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 100,
 
     }
@@ -53403,12 +55677,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"enabled")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"enabled")]
         Enabled = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"disabled")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"disabled")]
         Disabled = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"faulty")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"faulty")]
         Faulty = 2,
 
     }
@@ -53418,15 +55695,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"A")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"A")]
         A = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"B")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"B")]
         B = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"C")]
         C = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 3,
 
     }
@@ -53436,324 +55717,431 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c6")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c6")]
         Iec60320C6 = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c8")]
         Iec60320C8 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c14")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c14")]
         Iec60320C14 = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c16")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c16")]
         Iec60320C16 = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c18")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c18")]
         Iec60320C18 = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c20")]
         Iec60320C20 = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c22")]
         Iec60320C22 = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-p-n-e-4h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-p-n-e-4h")]
         Iec60309PNE4h = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-p-n-e-6h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-p-n-e-6h")]
         Iec60309PNE6h = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-p-n-e-9h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-p-n-e-9h")]
         Iec60309PNE9h = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-2p-e-4h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-2p-e-4h")]
         Iec603092pE4h = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-2p-e-6h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-2p-e-6h")]
         Iec603092pE6h = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-2p-e-9h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-2p-e-9h")]
         Iec603092pE9h = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-e-4h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-e-4h")]
         Iec603093pE4h = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-e-6h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-e-6h")]
         Iec603093pE6h = 14,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-e-9h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-e-9h")]
         Iec603093pE9h = 15,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-n-e-4h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-n-e-4h")]
         Iec603093pNE4h = 16,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-n-e-6h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-n-e-6h")]
         Iec603093pNE6h = 17,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-n-e-9h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-n-e-9h")]
         Iec603093pNE9h = 18,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60906-1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60906-1")]
         Iec609061 = 19,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nbr-14136-10a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nbr-14136-10a")]
         Nbr1413610a = 20,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nbr-14136-20a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nbr-14136-20a")]
         Nbr1413620a = 21,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-1-15p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-1-15p")]
         Nema115p = 22,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-5-15p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-5-15p")]
         Nema515p = 23,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-5-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-5-20p")]
         Nema520p = 24,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-5-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-5-30p")]
         Nema530p = 25,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-5-50p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-5-50p")]
         Nema550p = 26,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-6-15p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-6-15p")]
         Nema615p = 27,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-6-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-6-20p")]
         Nema620p = 28,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-6-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-6-30p")]
         Nema630p = 29,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-6-50p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-6-50p")]
         Nema650p = 30,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-10-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-10-30p")]
         Nema1030p = 31,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-10-50p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-10-50p")]
         Nema1050p = 32,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-14-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-14-20p")]
         Nema1420p = 33,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-14-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-14-30p")]
         Nema1430p = 34,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-14-50p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-14-50p")]
         Nema1450p = 35,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-14-60p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-14-60p")]
         Nema1460p = 36,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-15p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-15p")]
         Nema1515p = 37,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-20p")]
         Nema1520p = 38,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-30p")]
         Nema1530p = 39,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-50p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-50p")]
         Nema1550p = 40,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-60p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-60p")]
         Nema1560p = 41,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l1-15p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l1-15p")]
         NemaL115p = 42,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l5-15p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l5-15p")]
         NemaL515p = 43,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l5-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l5-20p")]
         NemaL520p = 44,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l5-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l5-30p")]
         NemaL530p = 45,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l5-50p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l5-50p")]
         NemaL550p = 46,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l6-15p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l6-15p")]
         NemaL615p = 47,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l6-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l6-20p")]
         NemaL620p = 48,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l6-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l6-30p")]
         NemaL630p = 49,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l6-50p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l6-50p")]
         NemaL650p = 50,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l10-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l10-30p")]
         NemaL1030p = 51,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l14-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l14-20p")]
         NemaL1420p = 52,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l14-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l14-30p")]
         NemaL1430p = 53,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l14-50p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l14-50p")]
         NemaL1450p = 54,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l14-60p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l14-60p")]
         NemaL1460p = 55,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l15-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l15-20p")]
         NemaL1520p = 56,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l15-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l15-30p")]
         NemaL1530p = 57,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l15-50p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l15-50p")]
         NemaL1550p = 58,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l15-60p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l15-60p")]
         NemaL1560p = 59,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l21-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l21-20p")]
         NemaL2120p = 60,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l21-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l21-30p")]
         NemaL2130p = 61,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l22-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l22-20p")]
         NemaL2220p = 62,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l22-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l22-30p")]
         NemaL2230p = 63,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cs6361c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cs6361c")]
         Cs6361c = 64,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cs6365c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cs6365c")]
         Cs6365c = 65,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cs8165c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cs8165c")]
         Cs8165c = 66,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cs8265c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cs8265c")]
         Cs8265c = 67,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cs8365c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cs8365c")]
         Cs8365c = 68,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cs8465c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cs8465c")]
         Cs8465c = 69,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-c")]
         ItaC = 70,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-e")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-e")]
         ItaE = 71,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-f")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-f")]
         ItaF = 72,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-ef")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-ef")]
         ItaEf = 73,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-g")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-g")]
         ItaG = 74,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-h")]
         ItaH = 75,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-i")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-i")]
         ItaI = 76,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-j")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-j")]
         ItaJ = 77,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-k")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-k")]
         ItaK = 78,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-l")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-l")]
         ItaL = 79,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-m")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-m")]
         ItaM = 80,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-n")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-n")]
         ItaN = 81,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-o")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-o")]
         ItaO = 82,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-a")]
         UsbA = 83,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-b")]
         UsbB = 84,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-c")]
         UsbC = 85,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-mini-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-mini-a")]
         UsbMiniA = 86,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-mini-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-mini-b")]
         UsbMiniB = 87,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-a")]
         UsbMicroA = 88,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-b")]
         UsbMicroB = 89,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-ab")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-ab")]
         UsbMicroAb = 90,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-3-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-3-b")]
         Usb3B = 91,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-3-micro-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-3-micro-b")]
         Usb3MicroB = 92,
 
         [System.Runtime.Serialization.EnumMember(Value = @"molex-micro-fit-1x2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"molex-micro-fit-1x2")]
         MolexMicroFit1x2 = 93,
 
         [System.Runtime.Serialization.EnumMember(Value = @"molex-micro-fit-2x2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"molex-micro-fit-2x2")]
         MolexMicroFit2x2 = 94,
 
         [System.Runtime.Serialization.EnumMember(Value = @"molex-micro-fit-2x3")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"molex-micro-fit-2x3")]
         MolexMicroFit2x3 = 95,
 
         [System.Runtime.Serialization.EnumMember(Value = @"molex-micro-fit-2x4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"molex-micro-fit-2x4")]
         MolexMicroFit2x4 = 96,
 
         [System.Runtime.Serialization.EnumMember(Value = @"dc-terminal")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"dc-terminal")]
         DcTerminal = 97,
 
         [System.Runtime.Serialization.EnumMember(Value = @"saf-d-grid")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"saf-d-grid")]
         SafDGrid = 98,
 
         [System.Runtime.Serialization.EnumMember(Value = @"neutrik-powercon-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"neutrik-powercon-20")]
         NeutrikPowercon20 = 99,
 
         [System.Runtime.Serialization.EnumMember(Value = @"neutrik-powercon-32")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"neutrik-powercon-32")]
         NeutrikPowercon32 = 100,
 
         [System.Runtime.Serialization.EnumMember(Value = @"neutrik-powercon-true1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"neutrik-powercon-true1")]
         NeutrikPowerconTrue1 = 101,
 
         [System.Runtime.Serialization.EnumMember(Value = @"neutrik-powercon-true1-top")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"neutrik-powercon-true1-top")]
         NeutrikPowerconTrue1Top = 102,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ubiquiti-smartpower")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ubiquiti-smartpower")]
         UbiquitiSmartpower = 103,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hardwired")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hardwired")]
         Hardwired = 104,
 
         [System.Runtime.Serialization.EnumMember(Value = @"other")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"other")]
         Other = 105,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 106,
 
     }
@@ -53763,15 +56151,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"container")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"container")]
         Container = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"reserved")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"reserved")]
         Reserved = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"deprecated")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"deprecated")]
         Deprecated = 3,
 
     }
@@ -53781,18 +56173,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"reserved")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"reserved")]
         Reserved = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"available")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"available")]
         Available = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"deprecated")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"deprecated")]
         Deprecated = 4,
 
     }
@@ -53802,27 +56199,35 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"2-post-frame")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2-post-frame")]
         _2PostFrame = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4-post-frame")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4-post-frame")]
         _4PostFrame = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4-post-cabinet")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4-post-cabinet")]
         _4PostCabinet = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wall-frame")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wall-frame")]
         WallFrame = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wall-frame-vertical")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wall-frame-vertical")]
         WallFrameVertical = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wall-cabinet")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wall-cabinet")]
         WallCabinet = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wall-cabinet-vertical")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wall-cabinet-vertical")]
         WallCabinetVertical = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 7,
 
     }
@@ -53846,12 +56251,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"mm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mm")]
         Mm = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"in")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"in")]
         In = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 2,
 
     }
@@ -53861,12 +56269,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"front-to-rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"front-to-rear")]
         FrontToRear = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rear-to-front")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rear-to-front")]
         RearToFront = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 2,
 
     }
@@ -53876,12 +56287,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"pending")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"pending")]
         Pending = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"stale")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"stale")]
         Stale = 2,
 
     }
@@ -53891,24 +56305,31 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"2-post-frame")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2-post-frame")]
         _2PostFrame = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4-post-frame")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4-post-frame")]
         _4PostFrame = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4-post-cabinet")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4-post-cabinet")]
         _4PostCabinet = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wall-frame")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wall-frame")]
         WallFrame = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wall-frame-vertical")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wall-frame-vertical")]
         WallFrameVertical = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wall-cabinet")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wall-cabinet")]
         WallCabinet = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wall-cabinet-vertical")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wall-cabinet-vertical")]
         WallCabinetVertical = 6,
 
     }
@@ -53918,12 +56339,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"tcp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"tcp")]
         Tcp = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"udp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"udp")]
         Udp = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sctp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sctp")]
         Sctp = 2,
 
     }
@@ -53933,12 +56357,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"disabled")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"disabled")]
         Disabled = 2,
 
     }
@@ -53948,27 +56375,35 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"ipsec-transport")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ipsec-transport")]
         IpsecTransport = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ipsec-tunnel")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ipsec-tunnel")]
         IpsecTunnel = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ip-ip")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ip-ip")]
         IpIp = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"gre")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"gre")]
         Gre = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wireguard")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wireguard")]
         Wireguard = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"openvpn")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"openvpn")]
         Openvpn = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"l2tp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"l2tp")]
         L2tp = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"pptp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"pptp")]
         Pptp = 7,
 
     }
@@ -53978,12 +56413,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"peer")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"peer")]
         Peer = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hub")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hub")]
         Hub = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"spoke")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"spoke")]
         Spoke = 2,
 
     }
@@ -53993,12 +56431,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"svlan")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"svlan")]
         Svlan = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cvlan")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cvlan")]
         Cvlan = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 2,
 
     }
@@ -54008,12 +56449,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"offline")]
         Offline = 2,
 
     }
@@ -54023,24 +56467,31 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"offline")]
         Offline = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"staged")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"staged")]
         Staged = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"failed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"failed")]
         Failed = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"decommissioning")]
         Decommissioning = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"paused")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"paused")]
         Paused = 6,
 
     }
@@ -54050,15 +56501,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"reserved")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"reserved")]
         Reserved = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"disabled")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"disabled")]
         Disabled = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"deprecated")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"deprecated")]
         Deprecated = 3,
 
     }
@@ -54068,18 +56523,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"open")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"open")]
         Open = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wep")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wep")]
         Wep = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wpa-personal")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wpa-personal")]
         WpaPersonal = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wpa-enterprise")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wpa-enterprise")]
         WpaEnterprise = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 4,
 
     }
@@ -54089,15 +56549,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"auto")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"auto")]
         Auto = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"tkip")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"tkip")]
         Tkip = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes")]
         Aes = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 3,
 
     }
@@ -54107,15 +56571,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"offline")]
         Offline = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"failed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"failed")]
         Failed = 3,
 
     }
@@ -54125,15 +56593,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Offline")]
         Offline = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Planned")]
         Planned = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Failed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Failed")]
         Failed = 3,
 
     }
@@ -54143,9 +56615,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"primary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"primary")]
         Primary = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"redundant")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"redundant")]
         Redundant = 1,
 
     }
@@ -54155,9 +56629,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Primary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Primary")]
         Primary = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Redundant")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Redundant")]
         Redundant = 1,
 
     }
@@ -54167,9 +56643,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"ac")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ac")]
         Ac = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"dc")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"dc")]
         Dc = 1,
 
     }
@@ -54179,9 +56657,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"AC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"AC")]
         AC = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"DC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"DC")]
         DC = 1,
 
     }
@@ -54191,9 +56671,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"single-phase")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"single-phase")]
         SinglePhase = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"three-phase")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"three-phase")]
         ThreePhase = 1,
 
     }
@@ -54203,9 +56685,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Single phase")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Single phase")]
         Single_phase = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Three-phase")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Three-phase")]
         ThreePhase = 1,
 
     }
@@ -54215,306 +56699,407 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c5")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c5")]
         Iec60320C5 = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c7")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c7")]
         Iec60320C7 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c13")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c13")]
         Iec60320C13 = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c15")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c15")]
         Iec60320C15 = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c17")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c17")]
         Iec60320C17 = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c19")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c19")]
         Iec60320C19 = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c21")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c21")]
         Iec60320C21 = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-p-n-e-4h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-p-n-e-4h")]
         Iec60309PNE4h = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-p-n-e-6h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-p-n-e-6h")]
         Iec60309PNE6h = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-p-n-e-9h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-p-n-e-9h")]
         Iec60309PNE9h = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-2p-e-4h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-2p-e-4h")]
         Iec603092pE4h = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-2p-e-6h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-2p-e-6h")]
         Iec603092pE6h = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-2p-e-9h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-2p-e-9h")]
         Iec603092pE9h = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-e-4h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-e-4h")]
         Iec603093pE4h = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-e-6h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-e-6h")]
         Iec603093pE6h = 14,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-e-9h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-e-9h")]
         Iec603093pE9h = 15,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-n-e-4h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-n-e-4h")]
         Iec603093pNE4h = 16,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-n-e-6h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-n-e-6h")]
         Iec603093pNE6h = 17,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-n-e-9h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-n-e-9h")]
         Iec603093pNE9h = 18,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60906-1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60906-1")]
         Iec609061 = 19,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nbr-14136-10a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nbr-14136-10a")]
         Nbr1413610a = 20,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nbr-14136-20a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nbr-14136-20a")]
         Nbr1413620a = 21,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-1-15r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-1-15r")]
         Nema115r = 22,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-5-15r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-5-15r")]
         Nema515r = 23,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-5-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-5-20r")]
         Nema520r = 24,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-5-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-5-30r")]
         Nema530r = 25,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-5-50r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-5-50r")]
         Nema550r = 26,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-6-15r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-6-15r")]
         Nema615r = 27,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-6-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-6-20r")]
         Nema620r = 28,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-6-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-6-30r")]
         Nema630r = 29,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-6-50r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-6-50r")]
         Nema650r = 30,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-10-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-10-30r")]
         Nema1030r = 31,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-10-50r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-10-50r")]
         Nema1050r = 32,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-14-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-14-20r")]
         Nema1420r = 33,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-14-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-14-30r")]
         Nema1430r = 34,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-14-50r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-14-50r")]
         Nema1450r = 35,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-14-60r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-14-60r")]
         Nema1460r = 36,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-15r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-15r")]
         Nema1515r = 37,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-20r")]
         Nema1520r = 38,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-30r")]
         Nema1530r = 39,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-50r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-50r")]
         Nema1550r = 40,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-60r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-60r")]
         Nema1560r = 41,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l1-15r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l1-15r")]
         NemaL115r = 42,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l5-15r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l5-15r")]
         NemaL515r = 43,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l5-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l5-20r")]
         NemaL520r = 44,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l5-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l5-30r")]
         NemaL530r = 45,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l5-50r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l5-50r")]
         NemaL550r = 46,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l6-15r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l6-15r")]
         NemaL615r = 47,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l6-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l6-20r")]
         NemaL620r = 48,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l6-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l6-30r")]
         NemaL630r = 49,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l6-50r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l6-50r")]
         NemaL650r = 50,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l10-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l10-30r")]
         NemaL1030r = 51,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l14-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l14-20r")]
         NemaL1420r = 52,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l14-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l14-30r")]
         NemaL1430r = 53,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l14-50r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l14-50r")]
         NemaL1450r = 54,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l14-60r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l14-60r")]
         NemaL1460r = 55,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l15-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l15-20r")]
         NemaL1520r = 56,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l15-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l15-30r")]
         NemaL1530r = 57,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l15-50r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l15-50r")]
         NemaL1550r = 58,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l15-60r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l15-60r")]
         NemaL1560r = 59,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l21-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l21-20r")]
         NemaL2120r = 60,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l21-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l21-30r")]
         NemaL2130r = 61,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l22-20r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l22-20r")]
         NemaL2220r = 62,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l22-30r")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l22-30r")]
         NemaL2230r = 63,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS6360C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS6360C")]
         CS6360C = 64,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS6364C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS6364C")]
         CS6364C = 65,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS8164C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS8164C")]
         CS8164C = 66,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS8264C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS8264C")]
         CS8264C = 67,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS8364C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS8364C")]
         CS8364C = 68,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS8464C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS8464C")]
         CS8464C = 69,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-e")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-e")]
         ItaE = 70,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-f")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-f")]
         ItaF = 71,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-g")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-g")]
         ItaG = 72,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-h")]
         ItaH = 73,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-i")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-i")]
         ItaI = 74,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-j")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-j")]
         ItaJ = 75,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-k")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-k")]
         ItaK = 76,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-l")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-l")]
         ItaL = 77,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-m")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-m")]
         ItaM = 78,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-n")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-n")]
         ItaN = 79,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-o")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-o")]
         ItaO = 80,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-multistandard")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-multistandard")]
         ItaMultistandard = 81,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-a")]
         UsbA = 82,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-b")]
         UsbMicroB = 83,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-c")]
         UsbC = 84,
 
         [System.Runtime.Serialization.EnumMember(Value = @"molex-micro-fit-1x2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"molex-micro-fit-1x2")]
         MolexMicroFit1x2 = 85,
 
         [System.Runtime.Serialization.EnumMember(Value = @"molex-micro-fit-2x2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"molex-micro-fit-2x2")]
         MolexMicroFit2x2 = 86,
 
         [System.Runtime.Serialization.EnumMember(Value = @"molex-micro-fit-2x3")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"molex-micro-fit-2x3")]
         MolexMicroFit2x3 = 87,
 
         [System.Runtime.Serialization.EnumMember(Value = @"molex-micro-fit-2x4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"molex-micro-fit-2x4")]
         MolexMicroFit2x4 = 88,
 
         [System.Runtime.Serialization.EnumMember(Value = @"dc-terminal")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"dc-terminal")]
         DcTerminal = 89,
 
         [System.Runtime.Serialization.EnumMember(Value = @"eaton-c39")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"eaton-c39")]
         EatonC39 = 90,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hdot-cx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hdot-cx")]
         HdotCx = 91,
 
         [System.Runtime.Serialization.EnumMember(Value = @"saf-d-grid")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"saf-d-grid")]
         SafDGrid = 92,
 
         [System.Runtime.Serialization.EnumMember(Value = @"neutrik-powercon-20a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"neutrik-powercon-20a")]
         NeutrikPowercon20a = 93,
 
         [System.Runtime.Serialization.EnumMember(Value = @"neutrik-powercon-32a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"neutrik-powercon-32a")]
         NeutrikPowercon32a = 94,
 
         [System.Runtime.Serialization.EnumMember(Value = @"neutrik-powercon-true1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"neutrik-powercon-true1")]
         NeutrikPowerconTrue1 = 95,
 
         [System.Runtime.Serialization.EnumMember(Value = @"neutrik-powercon-true1-top")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"neutrik-powercon-true1-top")]
         NeutrikPowerconTrue1Top = 96,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ubiquiti-smartpower")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ubiquiti-smartpower")]
         UbiquitiSmartpower = 97,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hardwired")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hardwired")]
         Hardwired = 98,
 
         [System.Runtime.Serialization.EnumMember(Value = @"other")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"other")]
         Other = 99,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 100,
 
     }
@@ -54524,303 +57109,403 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"C5")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"C5")]
         C5 = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"C7")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"C7")]
         C7 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"C13")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"C13")]
         C13 = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"C15")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"C15")]
         C15 = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"C17")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"C17")]
         C17 = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"C19")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"C19")]
         C19 = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"C21")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"C21")]
         C21 = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"P+N+E 4H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"P+N+E 4H")]
         P_N_E_4H = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"P+N+E 6H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"P+N+E 6H")]
         P_N_E_6H = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"P+N+E 9H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"P+N+E 9H")]
         P_N_E_9H = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2P+E 4H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2P+E 4H")]
         _2P_E_4H = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2P+E 6H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2P+E 6H")]
         _2P_E_6H = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2P+E 9H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2P+E 9H")]
         _2P_E_9H = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"3P+E 4H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"3P+E 4H")]
         _3P_E_4H = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"3P+E 6H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"3P+E 6H")]
         _3P_E_6H = 14,
 
         [System.Runtime.Serialization.EnumMember(Value = @"3P+E 9H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"3P+E 9H")]
         _3P_E_9H = 15,
 
         [System.Runtime.Serialization.EnumMember(Value = @"3P+N+E 4H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"3P+N+E 4H")]
         _3P_N_E_4H = 16,
 
         [System.Runtime.Serialization.EnumMember(Value = @"3P+N+E 6H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"3P+N+E 6H")]
         _3P_N_E_6H = 17,
 
         [System.Runtime.Serialization.EnumMember(Value = @"3P+N+E 9H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"3P+N+E 9H")]
         _3P_N_E_9H = 18,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IEC 60906-1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IEC 60906-1")]
         IEC_609061 = 19,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2P+T 10A (NBR 14136)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2P+T 10A (NBR 14136)")]
         _2P_T_10A__NBR_14136_ = 20,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2P+T 20A (NBR 14136)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2P+T 20A (NBR 14136)")]
         _2P_T_20A__NBR_14136_ = 21,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 1-15R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 1-15R")]
         NEMA_115R = 22,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 5-15R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 5-15R")]
         NEMA_515R = 23,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 5-20R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 5-20R")]
         NEMA_520R = 24,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 5-30R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 5-30R")]
         NEMA_530R = 25,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 5-50R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 5-50R")]
         NEMA_550R = 26,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 6-15R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 6-15R")]
         NEMA_615R = 27,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 6-20R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 6-20R")]
         NEMA_620R = 28,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 6-30R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 6-30R")]
         NEMA_630R = 29,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 6-50R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 6-50R")]
         NEMA_650R = 30,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 10-30R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 10-30R")]
         NEMA_1030R = 31,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 10-50R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 10-50R")]
         NEMA_1050R = 32,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 14-20R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 14-20R")]
         NEMA_1420R = 33,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 14-30R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 14-30R")]
         NEMA_1430R = 34,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 14-50R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 14-50R")]
         NEMA_1450R = 35,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 14-60R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 14-60R")]
         NEMA_1460R = 36,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 15-15R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 15-15R")]
         NEMA_1515R = 37,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 15-20R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 15-20R")]
         NEMA_1520R = 38,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 15-30R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 15-30R")]
         NEMA_1530R = 39,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 15-50R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 15-50R")]
         NEMA_1550R = 40,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 15-60R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 15-60R")]
         NEMA_1560R = 41,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L1-15R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L1-15R")]
         NEMA_L115R = 42,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L5-15R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L5-15R")]
         NEMA_L515R = 43,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L5-20R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L5-20R")]
         NEMA_L520R = 44,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L5-30R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L5-30R")]
         NEMA_L530R = 45,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L5-50R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L5-50R")]
         NEMA_L550R = 46,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L6-15R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L6-15R")]
         NEMA_L615R = 47,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L6-20R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L6-20R")]
         NEMA_L620R = 48,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L6-30R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L6-30R")]
         NEMA_L630R = 49,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L6-50R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L6-50R")]
         NEMA_L650R = 50,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L10-30R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L10-30R")]
         NEMA_L1030R = 51,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L14-20R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L14-20R")]
         NEMA_L1420R = 52,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L14-30R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L14-30R")]
         NEMA_L1430R = 53,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L14-50R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L14-50R")]
         NEMA_L1450R = 54,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L14-60R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L14-60R")]
         NEMA_L1460R = 55,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L15-20R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L15-20R")]
         NEMA_L1520R = 56,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L15-30R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L15-30R")]
         NEMA_L1530R = 57,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L15-50R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L15-50R")]
         NEMA_L1550R = 58,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L15-60R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L15-60R")]
         NEMA_L1560R = 59,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L21-20R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L21-20R")]
         NEMA_L2120R = 60,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L21-30R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L21-30R")]
         NEMA_L2130R = 61,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L22-20R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L22-20R")]
         NEMA_L2220R = 62,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L22-30R")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L22-30R")]
         NEMA_L2230R = 63,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS6360C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS6360C")]
         CS6360C = 64,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS6364C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS6364C")]
         CS6364C = 65,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS8164C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS8164C")]
         CS8164C = 66,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS8264C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS8264C")]
         CS8264C = 67,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS8364C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS8364C")]
         CS8364C = 68,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS8464C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS8464C")]
         CS8464C = 69,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type E (CEE 7/5)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type E (CEE 7/5)")]
         ITA_Type_E__CEE_7_5_ = 70,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type F (CEE 7/3)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type F (CEE 7/3)")]
         ITA_Type_F__CEE_7_3_ = 71,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type G (BS 1363)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type G (BS 1363)")]
         ITA_Type_G__BS_1363_ = 72,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type H")]
         ITA_Type_H = 73,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type I")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type I")]
         ITA_Type_I = 74,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type J")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type J")]
         ITA_Type_J = 75,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type K")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type K")]
         ITA_Type_K = 76,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type L (CEI 23-50)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type L (CEI 23-50)")]
         ITA_Type_L__CEI_2350_ = 77,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type M (BS 546)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type M (BS 546)")]
         ITA_Type_M__BS_546_ = 78,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type N")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type N")]
         ITA_Type_N = 79,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type O")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type O")]
         ITA_Type_O = 80,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Multistandard")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Multistandard")]
         ITA_Multistandard = 81,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Type A")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Type A")]
         USB_Type_A = 82,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Micro B")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Micro B")]
         USB_Micro_B = 83,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Type C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Type C")]
         USB_Type_C = 84,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Molex Micro-Fit 1x2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Molex Micro-Fit 1x2")]
         Molex_MicroFit_1x2 = 85,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Molex Micro-Fit 2x2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Molex Micro-Fit 2x2")]
         Molex_MicroFit_2x2 = 86,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Molex Micro-Fit 2x3")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Molex Micro-Fit 2x3")]
         Molex_MicroFit_2x3 = 87,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Molex Micro-Fit 2x4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Molex Micro-Fit 2x4")]
         Molex_MicroFit_2x4 = 88,
 
         [System.Runtime.Serialization.EnumMember(Value = @"DC Terminal")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"DC Terminal")]
         DC_Terminal = 89,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Eaton C39")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Eaton C39")]
         Eaton_C39 = 90,
 
         [System.Runtime.Serialization.EnumMember(Value = @"HDOT Cx")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"HDOT Cx")]
         HDOT_Cx = 91,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Saf-D-Grid")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Saf-D-Grid")]
         SafDGrid = 92,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Neutrik powerCON (20A)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Neutrik powerCON (20A)")]
         Neutrik_powerCON__20A_ = 93,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Neutrik powerCON (32A)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Neutrik powerCON (32A)")]
         Neutrik_powerCON__32A_ = 94,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Neutrik powerCON TRUE1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Neutrik powerCON TRUE1")]
         Neutrik_powerCON_TRUE1 = 95,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Neutrik powerCON TRUE1 TOP")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Neutrik powerCON TRUE1 TOP")]
         Neutrik_powerCON_TRUE1_TOP = 96,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Ubiquiti SmartPower")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Ubiquiti SmartPower")]
         Ubiquiti_SmartPower = 97,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Hardwired")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Hardwired")]
         Hardwired = 98,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Other")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Other")]
         Other = 99,
 
     }
@@ -54830,12 +57515,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"enabled")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"enabled")]
         Enabled = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"disabled")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"disabled")]
         Disabled = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"faulty")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"faulty")]
         Faulty = 2,
 
     }
@@ -54845,12 +57533,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Enabled")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Enabled")]
         Enabled = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Disabled")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Disabled")]
         Disabled = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Faulty")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Faulty")]
         Faulty = 2,
 
     }
@@ -54860,15 +57551,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"A")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"A")]
         A = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"B")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"B")]
         B = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"C")]
         C = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 3,
 
     }
@@ -54878,12 +57573,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"A")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"A")]
         A = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"B")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"B")]
         B = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"C")]
         C = 2,
 
     }
@@ -54893,324 +57591,431 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c6")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c6")]
         Iec60320C6 = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c8")]
         Iec60320C8 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c14")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c14")]
         Iec60320C14 = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c16")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c16")]
         Iec60320C16 = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c18")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c18")]
         Iec60320C18 = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c20")]
         Iec60320C20 = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60320-c22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60320-c22")]
         Iec60320C22 = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-p-n-e-4h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-p-n-e-4h")]
         Iec60309PNE4h = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-p-n-e-6h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-p-n-e-6h")]
         Iec60309PNE6h = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-p-n-e-9h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-p-n-e-9h")]
         Iec60309PNE9h = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-2p-e-4h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-2p-e-4h")]
         Iec603092pE4h = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-2p-e-6h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-2p-e-6h")]
         Iec603092pE6h = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-2p-e-9h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-2p-e-9h")]
         Iec603092pE9h = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-e-4h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-e-4h")]
         Iec603093pE4h = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-e-6h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-e-6h")]
         Iec603093pE6h = 14,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-e-9h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-e-9h")]
         Iec603093pE9h = 15,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-n-e-4h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-n-e-4h")]
         Iec603093pNE4h = 16,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-n-e-6h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-n-e-6h")]
         Iec603093pNE6h = 17,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60309-3p-n-e-9h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60309-3p-n-e-9h")]
         Iec603093pNE9h = 18,
 
         [System.Runtime.Serialization.EnumMember(Value = @"iec-60906-1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"iec-60906-1")]
         Iec609061 = 19,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nbr-14136-10a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nbr-14136-10a")]
         Nbr1413610a = 20,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nbr-14136-20a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nbr-14136-20a")]
         Nbr1413620a = 21,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-1-15p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-1-15p")]
         Nema115p = 22,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-5-15p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-5-15p")]
         Nema515p = 23,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-5-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-5-20p")]
         Nema520p = 24,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-5-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-5-30p")]
         Nema530p = 25,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-5-50p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-5-50p")]
         Nema550p = 26,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-6-15p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-6-15p")]
         Nema615p = 27,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-6-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-6-20p")]
         Nema620p = 28,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-6-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-6-30p")]
         Nema630p = 29,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-6-50p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-6-50p")]
         Nema650p = 30,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-10-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-10-30p")]
         Nema1030p = 31,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-10-50p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-10-50p")]
         Nema1050p = 32,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-14-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-14-20p")]
         Nema1420p = 33,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-14-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-14-30p")]
         Nema1430p = 34,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-14-50p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-14-50p")]
         Nema1450p = 35,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-14-60p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-14-60p")]
         Nema1460p = 36,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-15p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-15p")]
         Nema1515p = 37,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-20p")]
         Nema1520p = 38,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-30p")]
         Nema1530p = 39,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-50p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-50p")]
         Nema1550p = 40,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-15-60p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-15-60p")]
         Nema1560p = 41,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l1-15p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l1-15p")]
         NemaL115p = 42,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l5-15p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l5-15p")]
         NemaL515p = 43,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l5-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l5-20p")]
         NemaL520p = 44,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l5-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l5-30p")]
         NemaL530p = 45,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l5-50p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l5-50p")]
         NemaL550p = 46,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l6-15p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l6-15p")]
         NemaL615p = 47,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l6-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l6-20p")]
         NemaL620p = 48,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l6-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l6-30p")]
         NemaL630p = 49,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l6-50p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l6-50p")]
         NemaL650p = 50,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l10-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l10-30p")]
         NemaL1030p = 51,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l14-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l14-20p")]
         NemaL1420p = 52,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l14-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l14-30p")]
         NemaL1430p = 53,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l14-50p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l14-50p")]
         NemaL1450p = 54,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l14-60p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l14-60p")]
         NemaL1460p = 55,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l15-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l15-20p")]
         NemaL1520p = 56,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l15-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l15-30p")]
         NemaL1530p = 57,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l15-50p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l15-50p")]
         NemaL1550p = 58,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l15-60p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l15-60p")]
         NemaL1560p = 59,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l21-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l21-20p")]
         NemaL2120p = 60,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l21-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l21-30p")]
         NemaL2130p = 61,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l22-20p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l22-20p")]
         NemaL2220p = 62,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nema-l22-30p")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nema-l22-30p")]
         NemaL2230p = 63,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cs6361c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cs6361c")]
         Cs6361c = 64,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cs6365c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cs6365c")]
         Cs6365c = 65,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cs8165c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cs8165c")]
         Cs8165c = 66,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cs8265c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cs8265c")]
         Cs8265c = 67,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cs8365c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cs8365c")]
         Cs8365c = 68,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cs8465c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cs8465c")]
         Cs8465c = 69,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-c")]
         ItaC = 70,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-e")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-e")]
         ItaE = 71,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-f")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-f")]
         ItaF = 72,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-ef")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-ef")]
         ItaEf = 73,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-g")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-g")]
         ItaG = 74,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-h")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-h")]
         ItaH = 75,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-i")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-i")]
         ItaI = 76,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-j")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-j")]
         ItaJ = 77,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-k")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-k")]
         ItaK = 78,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-l")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-l")]
         ItaL = 79,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-m")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-m")]
         ItaM = 80,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-n")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-n")]
         ItaN = 81,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ita-o")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ita-o")]
         ItaO = 82,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-a")]
         UsbA = 83,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-b")]
         UsbB = 84,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-c")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-c")]
         UsbC = 85,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-mini-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-mini-a")]
         UsbMiniA = 86,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-mini-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-mini-b")]
         UsbMiniB = 87,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-a")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-a")]
         UsbMicroA = 88,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-b")]
         UsbMicroB = 89,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-micro-ab")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-micro-ab")]
         UsbMicroAb = 90,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-3-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-3-b")]
         Usb3B = 91,
 
         [System.Runtime.Serialization.EnumMember(Value = @"usb-3-micro-b")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"usb-3-micro-b")]
         Usb3MicroB = 92,
 
         [System.Runtime.Serialization.EnumMember(Value = @"molex-micro-fit-1x2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"molex-micro-fit-1x2")]
         MolexMicroFit1x2 = 93,
 
         [System.Runtime.Serialization.EnumMember(Value = @"molex-micro-fit-2x2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"molex-micro-fit-2x2")]
         MolexMicroFit2x2 = 94,
 
         [System.Runtime.Serialization.EnumMember(Value = @"molex-micro-fit-2x3")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"molex-micro-fit-2x3")]
         MolexMicroFit2x3 = 95,
 
         [System.Runtime.Serialization.EnumMember(Value = @"molex-micro-fit-2x4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"molex-micro-fit-2x4")]
         MolexMicroFit2x4 = 96,
 
         [System.Runtime.Serialization.EnumMember(Value = @"dc-terminal")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"dc-terminal")]
         DcTerminal = 97,
 
         [System.Runtime.Serialization.EnumMember(Value = @"saf-d-grid")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"saf-d-grid")]
         SafDGrid = 98,
 
         [System.Runtime.Serialization.EnumMember(Value = @"neutrik-powercon-20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"neutrik-powercon-20")]
         NeutrikPowercon20 = 99,
 
         [System.Runtime.Serialization.EnumMember(Value = @"neutrik-powercon-32")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"neutrik-powercon-32")]
         NeutrikPowercon32 = 100,
 
         [System.Runtime.Serialization.EnumMember(Value = @"neutrik-powercon-true1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"neutrik-powercon-true1")]
         NeutrikPowerconTrue1 = 101,
 
         [System.Runtime.Serialization.EnumMember(Value = @"neutrik-powercon-true1-top")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"neutrik-powercon-true1-top")]
         NeutrikPowerconTrue1Top = 102,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ubiquiti-smartpower")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ubiquiti-smartpower")]
         UbiquitiSmartpower = 103,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hardwired")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hardwired")]
         Hardwired = 104,
 
         [System.Runtime.Serialization.EnumMember(Value = @"other")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"other")]
         Other = 105,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 106,
 
     }
@@ -55220,321 +58025,427 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"C6")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"C6")]
         C6 = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"C8")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"C8")]
         C8 = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"C14")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"C14")]
         C14 = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"C16")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"C16")]
         C16 = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"C18")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"C18")]
         C18 = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"C20")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"C20")]
         C20 = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"C22")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"C22")]
         C22 = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"P+N+E 4H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"P+N+E 4H")]
         P_N_E_4H = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"P+N+E 6H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"P+N+E 6H")]
         P_N_E_6H = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"P+N+E 9H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"P+N+E 9H")]
         P_N_E_9H = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2P+E 4H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2P+E 4H")]
         _2P_E_4H = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2P+E 6H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2P+E 6H")]
         _2P_E_6H = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2P+E 9H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2P+E 9H")]
         _2P_E_9H = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"3P+E 4H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"3P+E 4H")]
         _3P_E_4H = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"3P+E 6H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"3P+E 6H")]
         _3P_E_6H = 14,
 
         [System.Runtime.Serialization.EnumMember(Value = @"3P+E 9H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"3P+E 9H")]
         _3P_E_9H = 15,
 
         [System.Runtime.Serialization.EnumMember(Value = @"3P+N+E 4H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"3P+N+E 4H")]
         _3P_N_E_4H = 16,
 
         [System.Runtime.Serialization.EnumMember(Value = @"3P+N+E 6H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"3P+N+E 6H")]
         _3P_N_E_6H = 17,
 
         [System.Runtime.Serialization.EnumMember(Value = @"3P+N+E 9H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"3P+N+E 9H")]
         _3P_N_E_9H = 18,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IEC 60906-1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IEC 60906-1")]
         IEC_609061 = 19,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2P+T 10A (NBR 14136)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2P+T 10A (NBR 14136)")]
         _2P_T_10A__NBR_14136_ = 20,
 
         [System.Runtime.Serialization.EnumMember(Value = @"2P+T 20A (NBR 14136)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2P+T 20A (NBR 14136)")]
         _2P_T_20A__NBR_14136_ = 21,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 1-15P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 1-15P")]
         NEMA_115P = 22,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 5-15P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 5-15P")]
         NEMA_515P = 23,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 5-20P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 5-20P")]
         NEMA_520P = 24,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 5-30P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 5-30P")]
         NEMA_530P = 25,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 5-50P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 5-50P")]
         NEMA_550P = 26,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 6-15P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 6-15P")]
         NEMA_615P = 27,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 6-20P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 6-20P")]
         NEMA_620P = 28,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 6-30P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 6-30P")]
         NEMA_630P = 29,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 6-50P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 6-50P")]
         NEMA_650P = 30,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 10-30P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 10-30P")]
         NEMA_1030P = 31,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 10-50P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 10-50P")]
         NEMA_1050P = 32,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 14-20P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 14-20P")]
         NEMA_1420P = 33,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 14-30P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 14-30P")]
         NEMA_1430P = 34,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 14-50P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 14-50P")]
         NEMA_1450P = 35,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 14-60P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 14-60P")]
         NEMA_1460P = 36,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 15-15P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 15-15P")]
         NEMA_1515P = 37,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 15-20P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 15-20P")]
         NEMA_1520P = 38,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 15-30P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 15-30P")]
         NEMA_1530P = 39,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 15-50P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 15-50P")]
         NEMA_1550P = 40,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA 15-60P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA 15-60P")]
         NEMA_1560P = 41,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L1-15P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L1-15P")]
         NEMA_L115P = 42,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L5-15P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L5-15P")]
         NEMA_L515P = 43,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L5-20P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L5-20P")]
         NEMA_L520P = 44,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L5-30P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L5-30P")]
         NEMA_L530P = 45,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L5-50P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L5-50P")]
         NEMA_L550P = 46,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L6-15P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L6-15P")]
         NEMA_L615P = 47,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L6-20P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L6-20P")]
         NEMA_L620P = 48,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L6-30P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L6-30P")]
         NEMA_L630P = 49,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L6-50P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L6-50P")]
         NEMA_L650P = 50,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L10-30P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L10-30P")]
         NEMA_L1030P = 51,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L14-20P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L14-20P")]
         NEMA_L1420P = 52,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L14-30P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L14-30P")]
         NEMA_L1430P = 53,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L14-50P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L14-50P")]
         NEMA_L1450P = 54,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L14-60P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L14-60P")]
         NEMA_L1460P = 55,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L15-20P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L15-20P")]
         NEMA_L1520P = 56,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L15-30P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L15-30P")]
         NEMA_L1530P = 57,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L15-50P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L15-50P")]
         NEMA_L1550P = 58,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L15-60P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L15-60P")]
         NEMA_L1560P = 59,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L21-20P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L21-20P")]
         NEMA_L2120P = 60,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L21-30P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L21-30P")]
         NEMA_L2130P = 61,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L22-20P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L22-20P")]
         NEMA_L2220P = 62,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA L22-30P")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA L22-30P")]
         NEMA_L2230P = 63,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS6361C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS6361C")]
         CS6361C = 64,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS6365C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS6365C")]
         CS6365C = 65,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS8165C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS8165C")]
         CS8165C = 66,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS8265C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS8265C")]
         CS8265C = 67,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS8365C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS8365C")]
         CS8365C = 68,
 
         [System.Runtime.Serialization.EnumMember(Value = @"CS8465C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"CS8465C")]
         CS8465C = 69,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type C (CEE 7/16)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type C (CEE 7/16)")]
         ITA_Type_C__CEE_7_16_ = 70,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type E (CEE 7/6)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type E (CEE 7/6)")]
         ITA_Type_E__CEE_7_6_ = 71,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type F (CEE 7/4)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type F (CEE 7/4)")]
         ITA_Type_F__CEE_7_4_ = 72,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type E/F (CEE 7/7)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type E/F (CEE 7/7)")]
         ITA_Type_E_F__CEE_7_7_ = 73,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type G (BS 1363)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type G (BS 1363)")]
         ITA_Type_G__BS_1363_ = 74,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type H")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type H")]
         ITA_Type_H = 75,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type I")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type I")]
         ITA_Type_I = 76,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type J")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type J")]
         ITA_Type_J = 77,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type K")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type K")]
         ITA_Type_K = 78,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type L (CEI 23-50)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type L (CEI 23-50)")]
         ITA_Type_L__CEI_2350_ = 79,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type M (BS 546)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type M (BS 546)")]
         ITA_Type_M__BS_546_ = 80,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type N")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type N")]
         ITA_Type_N = 81,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA Type O")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA Type O")]
         ITA_Type_O = 82,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Type A")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Type A")]
         USB_Type_A = 83,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Type B")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Type B")]
         USB_Type_B = 84,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Type C")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Type C")]
         USB_Type_C = 85,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Mini A")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Mini A")]
         USB_Mini_A = 86,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Mini B")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Mini B")]
         USB_Mini_B = 87,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Micro A")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Micro A")]
         USB_Micro_A = 88,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Micro B")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Micro B")]
         USB_Micro_B = 89,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB Micro AB")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB Micro AB")]
         USB_Micro_AB = 90,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB 3.0 Type B")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB 3.0 Type B")]
         USB_3_0_Type_B = 91,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB 3.0 Micro B")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB 3.0 Micro B")]
         USB_3_0_Micro_B = 92,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Molex Micro-Fit 1x2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Molex Micro-Fit 1x2")]
         Molex_MicroFit_1x2 = 93,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Molex Micro-Fit 2x2")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Molex Micro-Fit 2x2")]
         Molex_MicroFit_2x2 = 94,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Molex Micro-Fit 2x3")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Molex Micro-Fit 2x3")]
         Molex_MicroFit_2x3 = 95,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Molex Micro-Fit 2x4")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Molex Micro-Fit 2x4")]
         Molex_MicroFit_2x4 = 96,
 
         [System.Runtime.Serialization.EnumMember(Value = @"DC Terminal")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"DC Terminal")]
         DC_Terminal = 97,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Saf-D-Grid")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Saf-D-Grid")]
         SafDGrid = 98,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Neutrik powerCON (20A)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Neutrik powerCON (20A)")]
         Neutrik_powerCON__20A_ = 99,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Neutrik powerCON (32A)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Neutrik powerCON (32A)")]
         Neutrik_powerCON__32A_ = 100,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Neutrik powerCON TRUE1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Neutrik powerCON TRUE1")]
         Neutrik_powerCON_TRUE1 = 101,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Neutrik powerCON TRUE1 TOP")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Neutrik powerCON TRUE1 TOP")]
         Neutrik_powerCON_TRUE1_TOP = 102,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Ubiquiti SmartPower")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Ubiquiti SmartPower")]
         Ubiquiti_SmartPower = 103,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Hardwired")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Hardwired")]
         Hardwired = 104,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Other")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Other")]
         Other = 105,
 
     }
@@ -55544,15 +58455,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"container")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"container")]
         Container = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"reserved")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"reserved")]
         Reserved = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"deprecated")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"deprecated")]
         Deprecated = 3,
 
     }
@@ -55562,15 +58477,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Container")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Container")]
         Container = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Reserved")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Reserved")]
         Reserved = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Deprecated")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Deprecated")]
         Deprecated = 3,
 
     }
@@ -55580,18 +58499,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"reserved")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"reserved")]
         Reserved = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"available")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"available")]
         Available = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"deprecated")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"deprecated")]
         Deprecated = 4,
 
     }
@@ -55601,18 +58525,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Reserved")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Reserved")]
         Reserved = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Available")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Available")]
         Available = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Planned")]
         Planned = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Active")]
         Active = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Deprecated")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Deprecated")]
         Deprecated = 4,
 
     }
@@ -55622,27 +58551,35 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"2-post-frame")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2-post-frame")]
         _2PostFrame = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4-post-frame")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4-post-frame")]
         _4PostFrame = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4-post-cabinet")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4-post-cabinet")]
         _4PostCabinet = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wall-frame")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wall-frame")]
         WallFrame = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wall-frame-vertical")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wall-frame-vertical")]
         WallFrameVertical = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wall-cabinet")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wall-cabinet")]
         WallCabinet = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wall-cabinet-vertical")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wall-cabinet-vertical")]
         WallCabinetVertical = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 7,
 
     }
@@ -55652,24 +58589,31 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"2-post frame")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"2-post frame")]
         _2Post_frame = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4-post frame")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4-post frame")]
         _4Post_frame = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"4-post cabinet")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"4-post cabinet")]
         _4Post_cabinet = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Wall-mounted frame")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Wall-mounted frame")]
         WallMounted_frame = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Wall-mounted frame (vertical)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Wall-mounted frame (vertical)")]
         WallMounted_frame__vertical_ = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Wall-mounted cabinet")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Wall-mounted cabinet")]
         WallMounted_cabinet = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Wall-mounted cabinet (vertical)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Wall-mounted cabinet (vertical)")]
         WallMounted_cabinet__vertical_ = 6,
 
     }
@@ -55693,15 +58637,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"10 inches")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"10 inches")]
         _10_inches = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"19 inches")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"19 inches")]
         _19_inches = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"21 inches")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"21 inches")]
         _21_inches = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"23 inches")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"23 inches")]
         _23_inches = 3,
 
     }
@@ -55711,12 +58659,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"mm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mm")]
         Mm = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"in")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"in")]
         In = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 2,
 
     }
@@ -55726,9 +58677,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Millimeters")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Millimeters")]
         Millimeters = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Inches")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Inches")]
         Inches = 1,
 
     }
@@ -55738,12 +58691,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"front-to-rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"front-to-rear")]
         FrontToRear = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rear-to-front")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rear-to-front")]
         RearToFront = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 2,
 
     }
@@ -55753,9 +58709,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Front to rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Front to rear")]
         Front_to_rear = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Rear to front")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Rear to front")]
         Rear_to_front = 1,
 
     }
@@ -55765,12 +58723,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"pending")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"pending")]
         Pending = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"stale")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"stale")]
         Stale = 2,
 
     }
@@ -55780,12 +58741,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Pending")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Pending")]
         Pending = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Stale")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Stale")]
         Stale = 2,
 
     }
@@ -55795,9 +58759,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"front")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"front")]
         Front = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rear")]
         Rear = 1,
 
     }
@@ -55807,12 +58773,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"tcp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"tcp")]
         Tcp = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"udp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"udp")]
         Udp = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"sctp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sctp")]
         Sctp = 2,
 
     }
@@ -55822,12 +58791,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"TCP")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"TCP")]
         TCP = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"UDP")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"UDP")]
         UDP = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"SCTP")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"SCTP")]
         SCTP = 2,
 
     }
@@ -55837,12 +58809,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"disabled")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"disabled")]
         Disabled = 2,
 
     }
@@ -55852,12 +58827,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Planned")]
         Planned = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Disabled")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Disabled")]
         Disabled = 2,
 
     }
@@ -55867,27 +58845,35 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"ipsec-transport")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ipsec-transport")]
         IpsecTransport = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ipsec-tunnel")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ipsec-tunnel")]
         IpsecTunnel = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ip-ip")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ip-ip")]
         IpIp = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"gre")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"gre")]
         Gre = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wireguard")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wireguard")]
         Wireguard = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"openvpn")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"openvpn")]
         Openvpn = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"l2tp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"l2tp")]
         L2tp = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"pptp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"pptp")]
         Pptp = 7,
 
     }
@@ -55897,27 +58883,35 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"IPsec - Transport")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IPsec - Transport")]
         IPsec__Transport = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IPsec - Tunnel")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IPsec - Tunnel")]
         IPsec__Tunnel = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IP-in-IP")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IP-in-IP")]
         IPInIP = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"GRE")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"GRE")]
         GRE = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"WireGuard")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"WireGuard")]
         WireGuard = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"OpenVPN")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"OpenVPN")]
         OpenVPN = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"L2TP")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"L2TP")]
         L2TP = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"PPTP")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"PPTP")]
         PPTP = 7,
 
     }
@@ -55927,12 +58921,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"peer")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"peer")]
         Peer = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hub")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hub")]
         Hub = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"spoke")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"spoke")]
         Spoke = 2,
 
     }
@@ -55942,12 +58939,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Peer")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Peer")]
         Peer = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Hub")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Hub")]
         Hub = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Spoke")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Spoke")]
         Spoke = 2,
 
     }
@@ -55957,9 +58957,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"svlan")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"svlan")]
         Svlan = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cvlan")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cvlan")]
         Cvlan = 1,
 
     }
@@ -55969,9 +58971,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Service")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Service")]
         Service = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Customer")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Customer")]
         Customer = 1,
 
     }
@@ -55981,9 +58985,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"svlan")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"svlan")]
         Svlan = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cvlan")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cvlan")]
         Cvlan = 1,
 
     }
@@ -55993,12 +58999,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"offline")]
         Offline = 2,
 
     }
@@ -56008,12 +59017,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Active")]
         Active = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Planned")]
         Planned = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Offline")]
         Offline = 2,
 
     }
@@ -56023,24 +59035,31 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"offline")]
         Offline = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"planned")]
         Planned = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"staged")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"staged")]
         Staged = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"failed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"failed")]
         Failed = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"decommissioning")]
         Decommissioning = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"paused")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"paused")]
         Paused = 6,
 
     }
@@ -56050,24 +59069,31 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Offline")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Offline")]
         Offline = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Active")]
         Active = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Planned")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Planned")]
         Planned = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Staged")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Staged")]
         Staged = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Failed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Failed")]
         Failed = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Decommissioning")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Decommissioning")]
         Decommissioning = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Paused")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Paused")]
         Paused = 6,
 
     }
@@ -56077,18 +59103,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"reserved")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"reserved")]
         Reserved = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"disabled")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"disabled")]
         Disabled = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"deprecated")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"deprecated")]
         Deprecated = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 4,
 
     }
@@ -56098,15 +59129,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Active")]
         Active = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Reserved")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Reserved")]
         Reserved = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Disabled")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Disabled")]
         Disabled = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Deprecated")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Deprecated")]
         Deprecated = 3,
 
     }
@@ -56116,18 +59151,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"open")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"open")]
         Open = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wep")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wep")]
         Wep = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wpa-personal")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wpa-personal")]
         WpaPersonal = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"wpa-enterprise")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"wpa-enterprise")]
         WpaEnterprise = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 4,
 
     }
@@ -56137,15 +59177,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Open")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Open")]
         Open = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"WEP")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"WEP")]
         WEP = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"WPA Personal (PSK)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"WPA Personal (PSK)")]
         WPA_Personal__PSK_ = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"WPA Enterprise")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"WPA Enterprise")]
         WPA_Enterprise = 3,
 
     }
@@ -56155,15 +59199,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"auto")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"auto")]
         Auto = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"tkip")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"tkip")]
         Tkip = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"aes")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"aes")]
         Aes = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 3,
 
     }
@@ -56173,12 +59221,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Auto")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Auto")]
         Auto = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"TKIP")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"TKIP")]
         TKIP = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"AES")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"AES")]
         AES = 2,
 
     }
@@ -56188,18 +59239,23 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"active")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"active")]
         Active = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"reserved")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"reserved")]
         Reserved = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"disabled")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"disabled")]
         Disabled = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"deprecated")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"deprecated")]
         Deprecated = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 4,
 
     }
@@ -56209,15 +59265,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"inactive")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"inactive")]
         Inactive = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"primary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"primary")]
         Primary = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"secondary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"secondary")]
         Secondary = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"tertiary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"tertiary")]
         Tertiary = 3,
 
     }
@@ -56227,15 +59287,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"ft")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ft")]
         Ft = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"km")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"km")]
         Km = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"m")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"m")]
         M = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mi")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mi")]
         Mi = 3,
 
     }
@@ -56245,12 +59309,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"create")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"create")]
         Create = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"delete")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"delete")]
         Delete = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"update")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"update")]
         Update = 2,
 
     }
@@ -56260,21 +59327,27 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"cm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cm")]
         Cm = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ft")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ft")]
         Ft = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"in")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"in")]
         In = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"km")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"km")]
         Km = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"m")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"m")]
         M = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mi")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mi")]
         Mi = 5,
 
     }
@@ -56284,12 +59357,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"Other")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Other")]
         Other = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Serial")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Serial")]
         Serial = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB")]
         USB = 2,
 
     }
@@ -56321,33 +59397,43 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"bottom-to-top")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"bottom-to-top")]
         BottomToTop = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"front-to-rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"front-to-rear")]
         FrontToRear = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"left-to-right")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"left-to-right")]
         LeftToRight = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mixed")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mixed")]
         Mixed = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"passive")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"passive")]
         Passive = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rear-to-front")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rear-to-front")]
         RearToFront = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rear-to-side")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rear-to-side")]
         RearToSide = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"right-to-left")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"right-to-left")]
         RightToLeft = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"side-to-rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"side-to-rear")]
         SideToRear = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"top-to-bottom")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"top-to-bottom")]
         TopToBottom = 9,
 
     }
@@ -56357,9 +59443,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"child")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"child")]
         Child = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"parent")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"parent")]
         Parent = 1,
 
     }
@@ -56369,15 +59457,19 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"g")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"g")]
         G = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"kg")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"kg")]
         Kg = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"lb")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"lb")]
         Lb = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"oz")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"oz")]
         Oz = 3,
 
     }
@@ -56387,9 +59479,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"front")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"front")]
         Front = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rear")]
         Rear = 1,
 
     }
@@ -56399,9 +59493,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"json")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"json")]
         Json = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"txt")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"txt")]
         Txt = 1,
 
     }
@@ -56411,21 +59507,27 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"front-to-rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"front-to-rear")]
         FrontToRear = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"left-to-right")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"left-to-right")]
         LeftToRight = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"passive")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"passive")]
         Passive = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rear-to-front")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rear-to-front")]
         RearToFront = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"right-to-left")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"right-to-left")]
         RightToLeft = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"side-to-rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"side-to-rear")]
         SideToRear = 5,
 
     }
@@ -56435,39 +59537,51 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"California Style")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"California Style")]
         California_Style = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"DC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"DC")]
         DC = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IEC 60309")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IEC 60309")]
         IEC_60309 = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IEC 60320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IEC 60320")]
         IEC_60320 = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IEC 60906-1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IEC 60906-1")]
         IEC_609061 = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ITA/International")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ITA/International")]
         ITA_International = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Molex")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Molex")]
         Molex = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA (Locking)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA (Locking)")]
         NEMA__Locking_ = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA (Non-locking)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA (Non-locking)")]
         NEMA__NonLocking_ = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Other")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Other")]
         Other = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Proprietary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Proprietary")]
         Proprietary = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB")]
         USB = 11,
 
     }
@@ -56477,39 +59591,51 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"California Style")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"California Style")]
         California_Style = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"DC")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"DC")]
         DC = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IEC 60309")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IEC 60309")]
         IEC_60309 = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IEC 60320")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IEC 60320")]
         IEC_60320 = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"IEC 60906-1")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"IEC 60906-1")]
         IEC_609061 = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"International/ITA")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"International/ITA")]
         International_ITA = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Molex")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Molex")]
         Molex = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA (Locking)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA (Locking)")]
         NEMA__Locking_ = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"NEMA (Non-locking)")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"NEMA (Non-locking)")]
         NEMA__NonLocking_ = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Other")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Other")]
         Other = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"Proprietary")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"Proprietary")]
         Proprietary = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"USB")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"USB")]
         USB = 11,
 
     }
@@ -56519,9 +59645,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"in")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"in")]
         In = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"mm")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"mm")]
         Mm = 1,
 
     }
@@ -56531,9 +59659,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"front-to-rear")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"front-to-rear")]
         FrontToRear = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"rear-to-front")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"rear-to-front")]
         RearToFront = 1,
 
     }
@@ -56543,9 +59673,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"json")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"json")]
         Json = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"svg")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"svg")]
         Svg = 1,
 
     }
@@ -56555,12 +59687,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"disabled")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"disabled")]
         Disabled = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"exact")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"exact")]
         Exact = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"loose")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"loose")]
         Loose = 2,
 
     }
@@ -56570,12 +59705,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"hidden")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hidden")]
         Hidden = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"no")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"no")]
         No = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"yes")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"yes")]
         Yes = 2,
 
     }
@@ -56585,12 +59723,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"always")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"always")]
         Always = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"hidden")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"hidden")]
         Hidden = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"if-set")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"if-set")]
         IfSet = 2,
 
     }
@@ -56600,48 +59741,63 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"black")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"black")]
         Black = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"blue")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"blue")]
         Blue = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"cyan")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cyan")]
         Cyan = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"default")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"default")]
         Default = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ghost-dark")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ghost-dark")]
         GhostDark = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"gray")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"gray")]
         Gray = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"green")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"green")]
         Green = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"indigo")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"indigo")]
         Indigo = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"orange")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"orange")]
         Orange = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"pink")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"pink")]
         Pink = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"purple")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"purple")]
         Purple = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"red")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"red")]
         Red = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"teal")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"teal")]
         Teal = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"white")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"white")]
         White = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"yellow")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"yellow")]
         Yellow = 14,
 
     }
@@ -56651,12 +59807,15 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"sctp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"sctp")]
         Sctp = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"tcp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"tcp")]
         Tcp = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"udp")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"udp")]
         Udp = 2,
 
     }
@@ -56666,9 +59825,11 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"json")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"json")]
         Json = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"yaml")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"yaml")]
         Yaml = 1,
 
     }
@@ -56678,48 +59839,63 @@ namespace BiglerNet.NetBox.Client.Models
     {
 
         [System.Runtime.Serialization.EnumMember(Value = @"cs")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cs")]
         Cs = 0,
 
         [System.Runtime.Serialization.EnumMember(Value = @"da")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"da")]
         Da = 1,
 
         [System.Runtime.Serialization.EnumMember(Value = @"de")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"de")]
         De = 2,
 
         [System.Runtime.Serialization.EnumMember(Value = @"en")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"en")]
         En = 3,
 
         [System.Runtime.Serialization.EnumMember(Value = @"es")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"es")]
         Es = 4,
 
         [System.Runtime.Serialization.EnumMember(Value = @"fr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"fr")]
         Fr = 5,
 
         [System.Runtime.Serialization.EnumMember(Value = @"it")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"it")]
         It = 6,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ja")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ja")]
         Ja = 7,
 
         [System.Runtime.Serialization.EnumMember(Value = @"nl")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"nl")]
         Nl = 8,
 
         [System.Runtime.Serialization.EnumMember(Value = @"pl")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"pl")]
         Pl = 9,
 
         [System.Runtime.Serialization.EnumMember(Value = @"pt")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"pt")]
         Pt = 10,
 
         [System.Runtime.Serialization.EnumMember(Value = @"ru")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"ru")]
         Ru = 11,
 
         [System.Runtime.Serialization.EnumMember(Value = @"tr")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"tr")]
         Tr = 12,
 
         [System.Runtime.Serialization.EnumMember(Value = @"uk")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"uk")]
         Uk = 13,
 
         [System.Runtime.Serialization.EnumMember(Value = @"zh")]
+        [System.Text.Json.Serialization.JsonStringEnumMemberName(@"zh")]
         Zh = 14,
 
     }

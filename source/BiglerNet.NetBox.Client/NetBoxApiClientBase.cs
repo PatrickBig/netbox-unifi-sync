@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net.Http.Headers;
 using System.Net.Http.Json;
+using System.Net.Mime;
 using System.Text;
 using System.Text.Json;
 
@@ -23,9 +25,22 @@ public class NetBoxApiClientBase
 
     protected JsonSerializerOptions PatchJsonSerializerOptions { get { return _patchJsonSerializerOptions; } }
 
+    protected async Task<TResult> PatchAsJsonAsync<TRequest, TResult>(string requestUri, TRequest requestBody, CancellationToken cancellationToken = default)
+        where TRequest : class
+        where TResult : class
+    {
+        using var content = new StringContent(JsonSerializer.Serialize(requestBody, PatchJsonSerializerOptions), new MediaTypeHeaderValue(MediaTypeNames.Application.Json));
+        using var request = new HttpRequestMessage(HttpMethod.Patch, requestUri);
+        request.Content = content;
+
+        var response = await GetResponseAsync<TResult>(request, cancellationToken);
+
+        return response;
+    }
+
     protected async Task<TResult> GetResponseAsync<TResult>(HttpRequestMessage request, CancellationToken cancellationToken = default)
     {
-        var response = await _httpClient.SendAsync(request, cancellationToken);
+        using var response = await _httpClient.SendAsync(request, cancellationToken);
 
         var contentString = await response.Content.ReadAsStringAsync(cancellationToken);
 
