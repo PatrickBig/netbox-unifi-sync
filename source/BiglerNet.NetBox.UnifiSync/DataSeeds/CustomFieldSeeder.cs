@@ -58,7 +58,7 @@ public class CustomFieldSeeder : INetBoxDataSeed
 
         while (!reachedEnd)
         {
-            var filter = new ExtrasCustomFieldFilterBuilder()
+            var filter = new ExtrasCustomFilterBuilder()
                 .Name.Eq([UnifiUniqueIdCustomFieldName])
                 .Offset(offset)
                 .Limit(limit)

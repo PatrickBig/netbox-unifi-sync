@@ -34,38 +34,37 @@ public sealed class FilterField<TBuilder, TValue>
     public TBuilder Eq(TValue value)
     {
         _filter.Parameters.Add(
-            new QueryParameter(_name, new[] { Format(value) }));
+            new QueryParameter(_name, Format(value).ToList()));
+        return _builder;
+    }
+
+    public TBuilder Op(FilterOperator op, TValue value)
+    {
+        Ensure(op);
+        if (value != null)
+        {
+            var suffix = op.GetEnumMemberValue();
+            _filter.Parameters.Add(
+                new QueryParameter($"{_name}__{suffix}", [.. Format(value)]));
+        }
 
         return _builder;
     }
 
-    public void Eq(params TValue[] values)
-    {
-        _filter.Parameters.Add(
-            new QueryParameter(_name, values.Select(Format).ToList()));
-    }
-
-    public void Op(FilterOperator op, TValue value)
-    {
-        Ensure(op);
-
-        var suffix = op.GetEnumMemberValue();
-        _filter.Parameters.Add(
-            new QueryParameter($"{_name}__{suffix}", new[] { Format(value) }));
-    }
-
     // Convenience methods (optional but nice)
-    public void Gt(TValue v) => Op(FilterOperator.Gt, v);
-    public void Gte(TValue v) => Op(FilterOperator.Gte, v);
-    public void Lt(TValue v) => Op(FilterOperator.Lt, v);
-    public void Lte(TValue v) => Op(FilterOperator.Lte, v);
-    public void Ne(TValue v) => Op(FilterOperator.N, v);
+    public TBuilder Gt(TValue v) => Op(FilterOperator.Gt, v);
+    public TBuilder Gte(TValue v) => Op(FilterOperator.Gte, v);
+    public TBuilder Lt(TValue v) => Op(FilterOperator.Lt, v);
+    public TBuilder Lte(TValue v) => Op(FilterOperator.Lte, v);
+    public TBuilder Ne(TValue v) => Op(FilterOperator.N, v);
 
-    public void Empty()
+    public TBuilder Empty()
     {
         Ensure(FilterOperator.Empty);
         _filter.Parameters.Add(
             new QueryParameter($"{_name}__empty", new[] { "true" }));
+
+        return _builder;
     }
 
     private void Ensure(FilterOperator op)
@@ -75,6 +74,21 @@ public sealed class FilterField<TBuilder, TValue>
                 $"Operator '{op}' is not supported for field '{_name}'.");
     }
 
-    private static string Format(TValue value)
-        => value!.ToString()!;
+    private static IEnumerable<string> Format(object? value)
+    {
+        if (value != null)
+        {
+            if (value is Array arr)
+            {
+                foreach (var v in arr)
+                {
+                    yield return v!.ToString()!;
+                }
+            }
+            else
+            {
+                yield return value!.ToString()!;
+            }
+        }
+    }
 }

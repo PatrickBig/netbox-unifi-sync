@@ -28,17 +28,15 @@ public class WanSync
             {
                 foreach (var wan in wans.Where(w => w.isp != null && w.isp.name != null))
                 {
-                    if (wan != null)
+                    if (wan.isp?.name != null)
                     {
                         var request = new TenantRequest
                         {
                             Name = wan.isp.name,
                             Slug = wan.isp.name.ToLower(),
-
                         };
 
                         await _tenancyClient.CreateTenantAsync(request, cancellationToken);
-
                     }
                 }
             }

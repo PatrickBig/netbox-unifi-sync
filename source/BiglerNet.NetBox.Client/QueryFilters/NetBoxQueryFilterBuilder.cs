@@ -27,7 +27,7 @@ public abstract class NetBoxQueryFilterBuilder<TBuilder, TFilter> : NetBoxQueryF
         return Self;
     }
 
-    // 🔑 Centralized field creation
+    // Centralized field creation
     protected FilterField<TBuilder, TValue> Field<TValue>(
         string name,
         params FilterOperator[] supportedOperators)

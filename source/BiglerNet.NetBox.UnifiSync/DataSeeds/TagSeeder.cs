@@ -1,5 +1,6 @@
 ﻿using BiglerNet.NetBox.Client;
 using BiglerNet.NetBox.Client.Models;
+using BiglerNet.NetBox.Client.QueryFilters;
 using BiglerNet.NetBox.UnifiSync.Interfaces;
 
 namespace BiglerNet.NetBox.UnifiSync.DataSeeds;
@@ -21,95 +22,16 @@ public class TagSeeder : INetBoxDataSeed
             Description = "Resources that were automatically imported from the Unifi Sync process.",
         };
 
-        var tags = await _extrasClient.TagsGetAsync(
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            [tag.Slug],
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null,
-            null);
+        var filter = new ExtrasTagFilterBuilder()
+            //.Limit(100)
+            .TagSlug.Eq([tag.Slug])
+            .Build();
+
+        var tags = await _extrasClient.ListTagsAsync(filter, cancellationToken);
 
         if (tags.Count == 0)
         {
-            await _extrasClient.TagsPostAsync(tag, null, null, null, null, null, null, cancellationToken);
+            await _extrasClient.CreateTagAsync(tag, cancellationToken);
         }
         else
         {
@@ -125,7 +47,7 @@ public class TagSeeder : INetBoxDataSeed
                 Weight = originalTag.Weight,
 
             };
-            await _extrasClient.TagsPatchAsync(tags.Results.First().Id, patchedTag, null, null, null, null, null, null, cancellationToken);
+            await _extrasClient.PatchTagAsync(tags.Results.First().Id, patchedTag, cancellationToken);
         }
     }
 }

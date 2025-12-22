@@ -21,7 +21,7 @@ var generatorSettings = new CSharpClientGeneratorSettings
     CSharpGeneratorSettings =
     {
         Namespace = "BiglerNet.NetBox.Client",
-        JsonLibrary = NJsonSchema.CodeGeneration.CSharp.CSharpJsonLibrary.NewtonsoftJson,
+        JsonLibrary = NJsonSchema.CodeGeneration.CSharp.CSharpJsonLibrary.SystemTextJson,
         GenerateNullableReferenceTypes = true,
         ClassStyle = NJsonSchema.CodeGeneration.CSharp.CSharpClassStyle.Poco,
         GenerateOptionalPropertiesAsNullable = true,
