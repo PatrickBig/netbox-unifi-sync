@@ -1,24 +1,22 @@
 ﻿using BiglerNet.NetBox.Client;
 using BiglerNet.NetBox.Client.Models;
+using BiglerNet.NetBox.Client.QueryFilters;
 using BiglerNet.NetBox.UnifiSync.Models.UnifiNetwork;
 using Microsoft.Extensions.Logging;
-using StrawberryShake;
 using System.Net;
 
 namespace BiglerNet.NetBox.UnifiSync.Services;
-public class IpRangeSync
+public class IpRangeSync : IUnifiSiteSynchronizer
 {
     private readonly IIpamClient _ipamClient;
     private readonly IUnifiNetworkClient _unifiNetworkClient;
     private readonly ILogger<IpRangeSync> _logger;
-    private readonly INetBoxClient _netBoxClient;
 
-    public IpRangeSync(IIpamClient ipamClient, IUnifiNetworkClient unifiNetworkClient, ILogger<IpRangeSync> logger, INetBoxClient netBoxClient)
+    public IpRangeSync(IIpamClient ipamClient, IUnifiNetworkClient unifiNetworkClient, ILogger<IpRangeSync> logger)
     {
         _ipamClient = ipamClient;
         _unifiNetworkClient = unifiNetworkClient;
         _logger = logger;
-        _netBoxClient = netBoxClient;
     }
 
     public async Task<int> PerformSyncAsync(CancellationToken cancellationToken)
@@ -26,6 +24,7 @@ public class IpRangeSync
         var ranges = await GetNetBoxIpRangesAsync(cancellationToken);
 
         var sites = await _unifiNetworkClient.ListSitesAsync(cancellationToken);
+
         foreach (var site in sites.Data)
         {
             var networkConfig = await _unifiNetworkClient.GetNetworkConfigAsync(site.Name, cancellationToken);
@@ -39,7 +38,7 @@ public class IpRangeSync
         return 0;
     }
 
-    private async Task ProcessUnifiNetworkConfigAsync(IEnumerable<IListIpAddressRanges_Ip_range_list> netBoxIpAddressRanges, NetworkConfigurationItem networkConfigurationItem, CancellationToken cancellationToken)
+    private async Task ProcessUnifiNetworkConfigAsync(IEnumerable<IPRange> netBoxIpAddressRanges, NetworkConfigurationItem networkConfigurationItem, CancellationToken cancellationToken)
     {
         // Only process ip ranges
         if (networkConfigurationItem.IsIpRange())
@@ -66,7 +65,6 @@ public class IpRangeSync
                 _logger.LogError("Not yet implemented");
             }
         }
-        await Task.Delay(100);
     }
 
     private async Task CreateProviderAsync(CancellationToken cancellationToken)
@@ -74,7 +72,7 @@ public class IpRangeSync
         await Task.Delay(1);
     }
 
-    private async Task UpdateExistingNetBoxIpRangeAsync(IListIpAddressRanges_Ip_range_list netBoxIpRange, IPNetwork2 ipNetwork, NetworkConfigurationItem unifiNetwork, CancellationToken cancellationToken)
+    private async Task UpdateExistingNetBoxIpRangeAsync(IPRange netBoxIpRange, IPNetwork2 ipNetwork, NetworkConfigurationItem unifiNetwork, CancellationToken cancellationToken)
     {
         var ipRangeRequest = new PatchedWritableIPRangeRequest
         {
@@ -99,26 +97,31 @@ public class IpRangeSync
         _logger.LogInformation("Updating existing IP range in NetBox: {IpSubnet}, NetBox range ID: {NetBoxId}", unifiNetwork.IpSubnet, netBoxIpRange.Id);
 
         await _ipamClient.
-            PatchIpRangeAsync(int.Parse(netBoxIpRange.Id), ipRangeRequest, cancellationToken);
+            PatchIpRangeAsync(netBoxIpRange.Id, ipRangeRequest, cancellationToken);
     }
 
-    private async Task<IEnumerable<IListIpAddressRanges_Ip_range_list>> GetNetBoxIpRangesAsync(CancellationToken cancellationToken)
+    private async Task<IEnumerable<IPRange>> GetNetBoxIpRangesAsync(CancellationToken cancellationToken)
     {
         var offset = 0;
         var limit = 100;
         var hasMore = true;
-        var allRanges = new List<NetBox.Client.IListIpAddressRanges_Ip_range_list>();
+        var allRanges = new List<IPRange>();
+
+        var filter = new IpamIpRangeFilterBuilder()
+            .Offset(offset)
+            .Limit(limit)
+            .Build();
 
         while (hasMore)
         {
-            var ranges = await _netBoxClient.ListIpAddressRanges.ExecuteAsync(offset, limit, "unifi-sync", cancellationToken);
+            var ranges = await _ipamClient.ListIpRangesAsync(filter, cancellationToken);
 
-            if (ranges.IsSuccessResult() && ranges.Data != null)
+            if (ranges != null && ranges.Results != null && ranges.Count > 0)
             {
-                allRanges.AddRange(ranges.Data.Ip_range_list);
+                allRanges.AddRange(ranges.Results);
 
                 // Check if we have more results to process
-                if (ranges.Data.Ip_range_list.Count < limit)
+                if (ranges.Count < limit)
                 {
                     hasMore = false;
                 }
@@ -130,11 +133,16 @@ public class IpRangeSync
             else
             {
                 // We have some type of error, throw it and stop processing
-                _logger.LogError("Error retrieving IP address ranges from NetBox: {Errors}", string.Join(", ", string.Join(", ", ranges.Errors.Select(e => e.Message))));
+                _logger.LogError("Error retrieving IP address ranges from NetBox");
                 throw new ArgumentException("Error retrieving IP address ranges from NetBox");
             }
         }
 
         return allRanges;
+    }
+
+    public Task<int> SynchronizeSiteAsync(Models.Unifi.SiteListItem site, CancellationToken cancellationToken = default)
+    {
+        throw new NotImplementedException();
     }
 }

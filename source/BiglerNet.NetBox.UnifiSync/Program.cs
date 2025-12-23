@@ -61,14 +61,6 @@ Cli.Ext.ConfigureServices(services =>
     var netboxOptions = configuration.GetSection(nameof(NetBoxOptions)).Get<NetBoxOptions>() ?? throw new InvalidOperationException("Missing NetboxOptions section in configuration.");
     var netboxBaseUrl = new Uri(netboxOptions.BaseUrl);
 
-    services.AddNetBoxClient()
-    .ConfigureHttpClient(c =>
-    {
-        c.BaseAddress = new Uri("https://netbox.biglernet.com/graphql/");
-        c.DefaultRequestHeaders.Authorization =
-        new System.Net.Http.Headers.AuthenticationHeaderValue("Token", netboxOptions.ApiKey);
-    });
-
     services.AddNetBoxClients(netboxOptions.BaseUrl, netboxOptions.ApiKey);
 
     services.AddTransient<TagSeeder>();

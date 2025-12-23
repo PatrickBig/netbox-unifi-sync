@@ -9,30 +9,44 @@ namespace BiglerNet.NetBox.UnifiSync.DataSeeds;
 public class CustomFieldSeeder : INetBoxDataSeed
 {
     public const string UnifiUniqueIdCustomFieldName = "unifi_unique_id";
+    public const string UnifiSiteIdCustomFieldName = "unifi_site_id";
+    public const string UnifiCustomFieldGroupName = "Unifi";
 
     private readonly IExtrasClient _extrasClient;
     private readonly ILogger<CustomFieldSeeder> _logger;
 
-    public CustomFieldSeeder(IExtrasClient extrasClient)
+    public CustomFieldSeeder(IExtrasClient extrasClient, ILogger<CustomFieldSeeder> logger)
     {
         _extrasClient = extrasClient;
+        _logger = logger;
     }
 
     public async Task SeedDataAsync(CancellationToken cancellationToken = default)
     {
-        var desiredFields = new List<string>
+        var desiredFields = new[]
         {
             UnifiUniqueIdCustomFieldName,
+            UnifiSiteIdCustomFieldName,
         };
 
         var filter = new ExtrasCustomFieldFilterBuilder()
-            .Name.Eq([UnifiUniqueIdCustomFieldName])
+            //.Name.Eq(desiredFields)
+            .GroupName.Eq([UnifiCustomFieldGroupName])
+            .Limit(100)
             .Build();
+
+        _logger.LogInformation("Checking for existing custom fields [{FieldNames}]", string.Join(", ", desiredFields));
 
         var existingFields = await _extrasClient.ListCustomFieldsAsync(filter, cancellationToken);
 
+        var fieldsToCreate = desiredFields.Except(existingFields.Results.Select(f => f.Name));
+        var fieldsToUpdate = existingFields.Results.Where(f => desiredFields.Contains(f.Name));
+        var fieldsToDelete = existingFields.Results.Where(f => !desiredFields.Contains(f.Name));
+
         if (existingFields.Count == 0)
         {
+            _logger.LogInformation("No custom fields found. Creating");
+
             // Create the unifi device ID field
             var requestBody = new WritableCustomFieldRequest
             {
@@ -40,8 +54,8 @@ public class CustomFieldSeeder : INetBoxDataSeed
                 Label = "Unifi Unique ID",
                 Object_types = [
                     "ipam.iprange",
-                "ipam.ipaddress",
-                "ipam.vlan"
+                    "ipam.ipaddress",
+                    "ipam.vlan"
                     ],
                 Group_name = "Unifi",
                 Is_cloneable = false,
@@ -58,6 +72,8 @@ public class CustomFieldSeeder : INetBoxDataSeed
         }
         else
         {
+            _logger.LogInformation("Found existing field. Performing update to ensure values match.");
+
             var originalField = existingFields.Results.First();
 
             var patchedField = new PatchedWritableCustomFieldRequest

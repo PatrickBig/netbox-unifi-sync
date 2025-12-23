@@ -1,12 +1,10 @@
 ﻿using BiglerNet.NetBox.Client.Models;
 using BiglerNet.NetBox.Client.QueryFilters;
-using StrawberryShake;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Net.Mime;
 using System.Security.Cryptography;
 using System.Text.Json;
-using HttpMethod = System.Net.Http.HttpMethod;
 
 namespace BiglerNet.NetBox.Client;
 
