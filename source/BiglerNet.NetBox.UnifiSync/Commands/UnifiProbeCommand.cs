@@ -13,20 +13,21 @@ public class UnifiProbeCommand
     private readonly IUnifiNetworkClient _unifiNetworkClient;
     //private readonly IIpRangesClient _ipRangesClient;
     private readonly IIpamClient _ipamClient;
-    private readonly WanSync _wanSync;
+    //private readonly WanSync _wanSync;
 
-    public UnifiProbeCommand(WanSync wanSync, IUnifiIntegrationClient unifiClient, IUnifiNetworkClient unifiNetworkClient, IIpamClient ipamClient, ILogger<UnifiProbeCommand> logger)
+    public UnifiProbeCommand(IUnifiIntegrationClient unifiClient, IUnifiNetworkClient unifiNetworkClient, IIpamClient ipamClient, ILogger<UnifiProbeCommand> logger)
     {
         _unifiClient = unifiClient;
         _unifiNetworkClient = unifiNetworkClient;
         _ipamClient = ipamClient;
         _logger = logger;
-        _wanSync = wanSync;
+        //_wanSync = wanSync;
     }
 
     public async Task<int> RunAsync(CliContext cliContext)
     {
-        await _wanSync.RunAsync(cliContext.CancellationToken);
+        //await _wanSync.RunAsync(cliContext.CancellationToken);
+        var config = await _unifiNetworkClient.GetNetworkConfigAsync("default", cliContext.CancellationToken);
 
         return 0;
 

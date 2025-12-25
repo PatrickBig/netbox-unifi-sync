@@ -37,4 +37,14 @@ public interface IIpamClient
     public Task<Prefix> PatchPrefixAsync(int id, PatchedWritablePrefixRequest request, CancellationToken cancellationToken = default);
 
     public Task DeletePrefixAsync(int id, CancellationToken cancellationToken = default);
+
+
+    // Vlan
+    public Task<PaginatedVLANList> ListVlansAsync(IpamVlanFilter filter, CancellationToken cancellationToken = default);
+
+    public Task<VLAN> CreateVlanAsync(WritableVLANRequest request, CancellationToken cancellationToken = default);
+
+    public Task<VLAN> PatchVlanAsync(int id, PatchedWritableVLANRequest request, CancellationToken cancellationToken = default);
+
+    public Task DeleteVlanAsync(int id, CancellationToken cancellationToken = default);
 }

@@ -56437,11 +56437,11 @@ namespace BiglerNet.NetBox.Client.Models
         [System.Runtime.Serialization.EnumMember(Value = @"cvlan")]
         [System.Text.Json.Serialization.JsonStringEnumMemberName(@"cvlan")]
         Cvlan = 1,
-
+        /*
         [System.Runtime.Serialization.EnumMember(Value = @"")]
         [System.Text.Json.Serialization.JsonStringEnumMemberName(@"")]
         Empty = 2,
-
+        */
     }
 
     [System.CodeDom.Compiler.GeneratedCode("NJsonSchema", "14.6.3.0 (NJsonSchema v11.5.2.0 (Newtonsoft.Json v13.0.0.0))")]

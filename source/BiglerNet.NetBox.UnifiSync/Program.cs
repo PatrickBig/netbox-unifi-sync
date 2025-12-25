@@ -67,6 +67,7 @@ Cli.Ext.ConfigureServices(services =>
     services.AddTransient<CustomFieldSeeder>();
 
     // Add the sync processes
+    services.AddTransient<PrefixManager>();
     services.AddTransient<IpRangeSync>();
     services.AddTransient<WanSync>();
 });

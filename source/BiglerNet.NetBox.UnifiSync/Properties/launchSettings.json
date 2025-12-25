@@ -2,7 +2,7 @@
   "profiles": {
     "BiglerNet.NetBox.UnifiSync": {
       "commandName": "Project",
-      "commandLineArgs": "seed-data"
+      "commandLineArgs": "unifi-sync"
     },
     "Container (Dockerfile)": {
       "commandName": "Docker"

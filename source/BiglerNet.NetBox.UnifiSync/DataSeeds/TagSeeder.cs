@@ -17,9 +17,12 @@ public class TagSeeder : INetBoxDataSeed
     {
         var tag = new TagRequest
         {
-            Name = "Unifi Sync",
-            Slug = "unifi-sync",
+            Name = "Managed by Unifi",
+            Slug = "managed-by-unifi",
             Description = "Resources that were automatically imported from the Unifi Sync process.",
+            Color = "05254d",
+            Weight = 0,
+            Object_types = new List<string>(),
         };
 
         var filter = new ExtrasTagFilterBuilder()

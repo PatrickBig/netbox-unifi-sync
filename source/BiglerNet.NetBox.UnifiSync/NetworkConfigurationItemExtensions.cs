@@ -3,7 +3,7 @@
 namespace BiglerNet.NetBox.UnifiSync;
 public static class NetworkConfigurationItemExtensions
 {
-    public static bool IsIpRange(this NetworkConfigurationItem item)
+    public static bool IsInternalNetwork(this NetworkConfigurationItem item)
     {
         return !string.IsNullOrEmpty(item.IpSubnet);
     }

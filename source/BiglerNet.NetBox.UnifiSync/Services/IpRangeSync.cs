@@ -41,7 +41,7 @@ public class IpRangeSync : IUnifiSiteSynchronizer
     private async Task ProcessUnifiNetworkConfigAsync(IEnumerable<IPRange> netBoxIpAddressRanges, NetworkConfigurationItem networkConfigurationItem, CancellationToken cancellationToken)
     {
         // Only process ip ranges
-        if (networkConfigurationItem.IsIpRange())
+        if (networkConfigurationItem.IsInternalNetwork())
         {
             // Check if we are going to do an update or create operation.
             var ipNetwork = IPNetwork2.Parse(networkConfigurationItem.IpSubnet);
