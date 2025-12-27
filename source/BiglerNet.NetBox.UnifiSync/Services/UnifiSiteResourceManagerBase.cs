@@ -6,5 +6,5 @@ namespace BiglerNet.NetBox.UnifiSync.Services;
 
 public abstract class UnifiSiteResourceManagerBase
 {
-    public abstract Task<int> SyncronizeUnifiResourcesAsync(string unifiSiteId, string unifiSiteName, int netBoxSiteId, CancellationToken cancellationToken = default);
+    public abstract Task<int> SyncronizeUnifiResourcesAsync(string unifiSiteId, Guid unifiExternalId, string unifiSiteName, int netBoxSiteId, CancellationToken cancellationToken = default);
 }

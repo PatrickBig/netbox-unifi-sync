@@ -8,4 +8,6 @@ public interface IUnifiNetworkClient
     Task<NetworkResponseContainer<SiteListItem>> ListSitesAsync(CancellationToken cancellationToken = default);
 
     Task<AggregatedDashboardResponse> GetAggregatedDashboardAsync(string siteName, CancellationToken cancellationToken = default);
+
+    Task ListDevicesAsync(string siteName, CancellationToken cancellationToken = default);
 }

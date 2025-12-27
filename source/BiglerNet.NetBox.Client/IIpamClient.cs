@@ -8,7 +8,7 @@ namespace BiglerNet.NetBox.Client;
 
 public interface IIpamClient
 {
-
+    // IP Ranges
     public Task<PaginatedIPRangeList> ListIpRangesAsync(IpamIpRangeFilter filter, CancellationToken cancellationToken = default);
     public Task<IPRange> CreateIpRangeAsync(WritableIPRangeRequest request, CancellationToken cancellationToken = default);
 
@@ -30,7 +30,7 @@ public interface IIpamClient
 
 
     // IP Prefixes here
-    public Task<PaginatedPrefixList> ListPrefixesAsync(IpamPrefixFilter filter, CancellationToken cancellationToken = default);
+    public Task<PaginatedPrefixList> ListPrefixesAsync(TagFilter filter, CancellationToken cancellationToken = default);
 
     public Task<Prefix> CreatePrefixAsync(WritablePrefixRequest request, CancellationToken cancellationToken = default);
 
@@ -47,4 +47,31 @@ public interface IIpamClient
     public Task<VLAN> PatchVlanAsync(int id, PatchedWritableVLANRequest request, CancellationToken cancellationToken = default);
 
     public Task DeleteVlanAsync(int id, CancellationToken cancellationToken = default);
+
+    // IP Addresses
+    public Task<PaginatedIPAddressList> ListIpAddressesAsync(TagFilter filter, CancellationToken cancellationToken = default);
+
+    public Task<IPAddress> CreateIpAddressAsync(WritableIPAddressRequest request, CancellationToken cancellationToken = default);
+
+    public Task<IPAddress> PatchIpAddressAsync(int id, PatchedWritableIPAddressRequest request, CancellationToken cancellationToken = default);
+
+    public Task DeleteIpAddressAsync(int id, CancellationToken cancellationToken = default);
+
+    // RIRs
+    public Task<PaginatedRIRList> ListRirsAsync(TagFilter filter, CancellationToken cancellationToken = default);
+
+    public Task<RIR> CreateRirAsync(RIRRequest request, CancellationToken cancellationToken = default);
+
+    public Task<RIR> PatchRirAsync(int id, PatchedRIRRequest request, CancellationToken cancellationToken = default);
+
+    public Task DeleteRirAsync(int id, CancellationToken cancellationToken = default);
+
+    // Aggregates
+    public Task<PaginatedAggregateList> ListAggregatesAsync(TagFilter filter, CancellationToken cancellationToken = default);
+
+    public Task<Aggregate> CreateAggregateAsync(WritableAggregateRequest request, CancellationToken cancellationToken = default);
+
+    public Task<Aggregate> PatchAggregateAsync(int id, PatchedWritableAggregateRequest request, CancellationToken cancellationToken = default);
+
+    public Task DeleteAggregateAsync(int id, CancellationToken cancellationToken = default);
 }

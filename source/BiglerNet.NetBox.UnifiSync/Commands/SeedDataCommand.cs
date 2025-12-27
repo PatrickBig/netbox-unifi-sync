@@ -8,17 +8,20 @@ public class SeedDataCommand : ICliRunAsyncWithContextAndReturn
 {
     private readonly TagSeeder _tagSeeder;
     private readonly CustomFieldSeeder _customFieldSeeder;
+    private readonly LocalIpamAggregatesSeeder _aggregateSeeder;
 
 
-    public SeedDataCommand(TagSeeder tagSeeder, CustomFieldSeeder customFieldSeeder)
+    public SeedDataCommand(TagSeeder tagSeeder, CustomFieldSeeder customFieldSeeder, LocalIpamAggregatesSeeder aggregateSeeder)
     {
         _tagSeeder = tagSeeder;
         _customFieldSeeder = customFieldSeeder;
+        _aggregateSeeder = aggregateSeeder;
     }
     public async Task<int> RunAsync(CliContext cliContext)
     {
         await _tagSeeder.SeedDataAsync(cliContext.CancellationToken);
         await _customFieldSeeder.SeedDataAsync(cliContext.CancellationToken);
+        await _aggregateSeeder.SeedDataAsync(cliContext.CancellationToken);
 
         return 0;
     }

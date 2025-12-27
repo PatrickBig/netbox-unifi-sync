@@ -9,6 +9,8 @@ public abstract class ApiClientBase
     private readonly ILogger _logger;
     private readonly HttpClient _httpClient;
 
+    protected HttpClient HttpClient { get { return _httpClient; } }
+
     protected ApiClientBase(ILogger logger, HttpClient httpClient)
     {
         _logger = logger;

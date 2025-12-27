@@ -51,6 +51,19 @@ public class NetBoxApiClientBase
         return response;
     }
 
+    protected async Task<TResult> PutAsJsonAsync<TRequest, TResult>(string requestUri, TRequest requestBody, CancellationToken cancellationToken = default)
+        where TRequest : class
+        where TResult : class
+    {
+        using var content = new StringContent(JsonSerializer.Serialize(requestBody, PatchJsonSerializerOptions), new MediaTypeHeaderValue(MediaTypeNames.Application.Json));
+        using var request = new HttpRequestMessage(HttpMethod.Put, requestUri);
+        request.Content = content;
+
+        var response = await GetResponseAsync<TResult>(request, cancellationToken);
+
+        return response;
+    }
+
     protected async Task<TResult> GetResponseAsync<TResult>(HttpRequestMessage request, CancellationToken cancellationToken = default)
     {
         using var response = await _httpClient.SendAsync(request, cancellationToken);
@@ -83,3 +96,5 @@ public class NetBoxApiClientBase
         }
     }
 }
+
+

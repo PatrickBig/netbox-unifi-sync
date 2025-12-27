@@ -12,12 +12,14 @@ public class UnifiSyncCommand : ICliRunAsyncWithContextAndReturn
     private IEnumerable<UnifiNetBoxMapping> _unifiNetBoxMapping;
     private IUnifiNetworkClient _unifiNetworkClient;
     private readonly PrefixManager _prefixManager;
+    private readonly IpAddressManager _ipAddressManager;
 
-    public UnifiSyncCommand(IConfiguration configuration, IUnifiNetworkClient unifiNetworkClient, PrefixManager prefixManager)
+    public UnifiSyncCommand(IConfiguration configuration, IUnifiNetworkClient unifiNetworkClient, PrefixManager prefixManager, IpAddressManager ipAddressManager)
     {
         _unifiNetBoxMapping = configuration.GetSection(nameof(UnifiNetBoxMapping)).Get<IEnumerable<UnifiNetBoxMapping>>() ?? Array.Empty<UnifiNetBoxMapping>();
         _unifiNetworkClient = unifiNetworkClient;
         _prefixManager = prefixManager;
+        _ipAddressManager = ipAddressManager;
     }
 
     public async Task<int> RunAsync(CliContext cliContext)
@@ -26,7 +28,8 @@ public class UnifiSyncCommand : ICliRunAsyncWithContextAndReturn
 
         foreach (var site in sites.Data)
         {
-            await _prefixManager.SyncronizeUnifiResourcesAsync(site.Id, site.Name, 1, cliContext.CancellationToken);
+            //await _prefixManager.SyncronizeUnifiResourcesAsync(site.Id, site.Name, 1, cliContext.CancellationToken);
+            await _ipAddressManager.SyncronizeUnifiResourcesAsync(site.Id, Guid.Parse(site.ExternalId), site.Name, 1, cliContext.CancellationToken);
         }
 
         return 0;

@@ -30,6 +30,16 @@ public class UnifiNetworkClient : ApiClientBase, IUnifiNetworkClient
         return response ?? new();
     }
 
+    public async Task ListDevicesAsync(string siteName, CancellationToken cancellationToken = default)
+    {
+        var request = new HttpRequestMessage(HttpMethod.Get, $"/proxy/network/api/s/{siteName}/stat/device");
+        var response = await HttpClient.SendAsync(request, cancellationToken);
+
+        var responseContent = await response.Content.ReadAsStringAsync();
+
+        Console.WriteLine(responseContent);
+    }
+
     public async Task<NetworkResponseContainer<SiteListItem>> ListSitesAsync(CancellationToken cancellationToken = default)
     {
         var request = new HttpRequestMessage(HttpMethod.Get, "/proxy/network/api/self/sites");

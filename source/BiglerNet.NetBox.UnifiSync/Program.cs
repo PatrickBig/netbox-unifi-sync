@@ -65,11 +65,15 @@ Cli.Ext.ConfigureServices(services =>
 
     services.AddTransient<TagSeeder>();
     services.AddTransient<CustomFieldSeeder>();
+    services.AddTransient<LocalIpamAggregatesSeeder>();
 
     // Add the sync processes
     services.AddTransient<PrefixManager>();
+    services.AddTransient<VlanManager>();
+    services.AddTransient<IpRangeManager>();
     services.AddTransient<IpRangeSync>();
     services.AddTransient<WanSync>();
+    services.AddTransient<IpAddressManager>();
 });
 
 await Cli.RunAsync<RootCommand>();
