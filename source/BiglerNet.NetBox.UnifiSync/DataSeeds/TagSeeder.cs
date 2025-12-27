@@ -1,6 +1,7 @@
 ﻿using BiglerNet.NetBox.Client;
 using BiglerNet.NetBox.Client.Models;
 using BiglerNet.NetBox.Client.QueryFilters;
+using BiglerNet.NetBox.UnifiSync.Constants;
 using BiglerNet.NetBox.UnifiSync.Interfaces;
 
 namespace BiglerNet.NetBox.UnifiSync.DataSeeds;
@@ -18,7 +19,7 @@ public class TagSeeder : INetBoxDataSeed
         var tag = new TagRequest
         {
             Name = "Managed by Unifi",
-            Slug = "managed-by-unifi",
+            Slug = Tags.ManagedByUnifiTagSlug,
             Description = "Resources that were automatically imported from the Unifi Sync process.",
             Color = "05254d",
             Weight = 0,
@@ -47,9 +48,9 @@ public class TagSeeder : INetBoxDataSeed
                 // Preserve user color/weight
                 Color = originalTag.Color,
                 Weight = originalTag.Weight,
-
             };
-            await _extrasClient.PatchTagAsync(tags.Results.First().Id, patchedTag, cancellationToken);
+            
+            _ = await _extrasClient.PatchTagAsync(tags.Results.First().Id, patchedTag, cancellationToken);
         }
     }
 }

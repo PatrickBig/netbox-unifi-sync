@@ -1,11 +1,8 @@
 ﻿using BiglerNet.NetBox.Client;
 using BiglerNet.NetBox.Client.Models;
 using BiglerNet.NetBox.Client.QueryFilters;
+using BiglerNet.NetBox.UnifiSync.Constants;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading;
 
 namespace BiglerNet.NetBox.UnifiSync.Services;
 
@@ -23,7 +20,7 @@ public class VlanManager(IIpamClient IpamClient, ILogger<VlanManager> Logger)
         IEnumerable<VLAN> netBoxVlans = await GetNetBoxVlansAsync(cancellationToken);
 
         // Map to return once complete with the sync operation.
-        Dictionary<int,int> vlanMap = netBoxVlans.ToDictionary(v => v.Vid, v => v.Id);
+        Dictionary<int, int> vlanMap = netBoxVlans.ToDictionary(v => v.Vid, v => v.Id);
 
         var unifiByVlan = unifiVlans.ToLookup(u => u.Vid);
         var netBoxByVlan = netBoxVlans.ToLookup(u => u.Vid);
@@ -68,7 +65,7 @@ public class VlanManager(IIpamClient IpamClient, ILogger<VlanManager> Logger)
                 x.Unifi.Name,
                 x.Unifi.Vid,
             });
-        
+
         foreach (var vlan in vlansToUpdate)
         {
             var updatedVlan = await PatchVlanAsync(vlan.Id, vlan.Vid, vlan.Name, cancellationToken);
@@ -84,7 +81,7 @@ public class VlanManager(IIpamClient IpamClient, ILogger<VlanManager> Logger)
         {
             Name = unifiVlanInfo.Name,
             Vid = unifiVlanInfo.Vid,
-            Tags = [ new NestedTagRequest{ Slug = "managed-by-unifi" }],
+            Tags = Tags.ManagedByUnifiNestedTagRequest,
         };
 
         return await IpamClient.CreateVlanAsync(request, cancellationToken);
@@ -106,7 +103,7 @@ public class VlanManager(IIpamClient IpamClient, ILogger<VlanManager> Logger)
         // Get all the existing VLANs in NetBox
         var filterBuilder = new IpamVlanFilterBuilder()
             .Limit(150)
-            .Tag.Eq(["managed-by-unifi"]);
+            .Tag.Eq([Tags.ManagedByUnifiTagSlug]);
 
         var netBoxVlans = new List<VLAN>();
         int offset = 0;
@@ -116,7 +113,7 @@ public class VlanManager(IIpamClient IpamClient, ILogger<VlanManager> Logger)
         {
             var filter = filterBuilder.Offset(offset).Build();
             var netboxVlanResponse = await IpamClient.ListVlansAsync(filter, cancellationToken);
-            
+
             if (netboxVlanResponse == null || netboxVlanResponse.Results == null || !netboxVlanResponse.Results.Any())
             {
                 hasMore = false;
@@ -124,7 +121,7 @@ public class VlanManager(IIpamClient IpamClient, ILogger<VlanManager> Logger)
             }
 
             netBoxVlans.AddRange(netboxVlanResponse.Results);
-            
+
             // Check if we've retrieved all objects
             if (netboxVlanResponse.Results.Count() < 150)
             {

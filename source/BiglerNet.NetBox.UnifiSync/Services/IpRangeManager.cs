@@ -1,6 +1,7 @@
 ﻿using BiglerNet.NetBox.Client;
 using BiglerNet.NetBox.Client.Models;
 using BiglerNet.NetBox.Client.QueryFilters;
+using BiglerNet.NetBox.UnifiSync.Constants;
 using BiglerNet.NetBox.UnifiSync.Models.UnifiNetwork;
 using Microsoft.Extensions.Logging;
 
@@ -83,7 +84,7 @@ public class IpRangeManager(IIpamClient IpamClient, ILogger<IpRangeManager> Logg
             Start_address = network.DhcpdStart!,
             End_address = network.DhcpdStop!,
             Description = network.Name,
-            Tags = [new NestedTagRequest { Slug = "managed-by-unifi" }]
+            Tags = Tags.ManagedByUnifiNestedTagRequest
         };
 
         Logger.LogInformation("Creating IP range {IPRangeStart} - {IPRangeEnd} in NetBox", request.Start_address, request.End_address);
@@ -108,7 +109,7 @@ public class IpRangeManager(IIpamClient IpamClient, ILogger<IpRangeManager> Logg
         // Start by getting all the existing prefixes in NetBox for this site
         var filterBuilder = new IpamIpRangeFilterBuilder()
             .Limit(NetBoxPageSize)
-            .Tag.Eq(["managed-by-unifi"]);
+            .Tag.Eq([Tags.ManagedByUnifiTagSlug]);
 
         var netBoxPrefixes = new List<IPRange>();
         int offset = 0;

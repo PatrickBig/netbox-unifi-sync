@@ -1,6 +1,7 @@
 ﻿using BiglerNet.NetBox.Client;
 using BiglerNet.NetBox.Client.Models;
 using BiglerNet.NetBox.Client.QueryFilters;
+using BiglerNet.NetBox.UnifiSync.Constants;
 using BiglerNet.NetBox.UnifiSync.Interfaces;
 using Microsoft.Extensions.Logging;
 using System;
@@ -28,7 +29,7 @@ public class LocalIpamAggregatesSeeder(ILogger<LocalIpamAggregatesSeeder> Logger
     private async Task<int> RirHandlingAsync(CancellationToken cancellationToken)
     {
         var filter = new TagFilterBuilder()
-            .Tag.Eq(["managed-by-unifi"])
+            .Tag.Eq([Tags.ManagedByUnifiTagSlug])
             .Limit(100)
             .Build();
         var rirs = await IpamClient.ListRirsAsync(filter, cancellationToken);
@@ -43,7 +44,7 @@ public class LocalIpamAggregatesSeeder(ILogger<LocalIpamAggregatesSeeder> Logger
                 Name = RirName,
                 Slug = RirSlug,
                 Description = RirDescription,
-                Tags = [new NestedTagRequest { Slug = "managed-by-unifi" }],
+                Tags = Tags.ManagedByUnifiNestedTagRequest,
                 Is_private = true,
             };
 
@@ -62,7 +63,7 @@ public class LocalIpamAggregatesSeeder(ILogger<LocalIpamAggregatesSeeder> Logger
                 Slug = RirSlug,
                 Description = RirDescription,
                 Is_private = true,
-                Tags = [new NestedTagRequest { Slug = "managed-by-unifi" }]
+                Tags = Tags.ManagedByUnifiNestedTagRequest
             };
 
             Logger.LogInformation($"Updating RIR for private address space for {RirName}");
@@ -76,7 +77,7 @@ public class LocalIpamAggregatesSeeder(ILogger<LocalIpamAggregatesSeeder> Logger
     private async Task AggregateHandlingAsync(int privateRirId, CancellationToken cancellationToken)
     {
         var filter = new TagFilterBuilder()
-            .Tag.Eq(["managed-by-unifi"])
+            .Tag.Eq([Tags.ManagedByUnifiTagSlug])
             .Limit(100)
             .Build();
 
@@ -100,7 +101,7 @@ public class LocalIpamAggregatesSeeder(ILogger<LocalIpamAggregatesSeeder> Logger
                 Date_added = DateTime.UtcNow,
                 Rir = privateRirId,
                 Description = "RFC1918 private address space reserved for internal use (documentation aggregate)",
-                Tags = [new NestedTagRequest { Slug = "managed-by-unifi" }]
+                Tags = Tags.ManagedByUnifiNestedTagRequest
             };
 
             _ = await IpamClient.CreateAggregateAsync(request, cancellationToken);

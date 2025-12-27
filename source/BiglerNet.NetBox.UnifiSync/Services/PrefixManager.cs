@@ -1,6 +1,7 @@
 ﻿using BiglerNet.NetBox.Client;
 using BiglerNet.NetBox.Client.Models;
 using BiglerNet.NetBox.Client.QueryFilters;
+using BiglerNet.NetBox.UnifiSync.Constants;
 using BiglerNet.NetBox.UnifiSync.Models.UnifiNetwork;
 using Microsoft.Extensions.Logging;
 using System;
@@ -105,7 +106,7 @@ public class PrefixManager(IIpamClient IpamClient, VlanManager VlanManager, IpRa
             Prefix = subnet.Value,
             Vlan = vlanId,
             Status = Status12.Active,
-            Tags = [ new NestedTagRequest { Slug = "managed-by-unifi" }],
+            Tags = Tags.ManagedByUnifiNestedTagRequest,
         };
 
         _ = await IpamClient.CreatePrefixAsync(request, cancellationToken);
@@ -130,7 +131,7 @@ public class PrefixManager(IIpamClient IpamClient, VlanManager VlanManager, IpRa
             Prefix = subnet.Value,
             Vlan = vlanId,
             Status = Status12.Active,
-            Tags = [new NestedTagRequest { Slug = "managed-by-unifi" }],
+            Tags = Tags.ManagedByUnifiNestedTagRequest,
         };
 
         _ = await IpamClient.PatchPrefixAsync(netBoxPrefixId, request, cancellationToken);
@@ -141,7 +142,7 @@ public class PrefixManager(IIpamClient IpamClient, VlanManager VlanManager, IpRa
         // Start by getting all the existing prefixes in NetBox for this site
         var filterBuilder = new TagFilterBuilder()
             .Limit(NetBoxPageSize)
-            .Tag.Eq(["managed-by-unifi"]);
+            .Tag.Eq([Tags.ManagedByUnifiTagSlug]);
 
         var netBoxPrefixes = new List<Prefix>();
         int offset = 0;
